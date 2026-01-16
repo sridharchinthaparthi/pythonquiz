@@ -1,0 +1,1502 @@
+[
+  {
+    "question": "Who introduced Python programming language?",
+    "options": [
+      "James Gosling",
+      "Guido van Rossum",
+      "Dennis Ritchie",
+      "Bjarne Stroustrup"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "When was Python 1.0 released?",
+    "options": [
+      "January 26, 1994",
+      "October 16, 2000",
+      "December 3, 2008",
+      "January 1, 1991"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What type of programming language is Python?",
+    "options": [
+      "Low-level language",
+      "Mid-level language",
+      "High-level language",
+      "Machine language"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Python is a ________ typed language.",
+    "options": [
+      "Statically",
+      "Dynamically",
+      "Weakly",
+      "Strongly"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following is NOT a feature of Python?",
+    "options": [
+      "Easy to learn",
+      "Platform independent",
+      "Compiled language",
+      "Open source"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "How many keywords does Python have?",
+    "options": [
+      "32",
+      "33",
+      "35",
+      "40"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which architecture does Python follow?",
+    "options": [
+      "WORA",
+      "WORE",
+      "WOMA",
+      "WOME"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the default value of integer datatype?",
+    "options": [
+      "1",
+      "0",
+      "None",
+      "-1"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the default value of float datatype?",
+    "options": [
+      "0",
+      "0.0",
+      "1.0",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the default value of complex number?",
+    "options": [
+      "0",
+      "0.0",
+      "0j",
+      "None"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which function is used to check the datatype of a variable?",
+    "options": [
+      "id()",
+      "type()",
+      "bool()",
+      "len()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function returns the memory address of a variable?",
+    "options": [
+      "type()",
+      "id()",
+      "bool()",
+      "address()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does bool() function return for default values?",
+    "options": [
+      "True",
+      "False",
+      "0",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following is a special keyword in Python?",
+    "options": [
+      "if",
+      "for",
+      "True",
+      "while"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is the internal value of True in Python?",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the internal value of False in Python?",
+    "options": [
+      "1",
+      "0",
+      "-1",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following is a valid identifier?",
+    "options": [
+      "2var",
+      "var_2",
+      "var-2",
+      "for"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can an identifier start with a number?",
+    "options": [
+      "Yes",
+      "No",
+      "Only in Python 3",
+      "Only special numbers"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which special character is allowed in identifiers?",
+    "options": [
+      "@",
+      "#",
+      "_",
+      "$"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Can identifiers contain spaces?",
+    "options": [
+      "Yes",
+      "No",
+      "Only at the end",
+      "Only in strings"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the default value of string datatype?",
+    "options": [
+      "None",
+      "''",
+      "' '",
+      "0"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following is used to create multi-line strings?",
+    "options": [
+      "Single quotes",
+      "Double quotes",
+      "Triple quotes",
+      "Backticks"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Are strings mutable in Python?",
+    "options": [
+      "Yes",
+      "No",
+      "Only in Python 2",
+      "Depends on the string"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the default value of list datatype?",
+    "options": [
+      "None",
+      "[]",
+      "{}",
+      "()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Are lists mutable in Python?",
+    "options": [
+      "Yes",
+      "No",
+      "Only nested lists",
+      "Depends on elements"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which method adds an element to the end of a list?",
+    "options": [
+      "add()",
+      "append()",
+      "insert()",
+      "push()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which method adds an element at a specific position in a list?",
+    "options": [
+      "append()",
+      "add()",
+      "insert()",
+      "place()"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does pop() without arguments remove from a list?",
+    "options": [
+      "First element",
+      "Last element",
+      "Middle element",
+      "Random element"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the default value of tuple datatype?",
+    "options": [
+      "[]",
+      "()",
+      "{}",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Are tuples mutable in Python?",
+    "options": [
+      "Yes",
+      "No",
+      "Only with single element",
+      "Depends on elements"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How do you create a tuple with a single element?",
+    "options": [
+      "(10)",
+      "[10]",
+      "(10,)",
+      "{10}"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is the default value of set datatype?",
+    "options": [
+      "{}",
+      "set()",
+      "[]",
+      "()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Do sets allow duplicate values?",
+    "options": [
+      "Yes",
+      "No",
+      "Only strings",
+      "Only numbers"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can sets be indexed?",
+    "options": [
+      "Yes",
+      "No",
+      "Only positive indexing",
+      "Only negative indexing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which method adds an element to a set?",
+    "options": [
+      "append()",
+      "insert()",
+      "add()",
+      "push()"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Can a set contain a list as an element?",
+    "options": [
+      "Yes",
+      "No",
+      "Only empty lists",
+      "Only with one element"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the default value of dictionary datatype?",
+    "options": [
+      "[]",
+      "()",
+      "{}",
+      "dict()"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "In a dictionary, keys must be:",
+    "options": [
+      "Mutable",
+      "Immutable",
+      "Numeric",
+      "Strings only"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can dictionary keys be duplicated?",
+    "options": [
+      "Yes, all duplicates are kept",
+      "No, latest value overwrites",
+      "Only for string keys",
+      "Only for numeric keys"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which method returns all keys from a dictionary?",
+    "options": [
+      "getkeys()",
+      "keys()",
+      "allkeys()",
+      "keylist()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which method returns all values from a dictionary?",
+    "options": [
+      "getvalues()",
+      "values()",
+      "allvalues()",
+      "valuelist()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does the items() method return?",
+    "options": [
+      "Only keys",
+      "Only values",
+      "Key-value pairs",
+      "Dictionary length"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "In Python, positive indexing starts from:",
+    "options": [
+      "1",
+      "0",
+      "-1",
+      "2"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In Python, negative indexing starts from:",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "-2"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which collections support indexing?",
+    "options": [
+      "String, List, Tuple",
+      "String, Set, Dictionary",
+      "List, Set, Dictionary",
+      "All collections"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is slicing in Python?",
+    "options": [
+      "Deleting elements",
+      "Adding elements",
+      "Extracting part of collection",
+      "Sorting elements"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "In slicing [SI:EI:UP], what does EI represent?",
+    "options": [
+      "Ending Index (included)",
+      "Ending Index (excluded)",
+      "Extra Index",
+      "Error Index"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does [::-1] do to a string?",
+    "options": [
+      "Makes it uppercase",
+      "Reverses it",
+      "Duplicates it",
+      "Deletes it"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does [::2] extract from a collection?",
+    "options": [
+      "All elements",
+      "Even index positions",
+      "Odd index positions",
+      "Every third element"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does [1::2] extract from a collection?",
+    "options": [
+      "Even index positions",
+      "Odd index positions",
+      "First two elements",
+      "Last two elements"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can sets be sliced?",
+    "options": [
+      "Yes",
+      "No",
+      "Only with positive indices",
+      "Only with negative indices"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is type casting?",
+    "options": [
+      "Deleting variables",
+      "Converting datatypes",
+      "Creating variables",
+      "Copying variables"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which single-value type can be converted to multi-value types?",
+    "options": [
+      "Integer",
+      "Float",
+      "String",
+      "Complex"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What happens when float is converted to int?",
+    "options": [
+      "Rounds up",
+      "Decimal part removed",
+      "Error occurs",
+      "Rounds to nearest"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can complex numbers be converted to int?",
+    "options": [
+      "Yes",
+      "No",
+      "Only real part",
+      "Only imaginary part"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does bool([]) return?",
+    "options": [
+      "True",
+      "False",
+      "Error",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does bool([1,2,3]) return?",
+    "options": [
+      "True",
+      "False",
+      "Error",
+      "None"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Converting a list to dict requires elements to be:",
+    "options": [
+      "Strings",
+      "Numbers",
+      "Pairs/tuples",
+      "Single values"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does list('hello') return?",
+    "options": [
+      "['hello']",
+      "['h','e','l','l','o']",
+      "Error",
+      "['h','e','l','o']"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does set([1,2,2,3]) return?",
+    "options": [
+      "{1,2,2,3}",
+      "{1,2,3}",
+      "[1,2,3]",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "When converting dict to list, what is extracted?",
+    "options": [
+      "Values",
+      "Keys",
+      "Key-value pairs",
+      "Nothing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is general copy also known as?",
+    "options": [
+      "Deep copy",
+      "Shallow copy",
+      "Reference copy",
+      "Value copy"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "In general copy, both variables point to:",
+    "options": [
+      "Different memory",
+      "Same memory",
+      "New memory",
+      "No memory"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How is shallow copy performed?",
+    "options": [
+      "b = a",
+      "b = a.copy()",
+      "b = copy.deepcopy(a)",
+      "b = copy(a)"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Shallow copy works on:",
+    "options": [
+      "All datatypes",
+      "Mutable datatypes only",
+      "Immutable datatypes only",
+      "Numbers only"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the limitation of shallow copy?",
+    "options": [
+      "Doesn't work on lists",
+      "Nested objects still share reference",
+      "Creates too many copies",
+      "Takes too much memory"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How is deep copy performed?",
+    "options": [
+      "b = a",
+      "b = a.copy()",
+      "import copy; b = copy.deepcopy(a)",
+      "b = deepcopy(a)"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Deep copy creates:",
+    "options": [
+      "Reference only",
+      "Shallow copy only",
+      "Completely independent copy",
+      "Partial copy"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which copy is safest for nested structures?",
+    "options": [
+      "General copy",
+      "Shallow copy",
+      "Deep copy",
+      "All are same"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "When was Python 2.0 introduced?",
+    "options": [
+      "1994",
+      "2000",
+      "2008",
+      "1991"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "When was Python 3.0 released?",
+    "options": [
+      "2000",
+      "2008",
+      "1994",
+      "2010"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Python is an ________ language.",
+    "options": [
+      "Compiled",
+      "Interpreted",
+      "Assembly",
+      "Machine"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following shows errors immediately?",
+    "options": [
+      "Compiler",
+      "Interpreter",
+      "Both",
+      "Neither"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Approximately how many library functions does Python have?",
+    "options": [
+      "1 million",
+      "10 million",
+      "70 million+",
+      "100 million"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which programming paradigms does Python support?",
+    "options": [
+      "Procedural only",
+      "OOP only",
+      "Functional only",
+      "All of the above"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What is the official website for Python?",
+    "options": [
+      "python.com",
+      "python.org",
+      "pythonlang.org",
+      "python.net"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can variables store different types in Python?",
+    "options": [
+      "No, type is fixed",
+      "Yes, type can change",
+      "Only numbers",
+      "Only strings"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does MVC stand for in Python?",
+    "options": [
+      "Model View Controller",
+      "Multiple Variable Creation",
+      "Multi Value Collection",
+      "Memory Value Container"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In MVC, number of variables should equal:",
+    "options": [
+      "Number of values",
+      "Number of lines",
+      "Any number",
+      "Zero"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What error occurs when values don't match variables in MVC?",
+    "options": [
+      "SyntaxError",
+      "ValueError",
+      "TypeError",
+      "IndexError"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Keywords in Python appear in which color in IDEs?",
+    "options": [
+      "Blue",
+      "Green",
+      "Orange",
+      "Red"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "All keywords are lowercase except:",
+    "options": [
+      "if, for, while",
+      "True, False, None",
+      "int, str, list",
+      "def, class, return"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How can you view all Python keywords?",
+    "options": [
+      "print(keywords)",
+      "import keyword; print(keyword.kwlist)",
+      "list(keywords)",
+      "show keywords"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which is NOT a low-level language?",
+    "options": [
+      "Machine code",
+      "Binary language",
+      "Python",
+      "Assembly"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which is an example of mid-level language?",
+    "options": [
+      "Python",
+      "Java",
+      "C",
+      "Machine code"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What character represents imaginary part in complex numbers?",
+    "options": [
+      "i",
+      "j",
+      "k",
+      "x"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you write independent 'j' in complex numbers?",
+    "options": [
+      "Yes",
+      "No, must have coefficient",
+      "Only in Python 3",
+      "Only with zero"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is stored in Variable Space?",
+    "options": [
+      "Value",
+      "Variable name and reference",
+      "Data type",
+      "Memory size"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is stored in Value Space?",
+    "options": [
+      "Variable name",
+      "Reference address",
+      "Actual value",
+      "Data type"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Memory is divided into how many parts?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "String characters can include:",
+    "options": [
+      "Uppercase only",
+      "Lowercase only",
+      "Numbers only",
+      "All of the above"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Triple quotes are used for:",
+    "options": [
+      "Single line strings",
+      "Multi-line strings",
+      "Comments only",
+      "Variable names"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function returns the length of a string?",
+    "options": [
+      "size()",
+      "length()",
+      "len()",
+      "count()"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is the advantage of negative indexing?",
+    "options": [
+      "Faster execution",
+      "Access without knowing length",
+      "Uses less memory",
+      "More readable"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you modify a character in a string?",
+    "options": [
+      "Yes",
+      "No, strings are immutable",
+      "Only in Python 3",
+      "Only lowercase"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does remove() method do in lists?",
+    "options": [
+      "Removes last element",
+      "Removes first occurrence of value",
+      "Removes all occurrences",
+      "Removes by index"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Tuples are used for:",
+    "options": [
+      "Data manipulation",
+      "Secured data transmission",
+      "Fast processing",
+      "Large datasets"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can tuples contain lists?",
+    "options": [
+      "Yes",
+      "No",
+      "Only empty lists",
+      "Only in Python 2"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Sets store data in:",
+    "options": [
+      "Sequential order",
+      "Reverse order",
+      "Random order (hash table)",
+      "Sorted order"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Can sets contain tuples?",
+    "options": [
+      "Yes",
+      "No",
+      "Only empty tuples",
+      "Only single element tuples"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What happens if you add duplicate to a set?",
+    "options": [
+      "Error occurs",
+      "Duplicate is ignored",
+      "Creates new set",
+      "Overwrites set"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In dictionary, values can be:",
+    "options": [
+      "Immutable only",
+      "Mutable only",
+      "Any datatype",
+      "Strings only"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Can lists be used as dictionary keys?",
+    "options": [
+      "Yes",
+      "No, keys must be immutable",
+      "Only empty lists",
+      "Only in Python 3"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How do you access dictionary values?",
+    "options": [
+      "By index",
+      "By key",
+      "By position",
+      "Automatically"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the default step value in slicing?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "-1"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Positive step traverses:",
+    "options": [
+      "Right to left",
+      "Left to right",
+      "Random order",
+      "No traversal"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Negative step traverses:",
+    "options": [
+      "Left to right",
+      "Right to left",
+      "Random order",
+      "No traversal"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does int('67') return?",
+    "options": [
+      "Error",
+      "67",
+      "'67'",
+      "6.7"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does int('77.8') return?",
+    "options": [
+      "77",
+      "78",
+      "Error",
+      "77.8"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does float('67') return?",
+    "options": [
+      "Error",
+      "67",
+      "67.0",
+      "'67.0'"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does complex('20+6j') return?",
+    "options": [
+      "Error",
+      "(20+6j)",
+      "26j",
+      "'20+6j'"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does list({'a':10, 'b':20}) return?",
+    "options": [
+      "[10, 20]",
+      "['a', 'b']",
+      "[{'a':10}, {'b':20}]",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does str([10,20,30]) return?",
+    "options": [
+      "[10,20,30]",
+      "'[10, 20, 30]'",
+      "Error",
+      "102030"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does tuple('hello') return?",
+    "options": [
+      "('hello',)",
+      "('h','e','l','l','o')",
+      "Error",
+      "['h','e','l','l','o']"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does set('banana') return?",
+    "options": [
+      "{'banana'}",
+      "{'b','a','n','a','n','a'}",
+      "{'b','a','n'}",
+      "Error"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "In general copy, if you modify copied variable:",
+    "options": [
+      "Original unchanged",
+      "Original also changes",
+      "Error occurs",
+      "Creates new variable"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Shallow copy creates:",
+    "options": [
+      "Same memory address",
+      "Different memory address",
+      "No new variable",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "For nested lists, shallow copy:",
+    "options": [
+      "Copies everything independently",
+      "Inner objects share reference",
+      "Doesn't work",
+      "Creates error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Deep copy requires:",
+    "options": [
+      "No import",
+      "import copy",
+      "import deepcopy",
+      "import clone"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which copy uses most memory?",
+    "options": [
+      "General copy",
+      "Shallow copy",
+      "Deep copy",
+      "All use same"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which copy is fastest?",
+    "options": [
+      "General copy",
+      "Shallow copy",
+      "Deep copy",
+      "All are same speed"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does [:] do to a list?",
+    "options": [
+      "Deletes list",
+      "Creates shallow copy",
+      "Reverses list",
+      "Sorts list"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you slice a dictionary?",
+    "options": [
+      "Yes, directly",
+      "No, not directly",
+      "Only keys",
+      "Only values"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is WORA?",
+    "options": [
+      "Write Once Read Always",
+      "Write Once Run Anywhere",
+      "Write Operator Run Always",
+      "Write Only Run Anywhere"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Python supports which operating systems?",
+    "options": [
+      "Windows only",
+      "Linux only",
+      "Mac only",
+      "All of the above"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What does len() function return?",
+    "options": [
+      "Data type",
+      "Memory address",
+      "Length of collection",
+      "Boolean value"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which is NOT a multi-value datatype?",
+    "options": [
+      "List",
+      "Tuple",
+      "Integer",
+      "Dictionary"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does s[2:5] extract from string 'beautiful'?",
+    "options": [
+      "'bea'",
+      "'eau'",
+      "'aut'",
+      "'uti'"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Python is open source, meaning:",
+    "options": [
+      "Costs money to use",
+      "Source code is freely available",
+      "Only for companies",
+      "Closed development"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is a library in Python?",
+    "options": [
+      "A building",
+      "A collection of functions",
+      "A variable",
+      "A data type"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you modify library functions?",
+    "options": [
+      "Yes, completely",
+      "No, only access them",
+      "Only built-in ones",
+      "Only user-defined ones"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does bool(0) return?",
+    "options": [
+      "True",
+      "False",
+      "0",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does bool(1) return?",
+    "options": [
+      "True",
+      "False",
+      "1",
+      "Error"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "In list L=[10,20,30], what does L.pop(1) return?",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What happens when pop() index exceeds list length?",
+    "options": [
+      "Returns None",
+      "Returns last element",
+      "Throws an error",
+      "Returns first element"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "In insert(), if index > list length:",
+    "options": [
+      "Error occurs",
+      "Adds to last position",
+      "Adds to first position",
+      "Does nothing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which collection allows both homogeneous and heterogeneous data?",
+    "options": [
+      "Only List",
+      "Only Tuple",
+      "All multi-value types",
+      "Only Dictionary"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Value Space is also called:",
+    "options": [
+      "Stack Space",
+      "Heap Space",
+      "Memory Space",
+      "Variable Space"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Variable Space is also called:",
+    "options": [
+      "Heap Space",
+      "Stack Space",
+      "Value Space",
+      "Memory Space"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the ISR for identifier length?",
+    "options": [
+      "10-20 characters",
+      "32-72 characters",
+      "100+ characters",
+      "No limit"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can a tuple be modified if it contains a list?",
+    "options": [
+      "No, tuples are immutable",
+      "Yes, the list inside can be modified",
+      "Only in Python 3",
+      "Only if tuple has one element"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does set.pop() remove?",
+    "options": [
+      "Last element",
+      "First element when displayed",
+      "Random element",
+      "Largest element"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Dictionary keys are from which layer?",
+    "options": [
+      "Value layer",
+      "Key layer",
+      "Both layers",
+      "No layer"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "When you add a key that already exists in dictionary:",
+    "options": [
+      "Error occurs",
+      "Value gets updated",
+      "Creates duplicate",
+      "Ignores operation"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does s[-1:-5:-1] extract from 'python'?",
+    "options": [
+      "'nohty'",
+      "'noht'",
+      "'pyth'",
+      "'onht'"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Compiler converts code:",
+    "options": [
+      "Line by line",
+      "All at once",
+      "Only functions",
+      "Only loops"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Interpreter converts code:",
+    "options": [
+      "All at once",
+      "Line by line",
+      "Only errors",
+      "Only comments"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which executes faster overall?",
+    "options": [
+      "Interpreter",
+      "Compiler",
+      "Both same",
+      "Depends on code"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does dict.pop('key') return?",
+    "options": [
+      "The key",
+      "The value",
+      "Key-value pair",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In deep copy, nested objects have:",
+    "options": [
+      "Same memory address",
+      "Different memory addresses",
+      "Shared reference",
+      "No address"
+    ],
+    "correct": 1
+  }
+]

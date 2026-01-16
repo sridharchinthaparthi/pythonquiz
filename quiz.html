@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Quiz Assessment</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        .quiz-header {
+            background: white;
+            padding: 25px 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+            margin-bottom: 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .back-btn {
+            background: #f3f4f6;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.95rem;
+            color: #374151;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .back-btn:hover {
+            background: #e5e7eb;
+        }
+
+        .quiz-topic-title {
+            font-size: 1.5rem;
+            color: #1f2937;
+            font-weight: 700;
+        }
+
+        /* Progress Section */
+        .progress-section {
+            background: white;
+            padding: 25px 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+            margin-bottom: 25px;
+        }
+
+        .progress-header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .question-counter {
+            font-size: 1rem;
+            color: #6b7280;
+            font-weight: 600;
+        }
+
+        .question-counter .current {
+            color: #6366f1;
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+
+        .progress-bar-container {
+            background: #e5e7eb;
+            height: 8px;
+            border-radius: 100px;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        .progress-bar-fill {
+            background: linear-gradient(90deg, #6366f1, #8b5cf6);
+            height: 100%;
+            transition: width 0.3s ease;
+            border-radius: 100px;
+        }
+
+        /* Timer */
+        .timer-section {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 20px;
+            background: #f9fafb;
+            border-radius: 8px;
+            border: 2px solid #e5e7eb;
+        }
+
+        .timer-icon {
+            font-size: 1.3rem;
+        }
+
+        .timer-text {
+            font-size: 0.9rem;
+            color: #6b7280;
+            font-weight: 500;
+        }
+
+        .timer-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1f2937;
+            min-width: 50px;
+        }
+
+        .timer-value.warning {
+            color: #f59e0b;
+        }
+
+        .timer-value.danger {
+            color: #ef4444;
+            animation: pulse 0.5s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.6; }
+        }
+
+        /* Question Card */
+        .question-card {
+            background: white;
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+            margin-bottom: 25px;
+        }
+
+        .question-badge {
+            display: inline-block;
+            background: #6366f1;
+            color: white;
+            padding: 6px 16px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .question-text {
+            font-size: 1.3rem;
+            color: #1f2937;
+            font-weight: 600;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .code-block {
+            background: #1e293b;
+            color: #e2e8f0;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            overflow-x: auto;
+            white-space: pre;
+            margin-top: 15px;
+        }
+
+        /* Options */
+        .options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .option {
+            background: white;
+            border: 2px solid #e5e7eb;
+            padding: 20px 25px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 1.05rem;
+            font-weight: 500;
+            color: #374151;
+            transition: all 0.2s;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .option:hover:not(.disabled):not(.selected):not(.correct):not(.wrong) {
+            border-color: #6366f1;
+            background: #f9fafb;
+            transform: translateX(5px);
+        }
+
+        .option.selected {
+            background: #6366f1;
+            color: white;
+            border-color: #6366f1;
+        }
+
+        .option.disabled {
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .quiz-header {
+                flex-direction: column;
+                gap: 15px;
+                align-items: flex-start;
+            }
+
+            .progress-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+
+            .question-text {
+                font-size: 1.1rem;
+            }
+
+            .option {
+                padding: 16px 20px;
+                font-size: 1rem;
+            }
+        }
+        .quiz-card {
+            background: white;
+            padding: 30px;
+            border-radius: 14px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .quiz-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .question-area {
+            margin: 20px 0;
+        }
+
+        .options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            overflow-y: auto;
+            padding-right: 6px;
+            flex-grow: 1;
+        }
+
+    </style>
+</head>
+<body>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="quiz-header">
+            <button class="back-btn" id="backBtn">← Back to Topics</button>
+            <h2 class="quiz-topic-title" id="quizTopicTitle">Python Quiz</h2>
+        </div>
+
+        <!-- Unified Quiz Card -->
+        <div class="quiz-card">
+
+            <!-- Card Header: Question count + Timer -->
+            <div class="quiz-card-header">
+                <div class="question-counter">
+                    Question <span class="current" id="currentQuestion">1</span> /
+                    <span id="totalQuestions">25</span>
+                </div>
+
+                <div class="timer-section">
+                    <span class="timer-icon">⏱️</span>
+                    <span class="timer-value" id="timerDisplay">30</span>
+                    <span class="timer-text">sec</span>
+                </div>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="progress-bar-container">
+                <div class="progress-bar-fill" id="progressFill"></div>
+            </div>
+
+            <!-- Question Area -->
+            <div class="question-area">
+                <span class="question-badge">Question</span>
+
+                <h3 class="question-text" id="questionText">
+                    Loading question...
+                </h3>
+
+                <pre class="code-block" id="codeBlock" style="display:none;">
+<code id="questionCode"></code>
+                </pre>
+            </div>
+
+            <!-- Options -->
+            <div class="options-container" id="optionsContainer"></div>
+
+        </div>
+    </div>
+    <script>
+        // Quiz state variables
+        let currentQuestionIndex = 0;
+        let score = 0;
+        let selectedAnswer = null;
+        let currentTopicQuestions = [];
+        let selectedTopic = '';
+        let userAnswers = [];
+        let timer = null;
+        let timeRemaining = 30;
+
+        // DOM elements
+        const quizTopicTitle = document.getElementById('quizTopicTitle');
+        const currentQuestionEl = document.getElementById('currentQuestion');
+        const totalQuestionsEl = document.getElementById('totalQuestions');
+        const progressFill = document.getElementById('progressFill');
+        const questionText = document.getElementById('questionText');
+        const optionsContainer = document.getElementById('optionsContainer');
+        const backBtn = document.getElementById('backBtn');
+        const timerDisplay = document.getElementById('timerDisplay');
+        const codeBlock = document.getElementById('codeBlock');
+        const questionCode = document.getElementById('questionCode');
+
+        // Initialize quiz
+        async function initQuiz() {
+            selectedTopic = localStorage.getItem('selectedTopic');
+            
+            if (!selectedTopic) {
+                window.location.href = 'index.html';
+                return;
+            }
+
+            quizTopicTitle.textContent = selectedTopic.charAt(0).toUpperCase() + selectedTopic.slice(1);
+
+            try {
+                const response = await fetch(`data/${selectedTopic}.json`);
+                currentTopicQuestions = await response.json();
+            } catch (err) {
+                alert('Failed to load quiz questions.');
+                console.error(err);
+                return;
+            }
+
+            currentQuestionIndex = 0;
+            score = 0;
+            userAnswers = [];
+            
+            totalQuestionsEl.textContent = currentTopicQuestions.length;
+            
+            loadQuestion();
+        }
+
+        // Start timer
+        function startTimer() {
+            timeRemaining = 30;
+            timerDisplay.textContent = timeRemaining;
+            timerDisplay.classList.remove('warning', 'danger');
+            
+            clearInterval(timer);
+            
+            timer = setInterval(() => {
+                timeRemaining--;
+                timerDisplay.textContent = timeRemaining;
+                
+                if (timeRemaining <= 10 && timeRemaining > 5) {
+                    timerDisplay.classList.add('warning');
+                } else if (timeRemaining <= 5) {
+                    timerDisplay.classList.remove('warning');
+                    timerDisplay.classList.add('danger');
+                }
+                
+                if (timeRemaining <= 0) {
+                    clearInterval(timer);
+                    autoSubmitAnswer();
+                }
+            }, 1000);
+        }
+
+        // Auto submit when timer expires
+        function autoSubmitAnswer() {
+            if (selectedAnswer === null) {
+                // No answer selected, mark as wrong
+                userAnswers.push({
+                    questionIndex: currentQuestionIndex,
+                    userAnswer: null,
+                    correctAnswer: currentTopicQuestions[currentQuestionIndex].correct,
+                    isCorrect: false,
+                    timedOut: true
+                });
+            }
+            
+            // Move to next question immediately
+            moveToNextQuestion();
+        }
+
+        // Load current question
+        function loadQuestion() {
+            const question = currentTopicQuestions[currentQuestionIndex];
+            const totalQuestions = currentTopicQuestions.length;
+            
+            // Update progress bar
+            const progress = ((currentQuestionIndex + 1) / totalQuestions) * 100;
+            progressFill.style.width = progress + '%';
+            
+            // Update question number
+            currentQuestionEl.textContent = currentQuestionIndex + 1;
+            
+            // Display question text
+            questionText.textContent = question.question;
+
+            // Code display
+            if (question.code) {
+                questionCode.textContent = question.code;
+                codeBlock.style.display = 'block';
+            } else {
+                codeBlock.style.display = 'none';
+            }
+            
+            // Clear previous options
+            optionsContainer.innerHTML = '';
+            selectedAnswer = null;
+            
+            // Create option elements
+            question.options.forEach((option, index) => {
+                const optionDiv = document.createElement('div');
+                optionDiv.className = 'option';
+                optionDiv.textContent = option;
+                optionDiv.onclick = () => selectAnswer(index);
+                optionsContainer.appendChild(optionDiv);
+            });
+            
+            // Start timer
+            startTimer();
+        }
+
+        // Handle answer selection
+        function selectAnswer(index) {
+            if (selectedAnswer !== null) return;
+            
+            clearInterval(timer);
+            selectedAnswer = index;
+            const options = document.querySelectorAll('.option');
+            const correctIndex = currentTopicQuestions[currentQuestionIndex].correct;
+            
+            const isCorrect = index === correctIndex;
+            if (isCorrect) {
+                score++;
+            }
+            
+            // Just mark as selected, no color feedback
+            options.forEach((option, i) => {
+                if (i === index) {
+                    option.classList.add('selected');
+                }
+                option.classList.add('disabled');
+            });
+            
+            userAnswers.push({
+                questionIndex: currentQuestionIndex,
+                userAnswer: index,
+                correctAnswer: correctIndex,
+                isCorrect: isCorrect,
+                timeUsed: 30 - timeRemaining
+            });
+            
+            // Move to next question after short delay
+            setTimeout(() => {
+                moveToNextQuestion();
+            }, 500);
+        }
+
+        // Move to next question or finish quiz
+        function moveToNextQuestion() {
+            clearInterval(timer);
+            currentQuestionIndex++;
+            
+            if (currentQuestionIndex < currentTopicQuestions.length) {
+                loadQuestion();
+            } else {
+                saveResults();
+                window.location.href = 'result.html';
+            }
+        }
+
+        // Save quiz results to localStorage
+        function saveResults() {
+            const results = {
+                topic: selectedTopic,
+                totalQuestions: currentTopicQuestions.length,
+                score: score,
+                wrongAnswers: currentTopicQuestions.length - score,
+                percentage: Math.round((score / currentTopicQuestions.length) * 100),
+                userAnswers: userAnswers,
+                questions: currentTopicQuestions
+            };
+            
+            localStorage.setItem('quizResults', JSON.stringify(results));
+        }
+
+        // Handle back button
+        backBtn.onclick = () => {
+            if (confirm('Are you sure? Your progress will be lost.')) {
+                clearInterval(timer);
+                localStorage.removeItem('selectedTopic');
+                window.location.href = 'index.html';
+            }
+        };
+
+        // Initialize quiz on page load
+        initQuiz();
+    </script>
+</body>
+</html>

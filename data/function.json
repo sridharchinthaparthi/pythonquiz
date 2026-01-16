@@ -1,0 +1,1522 @@
+[
+  {
+    "question": "What is the primary purpose of using functions in Python?",
+    "options": [
+      "To make code slower",
+      "To reduce code repetition and increase reusability",
+      "To increase memory usage",
+      "To make debugging harder"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does the id() function return?",
+    "options": [
+      "The data type of a variable",
+      "The length of a variable",
+      "The memory address of a variable",
+      "The value of a variable"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is the output of 'Python'.upper()?",
+    "options": [
+      "python",
+      "PYTHON",
+      "Python",
+      "pYTHON"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'Hello World'.title() return?",
+    "options": [
+      "HELLO WORLD",
+      "hello world",
+      "Hello World",
+      "Hello world"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does 'Python'.find('z') return if 'z' is not found?",
+    "options": [
+      "0",
+      "None",
+      "-1",
+      "Error"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does '  Python  '.strip() return?",
+    "options": [
+      "'  Python  '",
+      "'Python  '",
+      "'  Python'",
+      "'Python'"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What does ' '.join(['a', 'b', 'c']) return?",
+    "options": [
+      "'abc'",
+      "'a b c'",
+      "'a-b-c'",
+      "['a', 'b', 'c']"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does ord('A') return?",
+    "options": [
+      "97",
+      "65",
+      "1",
+      "'A'"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does chr(65) return?",
+    "options": [
+      "'a'",
+      "'A'",
+      "65",
+      "'Z'"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which method adds an element to the end of a list?",
+    "options": [
+      "add()",
+      "insert()",
+      "append()",
+      "extend()"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does list.pop() return?",
+    "options": [
+      "The first element",
+      "The last element",
+      "Nothing",
+      "The entire list"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does [30, 10, 20].sort() return?",
+    "options": [
+      "[10, 20, 30]",
+      "[30, 20, 10]",
+      "None",
+      "[30, 10, 20]"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "How many methods do tuples have?",
+    "options": [
+      "0",
+      "2",
+      "5",
+      "10"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the difference between set.remove() and set.discard()?",
+    "options": [
+      "No difference",
+      "remove() raises error if element not found, discard() doesn't",
+      "discard() raises error if element not found, remove() doesn't",
+      "remove() is faster"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does {10, 20}.union({20, 30}) return?",
+    "options": [
+      "{10, 20, 30}",
+      "{20}",
+      "{10, 30}",
+      "{10, 20, 20, 30}"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does {10, 20, 30}.intersection({20, 30, 40}) return?",
+    "options": [
+      "{10, 20, 30, 40}",
+      "{20, 30}",
+      "{10, 40}",
+      "{20}"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does dict.keys() return?",
+    "options": [
+      "A list of keys",
+      "A tuple of keys",
+      "A dict_keys object",
+      "A set of keys"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does dict.pop('key') return?",
+    "options": [
+      "The key",
+      "The value",
+      "Key-value pair",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What keyword is used to define a function in Python?",
+    "options": [
+      "function",
+      "def",
+      "func",
+      "define"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which type of function takes no arguments and returns no value?",
+    "options": [
+      "Type 1",
+      "Type 2",
+      "Type 3",
+      "Type 4"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which type of function is most flexible and reusable?",
+    "options": [
+      "Without arguments, without return",
+      "With arguments, without return",
+      "Without arguments, with return",
+      "With arguments, with return"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Where are global variables declared?",
+    "options": [
+      "Inside functions",
+      "Outside all functions",
+      "In the main() function",
+      "Anywhere"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What happens to local variables after function execution?",
+    "options": [
+      "They become global",
+      "They are destroyed",
+      "They remain in memory",
+      "They are converted to None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What keyword allows you to modify a global variable inside a function?",
+    "options": [
+      "global",
+      "nonlocal",
+      "extern",
+      "public"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "In positional arguments, what matters most?",
+    "options": [
+      "The data type",
+      "The order of arguments",
+      "The variable names",
+      "The number of spaces"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you change the order of arguments when using keyword arguments?",
+    "options": [
+      "Yes, order doesn't matter",
+      "No, order always matters",
+      "Only for numbers",
+      "Only for strings"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Where must default parameters be placed in a function definition?",
+    "options": [
+      "At the beginning",
+      "In the middle",
+      "After non-default parameters",
+      "Anywhere"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does *args pack values into?",
+    "options": [
+      "A list",
+      "A tuple",
+      "A dictionary",
+      "A set"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does **kwargs pack values into?",
+    "options": [
+      "A list",
+      "A tuple",
+      "A dictionary",
+      "A set"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "When unpacking a list with *, where is it used?",
+    "options": [
+      "In function definition",
+      "In function call",
+      "Outside functions",
+      "In variable declaration"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What must dictionary keys match when using ** unpacking?",
+    "options": [
+      "Variable names",
+      "Function parameter names",
+      "Data types",
+      "Nothing specific"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is recursion?",
+    "options": [
+      "A loop",
+      "A function calling itself",
+      "A function calling another function",
+      "Multiple functions"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the base case in recursion?",
+    "options": [
+      "The first function call",
+      "The termination condition",
+      "The recursive call",
+      "The return statement"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What happens without a base case in recursion?",
+    "options": [
+      "The function runs once",
+      "Syntax error",
+      "Infinite recursion",
+      "Nothing happens"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is 5! (factorial of 5)?",
+    "options": [
+      "25",
+      "120",
+      "60",
+      "15"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is 0! (factorial of 0)?",
+    "options": [
+      "0",
+      "1",
+      "Undefined",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'python'.isalpha() return?",
+    "options": [
+      "False",
+      "True",
+      "None",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does '123'.isdigit() return?",
+    "options": [
+      "False",
+      "True",
+      "None",
+      "123"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'Python Programming'.split() return?",
+    "options": [
+      "['Python', 'Programming']",
+      "['Python Programming']",
+      "'Python Programming'",
+      "['P', 'y', 't', 'h', 'o', 'n']"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does [10, 20, 30].extend([40, 50]) modify the list to?",
+    "options": [
+      "[10, 20, 30, [40, 50]]",
+      "[10, 20, 30, 40, 50]",
+      "[[10, 20, 30], [40, 50]]",
+      "[10, 20, 30]"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does [10, 20, 30, 20].count(20) return?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does [40, 30, 20, 10].reverse() return?",
+    "options": [
+      "[10, 20, 30, 40]",
+      "[40, 30, 20, 10]",
+      "None",
+      "[10, 40, 20, 30]"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does {10, 20}.difference({20, 30}) return?",
+    "options": [
+      "{10}",
+      "{20}",
+      "{30}",
+      "{10, 30}"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does {10, 20}.symmetric_difference({20, 30}) return?",
+    "options": [
+      "{10, 30}",
+      "{20}",
+      "{10, 20, 30}",
+      "{10}"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does dict.popitem() remove?",
+    "options": [
+      "The first key-value pair",
+      "The last key-value pair",
+      "A random key-value pair",
+      "All pairs"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does dict.setdefault('key', value) do if 'key' doesn't exist?",
+    "options": [
+      "Raises an error",
+      "Returns None",
+      "Adds the key with the value",
+      "Does nothing"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "When converting a loop to recursion, what becomes the termination condition?",
+    "options": [
+      "Same as loop condition",
+      "Opposite of loop condition",
+      "First line of loop",
+      "Last line of loop"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Where should loop control variables be initialized in recursion?",
+    "options": [
+      "Inside the function body",
+      "As formal arguments",
+      "Outside the function",
+      "As global variables"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'PyThOn'.swapcase() return?",
+    "options": [
+      "'python'",
+      "'PYTHON'",
+      "'pYtHoN'",
+      "'PyThOn'"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does len([10, 20, 30]) return?",
+    "options": [
+      "60",
+      "3",
+      "30",
+      "10"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which statement is used to return a value from a function?",
+    "options": [
+      "break",
+      "return",
+      "continue",
+      "exit"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'Python'.capitalize() return?",
+    "options": [
+      "'python'",
+      "'PYTHON'",
+      "'Python'",
+      "'pYTHON'"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does 'python'.casefold() return?",
+    "options": [
+      "'PYTHON'",
+      "'Python'",
+      "'python'",
+      "'pYTHON'"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does 'programming'.count('m') return?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'Python'.index('t') return?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "-1"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'Hello'.startswith('He') return?",
+    "options": [
+      "False",
+      "True",
+      "None",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'Python'.endswith('on') return?",
+    "options": [
+      "False",
+      "True",
+      "None",
+      "0"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does '   '.isspace() return?",
+    "options": [
+      "False",
+      "True",
+      "None",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'hello'.islower() return?",
+    "options": [
+      "False",
+      "True",
+      "None",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'HELLO'.isupper() return?",
+    "options": [
+      "False",
+      "True",
+      "None",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'Hello World'.istitle() return?",
+    "options": [
+      "False",
+      "True",
+      "None",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'abc123'.isalnum() return?",
+    "options": [
+      "False",
+      "True",
+      "None",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does '  Python  '.lstrip() return?",
+    "options": [
+      "'  Python  '",
+      "'Python  '",
+      "'  Python'",
+      "'Python'"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does '  Python  '.rstrip() return?",
+    "options": [
+      "'  Python  '",
+      "'Python  '",
+      "'  Python'",
+      "'Python'"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does 'hello'.replace('l', 'L') return?",
+    "options": [
+      "'heLLo'",
+      "'hello'",
+      "'HeLLo'",
+      "'HELLO'"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does 'a-b-c'.split('-') return?",
+    "options": [
+      "['a', 'b', 'c']",
+      "['a-b-c']",
+      "'abc'",
+      "['abc']"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does '-'.join(['x', 'y', 'z']) return?",
+    "options": [
+      "'xyz'",
+      "'x-y-z'",
+      "['x', 'y', 'z']",
+      "'x y z'"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does ord('a') return?",
+    "options": [
+      "65",
+      "97",
+      "1",
+      "0"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does chr(97) return?",
+    "options": [
+      "'A'",
+      "'a'",
+      "'z'",
+      "'Z'"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does [1, 2].insert(1, 10) modify the list to?",
+    "options": [
+      "[1, 10, 2]",
+      "[10, 1, 2]",
+      "[1, 2, 10]",
+      "[1, 2]"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does [10, 20, 30, 40].pop(1) return?",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "40"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "After [10, 20, 30, 40].pop(1), what is the list?",
+    "options": [
+      "[10, 20, 30, 40]",
+      "[10, 30, 40]",
+      "[20, 30, 40]",
+      "[10, 20, 30]"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does [].clear() return?",
+    "options": [
+      "[]",
+      "None",
+      "0",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does [3, 1, 2].sort(reverse=True) modify the list to?",
+    "options": [
+      "[1, 2, 3]",
+      "[3, 2, 1]",
+      "[3, 1, 2]",
+      "[2, 1, 3]"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does [10, 20, 30].index(20) return?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "20"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What type of object does [1, 2, 3].copy() create?",
+    "options": [
+      "Deep copy",
+      "Shallow copy",
+      "Reference",
+      "Tuple"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does (10, 20, 30, 20).count(20) return?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does (10, 20, 30).index(30) return?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Can tuples be modified after creation?",
+    "options": [
+      "Yes, always",
+      "No, they are immutable",
+      "Only with special methods",
+      "Only the first element"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does {10, 20}.add(30) modify the set to?",
+    "options": [
+      "{10, 20}",
+      "{10, 20, 30}",
+      "{30}",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does {10, 20}.update([30, 40]) modify the set to?",
+    "options": [
+      "{10, 20, 30, 40}",
+      "{10, 20, [30, 40]}",
+      "{10, 20}",
+      "Error"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What happens if you call {10, 20}.remove(30)?",
+    "options": [
+      "Returns None",
+      "Raises KeyError",
+      "Returns 30",
+      "Does nothing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What happens if you call {10, 20}.discard(30)?",
+    "options": [
+      "Raises KeyError",
+      "Returns None",
+      "No error, does nothing",
+      "Returns 30"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does set.pop() remove from a set?",
+    "options": [
+      "The largest element",
+      "The smallest element",
+      "A random element",
+      "The last added element"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does {}.clear() return?",
+    "options": [
+      "{}",
+      "set()",
+      "None",
+      "Error"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does {'a': 1}.keys() return type?",
+    "options": [
+      "list",
+      "tuple",
+      "dict_keys",
+      "set"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does {'a': 1, 'b': 2}.values() return type?",
+    "options": [
+      "list",
+      "dict_values",
+      "tuple",
+      "set"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does {'a': 1}.items() return?",
+    "options": [
+      "[('a', 1)]",
+      "dict_items([('a', 1)])",
+      "{'a': 1}",
+      "('a', 1)"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does {'a': 1}.update({'b': 2}) modify the dictionary to?",
+    "options": [
+      "{'a': 1}",
+      "{'b': 2}",
+      "{'a': 1, 'b': 2}",
+      "Error"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does {'a': 1}.setdefault('b', 2) return?",
+    "options": [
+      "1",
+      "2",
+      "None",
+      "{'a': 1, 'b': 2}"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does {'a': 1}.pop('b', 'default') return?",
+    "options": [
+      "1",
+      "'default'",
+      "None",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the syntax to define a function?",
+    "options": [
+      "function name():",
+      "def name():",
+      "func name():",
+      "define name():"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Are arguments required in a function definition?",
+    "options": [
+      "Yes, always",
+      "No, they are optional",
+      "Only for built-in functions",
+      "Only for recursive functions"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Is the return statement mandatory in a function?",
+    "options": [
+      "Yes, always",
+      "No, it's optional",
+      "Only for Type 3 functions",
+      "Only for Type 4 functions"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does a function WITHOUT return statement return by default?",
+    "options": [
+      "0",
+      "None",
+      "False",
+      "Empty string"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function type takes arguments but doesn't return a value?",
+    "options": [
+      "Type 1",
+      "Type 2",
+      "Type 3",
+      "Type 4"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function type doesn't take arguments but returns a value?",
+    "options": [
+      "Type 1",
+      "Type 2",
+      "Type 3",
+      "Type 4"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Can a global variable be accessed inside a function?",
+    "options": [
+      "No, never",
+      "Yes, always",
+      "Only with global keyword",
+      "Only if passed as argument"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can a local variable be accessed outside its function?",
+    "options": [
+      "Yes, always",
+      "No, never",
+      "Only with global keyword",
+      "Only if returned"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "When do local variables get destroyed?",
+    "options": [
+      "When program ends",
+      "When function execution completes",
+      "Never",
+      "When global keyword is used"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What happens if you assign to a global variable inside a function without global keyword?",
+    "options": [
+      "Modifies the global variable",
+      "Creates a new local variable",
+      "Raises an error",
+      "Does nothing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can the global keyword create new global variables from inside a function?",
+    "options": [
+      "No",
+      "Yes",
+      "Only if variable exists",
+      "Only in main()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In def func(a, b, c), what type of arguments are these?",
+    "options": [
+      "Keyword arguments",
+      "Positional arguments",
+      "Default arguments",
+      "Variable arguments"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you mix positional and keyword arguments in a function call?",
+    "options": [
+      "No, never",
+      "Yes, but positional must come first",
+      "Yes, but keyword must come first",
+      "Yes, in any order"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In def func(a, b=10), what is b?",
+    "options": [
+      "Positional argument",
+      "Keyword argument",
+      "Default argument",
+      "Variable argument"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Can default arguments come before non-default arguments?",
+    "options": [
+      "Yes",
+      "No",
+      "Sometimes",
+      "Only in Python 3"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does def func(*args) allow?",
+    "options": [
+      "No arguments",
+      "One argument",
+      "Multiple positional arguments",
+      "Multiple keyword arguments"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does def func(**kwargs) allow?",
+    "options": [
+      "Multiple positional arguments",
+      "Multiple keyword arguments",
+      "No arguments",
+      "One argument only"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In packing, what does *args create?",
+    "options": [
+      "A list",
+      "A tuple",
+      "A dictionary",
+      "A set"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In packing, what does **kwargs create?",
+    "options": [
+      "A list",
+      "A tuple",
+      "A dictionary",
+      "A set"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Where is * used for unpacking a list?",
+    "options": [
+      "In function definition",
+      "In function call",
+      "In variable declaration",
+      "Nowhere"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Where is ** used for unpacking a dictionary?",
+    "options": [
+      "In function definition",
+      "In function call",
+      "In variable declaration",
+      "Nowhere"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the main characteristic of a recursive function?",
+    "options": [
+      "It has no return",
+      "It calls itself",
+      "It has no parameters",
+      "It runs forever"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What prevents infinite recursion?",
+    "options": [
+      "Base case",
+      "Recursive case",
+      "Return statement",
+      "Function call"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is 3! (factorial of 3)?",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "12"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is 1! (factorial of 1)?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "Undefined"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In recursion, what should the recursive call do?",
+    "options": [
+      "Use same parameters",
+      "Progress towards base case",
+      "Increase parameters",
+      "Do nothing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is essential for every recursive function?",
+    "options": [
+      "Loop",
+      "Base case and recursive case",
+      "Global variables",
+      "Print statement"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "When converting loops to recursion, what replaces the loop condition?",
+    "options": [
+      "Base case",
+      "Recursive call",
+      "Return statement",
+      "Nothing"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "When converting loops to recursion, where are loop variables initialized?",
+    "options": [
+      "Inside function",
+      "As function parameters",
+      "As global variables",
+      "Not needed"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does bool('') return?",
+    "options": [
+      "True",
+      "False",
+      "None",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does bool(0) return?",
+    "options": [
+      "True",
+      "False",
+      "None",
+      "0"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does bool([]) return?",
+    "options": [
+      "True",
+      "False",
+      "None",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does bool('False') return?",
+    "options": [
+      "True",
+      "False",
+      "None",
+      "Error"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does type(5.0) return?",
+    "options": [
+      "<class 'int'>",
+      "<class 'float'>",
+      "<class 'str'>",
+      "<class 'number'>"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does int('10') return?",
+    "options": [
+      "'10'",
+      "10",
+      "10.0",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does float('10') return?",
+    "options": [
+      "10",
+      "10.0",
+      "'10.0'",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does str(100) return?",
+    "options": [
+      "100",
+      "'100'",
+      "100.0",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does len({1, 2, 3, 2}) return?",
+    "options": [
+      "4",
+      "3",
+      "2",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does len({'a': 1, 'b': 2}) return?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does list(range(3)) return?",
+    "options": [
+      "[0, 1, 2]",
+      "[1, 2, 3]",
+      "[0, 1, 2, 3]",
+      "[3]"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does list(range(1, 5)) return?",
+    "options": [
+      "[1, 2, 3, 4]",
+      "[1, 2, 3, 4, 5]",
+      "[0, 1, 2, 3, 4]",
+      "[1, 5]"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does list(range(0, 10, 2)) return?",
+    "options": [
+      "[0, 2, 4, 6, 8]",
+      "[0, 2, 4, 6, 8, 10]",
+      "[2, 4, 6, 8, 10]",
+      "[0, 1, 2, 3, 4]"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Can a function definition be placed anywhere in a Python program?",
+    "options": [
+      "Yes, anywhere",
+      "No, only at the beginning",
+      "No, only at the end",
+      "Only inside other functions"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does [10, 20, 30].remove(20) return?",
+    "options": [
+      "20",
+      "None",
+      "[10, 30]",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the difference between append() and extend()?",
+    "options": [
+      "No difference",
+      "append() adds single element, extend() adds multiple",
+      "extend() adds single element, append() adds multiple",
+      "append() is faster"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does '@'.join('Python') return?",
+    "options": [
+      "'Python'",
+      "'P@y@t@h@o@n'",
+      "'@Python@'",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you use sort() on a list containing both strings and numbers?",
+    "options": [
+      "Yes",
+      "No, it raises TypeError",
+      "Yes, but numbers come first",
+      "Yes, but strings come first"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does {1, 2, 3} | {3, 4, 5} return (using set union operator)?",
+    "options": [
+      "{1, 2, 3, 4, 5}",
+      "{3}",
+      "{1, 2, 4, 5}",
+      "Error"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does {1, 2, 3} & {3, 4, 5} return (using set intersection operator)?",
+    "options": [
+      "{1, 2, 3, 4, 5}",
+      "{3}",
+      "{1, 2, 4, 5}",
+      "set()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does {1, 2, 3} - {3, 4, 5} return (using set difference operator)?",
+    "options": [
+      "{1, 2}",
+      "{3}",
+      "{1, 2, 4, 5}",
+      "{4, 5}"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does {1, 2, 3} ^ {3, 4, 5} return (using symmetric difference operator)?",
+    "options": [
+      "{1, 2, 3, 4, 5}",
+      "{3}",
+      "{1, 2, 4, 5}",
+      "{1, 2}"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "In def func(a, b=5, c=10), what happens if you call func(1)?",
+    "options": [
+      "Error",
+      "a=1, b=5, c=10",
+      "a=1, b=None, c=None",
+      "a=1, b=0, c=0"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In def func(a, b=5, c=10), what happens if you call func(1, 2)?",
+    "options": [
+      "a=1, b=2, c=10",
+      "a=1, b=5, c=2",
+      "Error",
+      "a=1, b=2, c=None"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the purpose of return statement in a function?",
+    "options": [
+      "To print output",
+      "To stop execution and optionally return a value",
+      "To declare variables",
+      "To call another function"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can a function return multiple values?",
+    "options": [
+      "No",
+      "Yes, as a tuple",
+      "Yes, as a list only",
+      "Only with special syntax"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'Python'.find('z') return when 'z' is not found?",
+    "options": [
+      "0",
+      "None",
+      "-1",
+      "Error"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is the difference between index() and find() for strings?",
+    "options": [
+      "No difference",
+      "index() raises error if not found, find() returns -1",
+      "find() raises error if not found, index() returns -1",
+      "index() is faster"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does recursion depth refer to?",
+    "options": [
+      "Number of functions",
+      "Number of recursive calls before reaching base case",
+      "Number of parameters",
+      "Number of return statements"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What happens if recursion depth is too large?",
+    "options": [
+      "Program runs faster",
+      "RecursionError/Stack overflow",
+      "Nothing",
+      "Syntax error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which is more memory efficient for large iterations?",
+    "options": [
+      "Recursion",
+      "Loops",
+      "Both are same",
+      "Depends on language"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What advantage does recursion have over loops?",
+    "options": [
+      "Always faster",
+      "Uses less memory",
+      "More elegant for certain problems (like tree traversal)",
+      "No advantages"
+    ],
+    "correct": 2
+  }
+]

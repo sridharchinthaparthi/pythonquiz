@@ -1,0 +1,1362 @@
+[
+  {
+    "question": "What are operators in Python?",
+    "options": [
+      "Variables",
+      "Library functions that perform specific tasks",
+      "Data types",
+      "Control statements"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What are operands?",
+    "options": [
+      "Operators",
+      "Functions",
+      "Values passed to perform operations",
+      "Variables"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "How many types of operators are there in Python?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does the + operator do with strings?",
+    "options": [
+      "Adds their lengths",
+      "Concatenates them",
+      "Compares them",
+      "Converts to numbers"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the result of 'hello' + 'world'?",
+    "options": [
+      "'hello world'",
+      "'helloworld'",
+      "Error",
+      "'hello+world'"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Does the + operator support sets?",
+    "options": [
+      "Yes",
+      "No",
+      "Only with numbers",
+      "Only empty sets"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the result of [1,2] + [3,4]?",
+    "options": [
+      "[4,6]",
+      "[1,2,3,4]",
+      "Error",
+      "[2,3,4,5]"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does True + 10 return?",
+    "options": [
+      "Error",
+      "11",
+      "10",
+      "True10"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you add a string and a list?",
+    "options": [
+      "Yes",
+      "No, raises TypeError",
+      "Only empty ones",
+      "Only in Python 3"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does the - operator do with sets?",
+    "options": [
+      "Error",
+      "Set difference",
+      "Set union",
+      "Nothing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the result of {1,2,3} - {2,3}?",
+    "options": [
+      "{1,2,3}",
+      "{1}",
+      "{2,3}",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can strings be subtracted?",
+    "options": [
+      "Yes",
+      "No",
+      "Only numbers in strings",
+      "Only single characters"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'ok' * 3 return?",
+    "options": [
+      "'ok3'",
+      "'okokok'",
+      "Error",
+      "'ok ok ok'"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the result of [1,2] * 2?",
+    "options": [
+      "[2,4]",
+      "[1,2,1,2]",
+      "Error",
+      "[1,1,2,2]"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Does the * operator work with dictionaries?",
+    "options": [
+      "Yes",
+      "No",
+      "Only for repetition",
+      "Only empty dictionaries"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 5 / 2 return?",
+    "options": [
+      "2",
+      "2.5",
+      "3",
+      "2.0"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 5 // 2 return?",
+    "options": [
+      "2.5",
+      "2",
+      "3",
+      "2.0"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 5 % 2 return?",
+    "options": [
+      "2",
+      "1",
+      "0",
+      "2.5"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which division operator gives the exact quotient?",
+    "options": [
+      "//",
+      "/",
+      "%",
+      "**"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which division operator gives the remainder?",
+    "options": [
+      "/",
+      "//",
+      "%",
+      "**"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does 2 ** 3 return?",
+    "options": [
+      "6",
+      "8",
+      "9",
+      "5"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the purpose of ** operator?",
+    "options": [
+      "Multiplication",
+      "Division",
+      "Exponentiation",
+      "Modulus"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Can ** operator be used with collections?",
+    "options": [
+      "Yes",
+      "No",
+      "Only lists",
+      "Only tuples"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What do relational operators return?",
+    "options": [
+      "Numbers",
+      "Strings",
+      "Boolean values",
+      "Lists"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does 10 == 10 return?",
+    "options": [
+      "10",
+      "True",
+      "False",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does '10' == 10 return?",
+    "options": [
+      "True",
+      "False",
+      "Error",
+      "10"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 5 != 5 return?",
+    "options": [
+      "True",
+      "False",
+      "5",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the ASCII value of 'A'?",
+    "options": [
+      "97",
+      "65",
+      "90",
+      "122"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the ASCII value of 'a'?",
+    "options": [
+      "65",
+      "97",
+      "122",
+      "90"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function returns the ASCII value of a character?",
+    "options": [
+      "chr()",
+      "ord()",
+      "ascii()",
+      "value()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function returns the character for an ASCII value?",
+    "options": [
+      "ord()",
+      "chr()",
+      "char()",
+      "ascii()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'A' > 'a' return?",
+    "options": [
+      "True",
+      "False",
+      "Error",
+      "0"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can complex numbers be compared using > operator?",
+    "options": [
+      "Yes",
+      "No",
+      "Only real parts",
+      "Only imaginary parts"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does [10,20] > [5,30] return?",
+    "options": [
+      "False",
+      "True",
+      "Error",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How are sets compared using > operator?",
+    "options": [
+      "Element-wise",
+      "Based on length",
+      "Cannot be compared",
+      "Based on values"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does {1,2} < {1,2,3} return?",
+    "options": [
+      "False",
+      "True",
+      "Error",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "For sets, < operator checks for:",
+    "options": [
+      "Length",
+      "Subset relationship",
+      "Values",
+      "Order"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 10 >= 10 return?",
+    "options": [
+      "False",
+      "True",
+      "Error",
+      "10"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How many logical operators are there in Python?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 10 and 20 return?",
+    "options": [
+      "10",
+      "20",
+      "True",
+      "False"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 0 and 20 return?",
+    "options": [
+      "20",
+      "0",
+      "False",
+      "True"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 10 or 20 return?",
+    "options": [
+      "20",
+      "10",
+      "True",
+      "False"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 0 or 20 return?",
+    "options": [
+      "0",
+      "20",
+      "False",
+      "True"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does not True return?",
+    "options": [
+      "True",
+      "False",
+      "Error",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does not 0 return?",
+    "options": [
+      "False",
+      "True",
+      "0",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which logical operator has higher priority?",
+    "options": [
+      "or",
+      "and",
+      "not",
+      "All same"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How many bitwise operators are there?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Bitwise operators work with:",
+    "options": [
+      "All data types",
+      "Integers only",
+      "Floats only",
+      "Strings only"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 10 & 20 perform?",
+    "options": [
+      "Logical AND",
+      "Bitwise AND",
+      "Addition",
+      "Comparison"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 10 | 7 perform?",
+    "options": [
+      "Bitwise AND",
+      "Bitwise OR",
+      "Bitwise XOR",
+      "Division"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 10 ^ 7 perform?",
+    "options": [
+      "Power",
+      "Bitwise XOR",
+      "Bitwise AND",
+      "Bitwise OR"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the formula for bitwise NOT (~)?",
+    "options": [
+      "-(n+1)",
+      "-(n-1)",
+      "n+1",
+      "n-1"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does ~17 return?",
+    "options": [
+      "17",
+      "-17",
+      "-18",
+      "18"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does 10 << 2 return?",
+    "options": [
+      "20",
+      "40",
+      "5",
+      "2"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Left shift (<<) multiplies by:",
+    "options": [
+      "n",
+      "2^n",
+      "2*n",
+      "n^2"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 12 >> 2 return?",
+    "options": [
+      "6",
+      "3",
+      "24",
+      "48"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Right shift (>>) divides by:",
+    "options": [
+      "n",
+      "2^n",
+      "2*n",
+      "n^2"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does a += 5 mean?",
+    "options": [
+      "a = a + 5",
+      "a = 5",
+      "a = a - 5",
+      "a == 5"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does a *= 3 mean?",
+    "options": [
+      "a = a + 3",
+      "a = a * 3",
+      "a = a / 3",
+      "a = 3"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How many membership operators are there?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 3 in [1,2,3] return?",
+    "options": [
+      "False",
+      "True",
+      "3",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does '5' in '12345' return?",
+    "options": [
+      "False",
+      "True",
+      "Error",
+      "5"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 5 not in [1,2,3] return?",
+    "options": [
+      "False",
+      "True",
+      "Error",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can membership operators work with integers directly?",
+    "options": [
+      "Yes",
+      "No, only with collections",
+      "Only even integers",
+      "Only positive integers"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How many identity operators are there?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does the 'is' operator check?",
+    "options": [
+      "Value equality",
+      "Memory location",
+      "Data type",
+      "Length"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "If a=10 and b=a, what does a is b return?",
+    "options": [
+      "False",
+      "True",
+      "Error",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does a is not b check?",
+    "options": [
+      "Value difference",
+      "Different memory locations",
+      "Data types",
+      "Lengths"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does input() function return by default?",
+    "options": [
+      "Integer",
+      "String",
+      "Float",
+      "Boolean"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How do you convert input to integer?",
+    "options": [
+      "input()",
+      "int(input())",
+      "str(input())",
+      "float(input())"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does eval(input()) do?",
+    "options": [
+      "Returns string",
+      "Evaluates input as Python expression",
+      "Returns integer",
+      "Returns error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What parameter separates values in print()?",
+    "options": [
+      "end",
+      "sep",
+      "divide",
+      "split"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does print(1,2,3, sep='-') output?",
+    "options": [
+      "1 2 3",
+      "1-2-3",
+      "123",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What parameter controls what prints at the end?",
+    "options": [
+      "sep",
+      "end",
+      "finish",
+      "stop"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How many types of control statements are there?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which is NOT a conditional statement?",
+    "options": [
+      "if",
+      "if-else",
+      "elif",
+      "while"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Simple if executes when condition is:",
+    "options": [
+      "False",
+      "True",
+      "None",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In if-else, else block executes when condition is:",
+    "options": [
+      "True",
+      "False",
+      "Both",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In elif ladder, how many blocks can execute?",
+    "options": [
+      "All matching blocks",
+      "Only first matching block",
+      "Last matching block",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is nested if?",
+    "options": [
+      "Multiple if at same level",
+      "if inside another if",
+      "if with else",
+      "Multiple elif"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How many components does a while loop have?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which is NOT a component of while loop?",
+    "options": [
+      "Initialization",
+      "Condition",
+      "Update",
+      "Declaration"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "While loop continues when condition is:",
+    "options": [
+      "False",
+      "True",
+      "None",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What happens if while condition is always True?",
+    "options": [
+      "Loop runs once",
+      "Infinite loop",
+      "Error",
+      "Loop doesn't run"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "For loop is called:",
+    "options": [
+      "Conditional loop",
+      "Self-iterative loop",
+      "Infinite loop",
+      "Nested loop"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Does for loop need manual initialization?",
+    "options": [
+      "Yes",
+      "No",
+      "Sometimes",
+      "Only for lists"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function is commonly used with for loop?",
+    "options": [
+      "input()",
+      "range()",
+      "print()",
+      "len()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does range(5) generate?",
+    "options": [
+      "1,2,3,4,5",
+      "0,1,2,3,4",
+      "1,2,3,4",
+      "0,1,2,3,4,5"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does range(1,6) generate?",
+    "options": [
+      "0,1,2,3,4,5",
+      "1,2,3,4,5",
+      "1,2,3,4,5,6",
+      "1,2,3,4"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does range(1,10,2) generate?",
+    "options": [
+      "1,3,5,7,9",
+      "2,4,6,8,10",
+      "1,2,3,4,5",
+      "1,3,5,7"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "In range(SV, EV, step), what is the default step?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "-1"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does continue statement do?",
+    "options": [
+      "Exits loop",
+      "Skips current iteration",
+      "Restarts loop",
+      "Does nothing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does break statement do?",
+    "options": [
+      "Skips iteration",
+      "Exits loop completely",
+      "Does nothing",
+      "Restarts loop"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does pass statement do?",
+    "options": [
+      "Exits loop",
+      "Skips iteration",
+      "Nothing",
+      "Breaks loop"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Can break be used outside loops?",
+    "options": [
+      "Yes",
+      "No",
+      "Only in functions",
+      "Only in classes"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can continue be used outside loops?",
+    "options": [
+      "Yes",
+      "No",
+      "Only in functions",
+      "Only with if"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Pass is commonly used as:",
+    "options": [
+      "Loop terminator",
+      "Placeholder",
+      "Iterator",
+      "Comparator"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In nested loops, break exits:",
+    "options": [
+      "All loops",
+      "Innermost loop only",
+      "Outermost loop",
+      "No loop"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which statement is a null operation?",
+    "options": [
+      "break",
+      "continue",
+      "pass",
+      "return"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does 10 or 2.5 and 55 return?",
+    "options": [
+      "10",
+      "55",
+      "2.5",
+      "True"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Floor division with negative numbers rounds:",
+    "options": [
+      "Up",
+      "Down",
+      "To zero",
+      "Away from zero"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does bool([]) return?",
+    "options": [
+      "True",
+      "False",
+      "Error",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does bool('False') return?",
+    "options": [
+      "False",
+      "True",
+      "Error",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can for loop iterate over dictionaries?",
+    "options": [
+      "No",
+      "Yes",
+      "Only keys",
+      "Only values"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Default iteration over dictionary gives:",
+    "options": [
+      "Values",
+      "Keys",
+      "Key-value pairs",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does (True == 1) return?",
+    "options": [
+      "False",
+      "True",
+      "Error",
+      "1"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does (False == 0) return?",
+    "options": [
+      "False",
+      "True",
+      "Error",
+      "0"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you use multiple elif statements?",
+    "options": [
+      "No, only one",
+      "Yes, any number",
+      "Maximum 5",
+      "Maximum 10"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Is else mandatory with if?",
+    "options": [
+      "Yes",
+      "No",
+      "Only with elif",
+      "Only in loops"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can while loop work without update statement?",
+    "options": [
+      "No, always needed",
+      "Yes, but may cause infinite loop",
+      "Only with break",
+      "Only with continue"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does range(10, 0, -1) generate?",
+    "options": [
+      "10,9,8,...,1",
+      "10,9,8,...,0",
+      "0,1,2,...,10",
+      "Error"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "In string comparison, which is greater: 'abc' or 'abd'?",
+    "options": [
+      "'abc'",
+      "'abd'",
+      "Equal",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 5.5 // 2 return?",
+    "options": [
+      "2.75",
+      "2.0",
+      "2.5",
+      "3.0"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 0.0 or 'hello' return?",
+    "options": [
+      "0.0",
+      "'hello'",
+      "True",
+      "False"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does '' and 'hi' return?",
+    "options": [
+      "''",
+      "'hi'",
+      "True",
+      "False"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does not [] return?",
+    "options": [
+      "False",
+      "True",
+      "[]",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you nest for loops?",
+    "options": [
+      "No",
+      "Yes",
+      "Only 2 levels",
+      "Only with while"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you nest while loops?",
+    "options": [
+      "No",
+      "Yes",
+      "Only 2 levels",
+      "Only with for"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 3 ** 2 ** 2 return?",
+    "options": [
+      "81",
+      "729",
+      "64",
+      "9"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Is indentation important in Python?",
+    "options": [
+      "No",
+      "Yes, defines code blocks",
+      "Only for readability",
+      "Only in functions"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does list(input()) do?",
+    "options": [
+      "Returns single list",
+      "Splits input into characters",
+      "Returns error",
+      "Returns empty list"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In XOR (^), when do bits result in 1?",
+    "options": [
+      "Both are 1",
+      "Both are 0",
+      "Bits are different",
+      "Bits are same"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does 10 % 3 return?",
+    "options": [
+      "3",
+      "1",
+      "0",
+      "3.33"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can elif be used without if?",
+    "options": [
+      "Yes",
+      "No",
+      "Only with else",
+      "Only in loops"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can else be used without if?",
+    "options": [
+      "Yes",
+      "No",
+      "Only with elif",
+      "Only with while"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What happens when range() gets no arguments?",
+    "options": [
+      "Returns 0",
+      "Error",
+      "Empty range",
+      "Infinite range"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 7 << 1 return?",
+    "options": [
+      "7",
+      "14",
+      "3",
+      "28"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 16 >> 2 return?",
+    "options": [
+      "8",
+      "4",
+      "32",
+      "2"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which operator has highest precedence?",
+    "options": [
+      "+",
+      "**",
+      "*",
+      "/"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can range() accept float values?",
+    "options": [
+      "Yes",
+      "No, only integers",
+      "Only for step",
+      "Only for start"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'a' in 'apple' return?",
+    "options": [
+      "False",
+      "True",
+      "1",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does {} or 'hi' return?",
+    "options": [
+      "{}",
+      "'hi'",
+      "True",
+      "False"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Is else mandatory with elif?",
+    "options": [
+      "Yes",
+      "No",
+      "Sometimes",
+      "Only with multiple elif"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does -(-5) return?",
+    "options": [
+      "-5",
+      "5",
+      "0",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does (10,) * 3 return?",
+    "options": [
+      "(10,10,10)",
+      "(10, 10, 10)",
+      "30",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can break and continue be used in same loop?",
+    "options": [
+      "No",
+      "Yes",
+      "Only in for loop",
+      "Only in while loop"
+    ],
+    "correct": 1
+  }
+]

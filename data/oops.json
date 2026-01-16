@@ -1,0 +1,1472 @@
+[
+  {
+    "question": "What are states in Object-Oriented Programming?",
+    "options": [
+      "Methods in a class",
+      "Properties or functionalities stored inside a class",
+      "Objects created from a class",
+      "Functions outside a class"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is a Generic State?",
+    "options": [
+      "Properties unique to each object",
+      "Properties common for all objects of a class",
+      "Methods in a class",
+      "Variables outside a class"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is another name for Generic State?",
+    "options": [
+      "Instance members",
+      "Object members",
+      "Static members",
+      "Local variables"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is a Specific State?",
+    "options": [
+      "Properties common to all objects",
+      "Properties unique to each individual object",
+      "Class variables",
+      "Static methods"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Where are Generic States defined?",
+    "options": [
+      "Outside the class",
+      "Inside the class directly",
+      "After object creation",
+      "In a separate file"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Where are Specific States created?",
+    "options": [
+      "Inside the class",
+      "Before class definition",
+      "Outside the class after object creation",
+      "In the __init__ method only"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is a method?",
+    "options": [
+      "A variable in a class",
+      "A function defined inside a class",
+      "A function defined outside a class",
+      "An object attribute"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the difference between a function and a method?",
+    "options": [
+      "No difference",
+      "Function is outside class, method is inside class",
+      "Method is outside class, function is inside class",
+      "Methods are faster"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the __init__ method used for?",
+    "options": [
+      "To delete objects",
+      "To initialize object attributes",
+      "To print output",
+      "To create classes"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is __init__ also known as?",
+    "options": [
+      "Destructor",
+      "Constructor",
+      "Initializer",
+      "Both B and C"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Is the self parameter mandatory in __init__?",
+    "options": [
+      "No",
+      "Yes",
+      "Only for class methods",
+      "Only for static methods"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "When is __init__ called?",
+    "options": [
+      "Manually by the programmer",
+      "Automatically when an object is created",
+      "When the program ends",
+      "Never called automatically"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does self represent in a method?",
+    "options": [
+      "The class name",
+      "The current instance of the object",
+      "The parent class",
+      "A static variable"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How many types of methods are there in Python?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is another name for Object Method?",
+    "options": [
+      "Static method",
+      "Class method",
+      "Instance method",
+      "Abstract method"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is the first parameter of an instance method?",
+    "options": [
+      "cls",
+      "self",
+      "this",
+      "object"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What decorator is used for class methods?",
+    "options": [
+      "@staticmethod",
+      "@classmethod",
+      "@property",
+      "@abstractmethod"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the first parameter of a class method?",
+    "options": [
+      "self",
+      "cls",
+      "class",
+      "this"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does cls represent in a class method?",
+    "options": [
+      "The object instance",
+      "The class itself",
+      "The parent class",
+      "A variable"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What decorator is used for static methods?",
+    "options": [
+      "@classmethod",
+      "@staticmethod",
+      "@static",
+      "@method"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Does a static method require self or cls as the first parameter?",
+    "options": [
+      "Yes, requires self",
+      "Yes, requires cls",
+      "No, neither is required",
+      "Requires both"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Can a static method access instance variables?",
+    "options": [
+      "Yes, directly",
+      "No, it cannot",
+      "Only with self",
+      "Only with cls"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can a class method be called using an object?",
+    "options": [
+      "No, only through class name",
+      "Yes, through both class name and object",
+      "Only through object",
+      "Never"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is inheritance?",
+    "options": [
+      "Creating new objects",
+      "Deriving properties from one class to another",
+      "Deleting classes",
+      "Hiding data"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the class from which we inherit properties called?",
+    "options": [
+      "Child class",
+      "Derived class",
+      "Parent class",
+      "Sub class"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is the class that inherits properties called?",
+    "options": [
+      "Parent class",
+      "Base class",
+      "Child class",
+      "Super class"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "How many types of inheritance are there?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is Single Level Inheritance?",
+    "options": [
+      "Multiple parents to one child",
+      "One parent to one child",
+      "One parent to multiple children",
+      "Chain of inheritance"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is Multi-level Inheritance?",
+    "options": [
+      "Multiple parents to one child",
+      "One parent to multiple children",
+      "Chain inheritance (parent to child to grandchild)",
+      "No inheritance"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is Multiple Inheritance?",
+    "options": [
+      "One parent to one child",
+      "Multiple parents to a single child",
+      "One parent to multiple children",
+      "Chain of inheritance"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is Hierarchical Inheritance?",
+    "options": [
+      "Multiple parents to one child",
+      "One parent to one child",
+      "Single parent to multiple children",
+      "Chain inheritance"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is Hybrid Inheritance?",
+    "options": [
+      "Only single inheritance",
+      "Combination of more than one type of inheritance",
+      "Only multiple inheritance",
+      "No inheritance"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the syntax to inherit from a parent class?",
+    "options": [
+      "class Child extends Parent:",
+      "class Child(Parent):",
+      "class Child inherits Parent:",
+      "class Child -> Parent:"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is super() used for?",
+    "options": [
+      "To delete parent class",
+      "To call parent class methods/constructor",
+      "To create new objects",
+      "To hide data"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is constructor chaining?",
+    "options": [
+      "Creating multiple constructors",
+      "Calling parent class __init__ from child class __init__",
+      "Deleting constructors",
+      "Hiding constructors"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is method chaining?",
+    "options": [
+      "Creating multiple methods",
+      "Calling parent class method from child class method",
+      "Deleting methods",
+      "Hiding methods"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is polymorphism?",
+    "options": [
+      "Hiding data",
+      "Making an operator/method perform multiple functionalities",
+      "Creating objects",
+      "Deleting classes"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How many types of polymorphism are there?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is method overloading?",
+    "options": [
+      "Making a method perform multiple functionalities",
+      "Deleting methods",
+      "Hiding methods",
+      "Creating objects"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Does Python support method overloading directly?",
+    "options": [
+      "Yes, fully supported",
+      "No, last method definition is used",
+      "Only for static methods",
+      "Only for class methods"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is monkey patching?",
+    "options": [
+      "Deleting methods",
+      "Storing method addresses in variables to preserve multiple definitions",
+      "Creating objects",
+      "Hiding data"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is operator overloading?",
+    "options": [
+      "Deleting operators",
+      "Making operators perform different functionalities using magic methods",
+      "Creating new operators",
+      "Hiding operators"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What magic method is used to overload the + operator?",
+    "options": [
+      "__plus__()",
+      "__add__()",
+      "__sum__()",
+      "__addition__()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What magic method is used to overload the - operator?",
+    "options": [
+      "__subtract__()",
+      "__minus__()",
+      "__sub__()",
+      "__difference__()"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What magic method is used to overload the * operator?",
+    "options": [
+      "__multiply__()",
+      "__mul__()",
+      "__product__()",
+      "__times__()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What magic method is used to overload the / operator?",
+    "options": [
+      "__div__()",
+      "__divide__()",
+      "__truediv__()",
+      "__division__()"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What magic method is used to overload the ** operator?",
+    "options": [
+      "__power__()",
+      "__exp__()",
+      "__pow__()",
+      "__exponent__()"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is encapsulation?",
+    "options": [
+      "Creating objects",
+      "Providing security to data by restricting access",
+      "Deleting data",
+      "Sharing data"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How many types of access specifiers are there in Python?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the syntax for public members?",
+    "options": [
+      "_variable",
+      "__variable",
+      "variable",
+      "public_variable"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is the syntax for protected members?",
+    "options": [
+      "variable",
+      "_variable",
+      "__variable",
+      "protected_variable"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the syntax for private members?",
+    "options": [
+      "variable",
+      "_variable",
+      "__variable",
+      "private_variable"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Can public members be accessed outside the class?",
+    "options": [
+      "No, never",
+      "Yes, freely",
+      "Only with special methods",
+      "Only through inheritance"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Are protected members truly protected in Python?",
+    "options": [
+      "Yes, completely protected",
+      "No, accessible but by convention shouldn't be",
+      "Only in child classes",
+      "Never accessible"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can private members be accessed directly outside the class?",
+    "options": [
+      "Yes, freely",
+      "No, cannot be accessed directly",
+      "Only in child classes",
+      "Only through class methods"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is name mangling in Python?",
+    "options": [
+      "Deleting names",
+      "Python changes private names to _ClassName__membername",
+      "Creating new names",
+      "Hiding names"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How can you access a private variable __x from class Demo?",
+    "options": [
+      "obj.__x",
+      "obj._Demo__x",
+      "obj.private__x",
+      "Cannot access"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What are getter methods used for?",
+    "options": [
+      "To set values",
+      "To retrieve/access private variables",
+      "To delete variables",
+      "To hide variables"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What are setter methods used for?",
+    "options": [
+      "To retrieve values",
+      "To delete values",
+      "To modify/set private variables",
+      "To hide values"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What decorator is used to create a getter using property?",
+    "options": [
+      "@getter",
+      "@property",
+      "@get",
+      "@access"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What decorator is used to create a setter using property?",
+    "options": [
+      "@setter",
+      "@property_name.setter",
+      "@set",
+      "@modify"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is abstraction?",
+    "options": [
+      "Showing all implementation details",
+      "Hiding implementation details while providing functionality",
+      "Creating objects",
+      "Deleting classes"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is an abstract method?",
+    "options": [
+      "A method with implementation",
+      "A method with declaration but no implementation",
+      "A static method",
+      "A class method"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is an abstract class?",
+    "options": [
+      "A class with no methods",
+      "A class with at least one abstract method",
+      "A class with only concrete methods",
+      "A regular class"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is a concrete class?",
+    "options": [
+      "A class with abstract methods",
+      "A class with no methods",
+      "A class with no abstract methods (all methods implemented)",
+      "A class with only static methods"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What module is used to create abstract classes in Python?",
+    "options": [
+      "abstract",
+      "abc",
+      "abstraction",
+      "base"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What must an abstract class inherit from?",
+    "options": [
+      "Object",
+      "ABC",
+      "Abstract",
+      "Base"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What decorator is used to mark a method as abstract?",
+    "options": [
+      "@abstract",
+      "@abstractmethod",
+      "@abs",
+      "@method"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you create an object of an abstract class?",
+    "options": [
+      "Yes, always",
+      "No, cannot instantiate abstract class",
+      "Only if it has concrete methods",
+      "Only if it has __init__"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What must a child class do with abstract methods from parent?",
+    "options": [
+      "Delete them",
+      "Implement all of them",
+      "Ignore them",
+      "Make them static"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In class Child(Parent1, Parent2), what type of inheritance is this?",
+    "options": [
+      "Single",
+      "Multi-level",
+      "Multiple",
+      "Hierarchical"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does the pass keyword do in abstract methods?",
+    "options": [
+      "Deletes the method",
+      "Placeholder for no implementation",
+      "Executes code",
+      "Creates implementation"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can instance methods access class variables?",
+    "options": [
+      "No, never",
+      "Yes, they can",
+      "Only with cls",
+      "Only through objects"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can class methods access instance variables?",
+    "options": [
+      "Yes, directly",
+      "No, they cannot access instance variables directly",
+      "Only with self",
+      "Always"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What happens if you don't implement all abstract methods in a child class?",
+    "options": [
+      "No error",
+      "Cannot instantiate the child class",
+      "Automatically implemented",
+      "Methods are deleted"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the purpose of self in instance methods?",
+    "options": [
+      "To access class variables only",
+      "To access instance variables and methods",
+      "To create new objects",
+      "To delete objects"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the purpose of cls in class methods?",
+    "options": [
+      "To access instance variables",
+      "To access class variables and class methods",
+      "To create objects",
+      "To delete classes"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can static methods call other static methods?",
+    "options": [
+      "No",
+      "Yes, using ClassName.method_name()",
+      "Only with self",
+      "Only with cls"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does super().__init__() do?",
+    "options": [
+      "Deletes parent constructor",
+      "Calls parent class constructor",
+      "Creates new constructor",
+      "Hides parent constructor"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In multiple inheritance, if both parents have same method, which is called?",
+    "options": [
+      "Both are called",
+      "The first parent in the list (MRO - Method Resolution Order)",
+      "The last parent",
+      "Error occurs"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does MRO stand for?",
+    "options": [
+      "Method Return Order",
+      "Method Resolution Order",
+      "Multiple Return Object",
+      "Method Reference Order"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you have multiple __init__ methods in a class?",
+    "options": [
+      "Yes, unlimited",
+      "No, only the last one is used",
+      "Yes, up to 3",
+      "Yes, with different names"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What magic method is used for string representation of an object?",
+    "options": [
+      "__str__()",
+      "__string__()",
+      "__repr__()",
+      "Both A and C"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What magic method is used to overload the // operator?",
+    "options": [
+      "__div__()",
+      "__floordiv__()",
+      "__intdiv__()",
+      "__floor__()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What magic method is used to overload the % operator?",
+    "options": [
+      "__modulus__()",
+      "__mod__()",
+      "__remainder__()",
+      "__percent__()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can protected members be accessed in child classes?",
+    "options": [
+      "No, never",
+      "Yes, by convention they can be",
+      "Only with special methods",
+      "Never in child classes"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What happens if you try to access a private method directly?",
+    "options": [
+      "Works fine",
+      "AttributeError is raised",
+      "Method executes",
+      "Returns None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the benefit of using getter and setter methods?",
+    "options": [
+      "No benefit",
+      "Control access and validation of private data",
+      "Make code longer",
+      "Hide all data"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can abstract class have concrete methods?",
+    "options": [
+      "No, only abstract methods",
+      "Yes, can have both abstract and concrete methods",
+      "Only static methods",
+      "Only class methods"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the advantage of abstraction?",
+    "options": [
+      "Makes code complex",
+      "Hides complexity and shows only essential features",
+      "Increases memory usage",
+      "Decreases performance"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the advantage of encapsulation?",
+    "options": [
+      "Exposes all data",
+      "Provides data security and controlled access",
+      "Makes code slower",
+      "Increases complexity"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the advantage of inheritance?",
+    "options": [
+      "Increases code duplication",
+      "Code reusability and establishes relationships",
+      "Makes code complex",
+      "Decreases performance"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the advantage of polymorphism?",
+    "options": [
+      "Single functionality only",
+      "Flexibility and multiple functionalities with same interface",
+      "Decreases code quality",
+      "Increases memory"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In class A: pass followed by class B(A): pass, what is B?",
+    "options": [
+      "Parent class",
+      "Child class",
+      "Abstract class",
+      "Static class"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you inherit from multiple abstract classes?",
+    "options": [
+      "No",
+      "Yes",
+      "Only from two",
+      "Never"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What keyword is used in abstract method body as placeholder?",
+    "options": [
+      "None",
+      "pass",
+      "skip",
+      "empty"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can static methods be overridden in child classes?",
+    "options": [
+      "No, never",
+      "Yes, they can be",
+      "Only in abstract classes",
+      "Only with @override"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the purpose of using @property decorator?",
+    "options": [
+      "Create static methods",
+      "Access private variables like attributes (getter/setter)",
+      "Create class methods",
+      "Delete properties"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In method overloading, which method definition is used in Python?",
+    "options": [
+      "First definition",
+      "Last definition",
+      "All definitions",
+      "Random definition"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you call a class method without creating an object?",
+    "options": [
+      "No, object required",
+      "Yes, using ClassName.method_name()",
+      "Only with self",
+      "Never"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you call a static method without creating an object?",
+    "options": [
+      "No, object required",
+      "Yes, using ClassName.method_name()",
+      "Only with self",
+      "Never"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is method overriding?",
+    "options": [
+      "Creating new methods",
+      "Redefining parent class method in child class",
+      "Deleting methods",
+      "Hiding methods"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "If a child class overrides a parent method, which one is called on child object?",
+    "options": [
+      "Parent's method",
+      "Child's method",
+      "Both",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you access parent's overridden method from child class?",
+    "options": [
+      "No, never",
+      "Yes, using super().method_name()",
+      "Only with self",
+      "Automatically called"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What are the four pillars of OOP?",
+    "options": [
+      "Classes, Objects, Methods, Variables",
+      "Inheritance, Polymorphism, Encapsulation, Abstraction",
+      "Functions, Loops, Conditions, Arrays",
+      "Public, Private, Protected, Static"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Is self a keyword in Python?",
+    "options": [
+      "Yes, it's a reserved keyword",
+      "No, it's a convention (can use any name)",
+      "Only in Python 3",
+      "Only in classes"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Is cls a keyword in Python?",
+    "options": [
+      "Yes, it's a reserved keyword",
+      "No, it's a convention (can use any name)",
+      "Only in Python 3",
+      "Only in abstract classes"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can a class have both instance and class methods?",
+    "options": [
+      "No, only one type",
+      "Yes, can have both",
+      "Only in abstract classes",
+      "Only with inheritance"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can a class have all three types of methods (instance, class, static)?",
+    "options": [
+      "No",
+      "Yes, can have all three",
+      "Only two types allowed",
+      "Only in Python 3"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the default access specifier in Python?",
+    "options": [
+      "Private",
+      "Protected",
+      "Public",
+      "None"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Can private members of parent be accessed in child class?",
+    "options": [
+      "Yes, directly",
+      "No, not directly accessible",
+      "Only with super()",
+      "Always accessible"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does ABC stand for in Python's abc module?",
+    "options": [
+      "Abstract Base Code",
+      "Abstract Base Class",
+      "Advanced Base Class",
+      "Automatic Base Class"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you create objects from a class that has unimplemented abstract methods?",
+    "options": [
+      "Yes, always",
+      "No, TypeError will be raised",
+      "Only in Python 2",
+      "Only with __init__"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In hierarchical inheritance, do child classes share parent's class variables?",
+    "options": [
+      "No, each has separate copy",
+      "Yes, they share the same class variables",
+      "Only instance variables are shared",
+      "Nothing is shared"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What happens if you modify a generic state (class variable)?",
+    "options": [
+      "Only one object affected",
+      "All objects of that class are affected",
+      "No objects affected",
+      "Error occurs"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What happens if you modify a specific state (instance variable)?",
+    "options": [
+      "All objects affected",
+      "Only that specific object is affected",
+      "No objects affected",
+      "Error occurs"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can instance methods call class methods?",
+    "options": [
+      "No, never",
+      "Yes, using self.method_name() or ClassName.method_name()",
+      "Only with super()",
+      "Only static methods"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can class methods call instance methods?",
+    "options": [
+      "Yes, directly",
+      "No, they cannot access instance methods directly",
+      "Only with self",
+      "Always"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the syntax to import ABC?",
+    "options": [
+      "from abc import ABC",
+      "import ABC from abc",
+      "from abstract import ABC",
+      "import abc.ABC"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the syntax to import abstractmethod?",
+    "options": [
+      "from abc import abstractmethod",
+      "import abstractmethod",
+      "from abstract import method",
+      "import abc.abstractmethod"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Can you have a constructor in an abstract class?",
+    "options": [
+      "No, never",
+      "Yes, abstract classes can have constructors",
+      "Only if no abstract methods",
+      "Only in Python 3"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Does Python support method overloading like Java?",
+    "options": [
+      "Yes, exactly like Java",
+      "No, Python uses different mechanisms",
+      "Only for static methods",
+      "Only in Python 2"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the workaround for method overloading in Python?",
+    "options": [
+      "No workaround exists",
+      "Use default arguments or *args/**kwargs",
+      "Use multiple classes",
+      "Use only one method"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you override class variables in child class?",
+    "options": [
+      "No, never",
+      "Yes, by defining same variable name",
+      "Only instance variables",
+      "Only with super()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the difference between __str__() and __repr__()?",
+    "options": [
+      "No difference",
+      "__str__() for user, __repr__() for developer",
+      "__repr__() for user, __str__() for developer",
+      "Both are same"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can abstract methods have implementation in Python?",
+    "options": [
+      "No, never",
+      "Yes, but child must still override them",
+      "Only with pass",
+      "Only static methods"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "If child class doesn't override abstract method, what happens?",
+    "options": [
+      "Uses parent's implementation",
+      "TypeError when trying to instantiate",
+      "Method is deleted",
+      "No error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you use super() in static methods?",
+    "options": [
+      "Yes, always",
+      "No, static methods don't have self or cls",
+      "Only in Python 3",
+      "Only in abstract classes"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the purpose of inheritance?",
+    "options": [
+      "To hide data",
+      "Code reusability and establishing IS-A relationship",
+      "To delete classes",
+      "To create objects"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What relationship does inheritance represent?",
+    "options": [
+      "HAS-A relationship",
+      "IS-A relationship",
+      "USES-A relationship",
+      "No relationship"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you inherit from built-in classes like list or dict?",
+    "options": [
+      "No, never",
+      "Yes, you can inherit from built-in classes",
+      "Only from list",
+      "Only from dict"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is diamond problem in inheritance?",
+    "options": [
+      "Creating diamond shaped classes",
+      "Ambiguity in multiple inheritance when same method in multiple parents",
+      "Memory problem",
+      "Performance issue"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How does Python resolve diamond problem?",
+    "options": [
+      "Raises error",
+      "Uses MRO (Method Resolution Order)",
+      "Randomly picks one",
+      "Uses both methods"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can a child class have more methods than parent?",
+    "options": [
+      "No, same number only",
+      "Yes, child can extend functionality",
+      "Only if parent is abstract",
+      "Never allowed"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can a child class have fewer methods than parent?",
+    "options": [
+      "Yes, can hide methods",
+      "No, must have all parent methods",
+      "Only for static methods",
+      "Only in Python 2"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does @property.setter require?",
+    "options": [
+      "Nothing",
+      "A @property getter must exist first",
+      "Only in abstract classes",
+      "@property.getter"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you delete properties using @property.deleter?",
+    "options": [
+      "No",
+      "Yes, creates a deleter method",
+      "Only for private variables",
+      "Only in Python 3"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What magic method is called when object is created?",
+    "options": [
+      "__new__()",
+      "__init__()",
+      "Both A and B",
+      "__create__()"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What magic method is called when object is destroyed?",
+    "options": [
+      "__delete__()",
+      "__destroy__()",
+      "__del__()",
+      "__remove__()"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Can you have private class methods?",
+    "options": [
+      "No",
+      "Yes, using __method_name with @classmethod",
+      "Only public class methods",
+      "Only in abstract classes"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you have private static methods?",
+    "options": [
+      "No",
+      "Yes, using __method_name with @staticmethod",
+      "Only public static methods",
+      "Only in abstract classes"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is composition in OOP?",
+    "options": [
+      "Same as inheritance",
+      "HAS-A relationship using objects as attributes",
+      "Multiple inheritance",
+      "Abstract classes"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Is composition better than inheritance?",
+    "options": [
+      "Always",
+      "Depends on the use case",
+      "Never",
+      "Only in Python"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can abstract class have __init__?",
+    "options": [
+      "No",
+      "Yes",
+      "Only if no abstract methods",
+      "Only in Python 3"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you create instance variables inside class methods?",
+    "options": [
+      "Yes, using self",
+      "No, class methods use cls not self",
+      "Only in __init__",
+      "Always"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What happens if __init__ is not defined?",
+    "options": [
+      "Error occurs",
+      "Python provides default __init__",
+      "Cannot create objects",
+      "Class is abstract"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you pass arguments to object creation without __init__?",
+    "options": [
+      "Yes",
+      "No, __init__ is required for arguments",
+      "Only default arguments",
+      "Always allowed"
+    ],
+    "correct": 1
+  }
+]
