@@ -1,0 +1,392 @@
+[
+  {
+    "question": "What is the main purpose of a lambda function in Python?",
+    "options": [
+      "To create large programs",
+      "To define anonymous functions",
+      "To replace classes",
+      "To handle exceptions"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword is used to define a lambda function?",
+    "options": [
+      "def",
+      "func",
+      "lambda",
+      "anonymous"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "How many expressions can a lambda function contain?",
+    "options": [
+      "Only one",
+      "Two",
+      "Multiple",
+      "Unlimited"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Can a lambda function contain statements like print or assignment?",
+    "options": [
+      "Yes",
+      "No",
+      "Only print",
+      "Only assignment"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does a lambda function return?",
+    "options": [
+      "None",
+      "The expression value",
+      "A function name",
+      "An error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following is a correct lambda syntax?",
+    "options": [
+      "lambda x = x+1",
+      "lambda x: x+1",
+      "lambda(x): return x+1",
+      "def lambda x: x+1"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function applies an operation to every element in an iterable?",
+    "options": [
+      "filter",
+      "reduce",
+      "map",
+      "apply"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What type of object does map() return?",
+    "options": [
+      "List",
+      "Tuple",
+      "Map object",
+      "Dictionary"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "How can you view the result of a map object?",
+    "options": [
+      "Using print only",
+      "By converting to list or tuple",
+      "By indexing",
+      "It prints automatically"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function is best suited for data transformation?",
+    "options": [
+      "filter",
+      "reduce",
+      "map",
+      "lambda"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which function removes unwanted elements from a collection?",
+    "options": [
+      "map",
+      "filter",
+      "reduce",
+      "lambda"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does filter() return?",
+    "options": [
+      "Boolean value",
+      "Filtered list",
+      "Filter object",
+      "Single value"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which values are returned by filter()?",
+    "options": [
+      "All values",
+      "Only False values",
+      "Only True values",
+      "Values where function returns True"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Which module contains the reduce() function?",
+    "options": [
+      "math",
+      "itertools",
+      "functools",
+      "operator"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does reduce() return?",
+    "options": [
+      "A list",
+      "A tuple",
+      "A single value",
+      "A dictionary"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which operation is suitable for reduce()?",
+    "options": [
+      "Filtering elements",
+      "Mapping values",
+      "Accumulating values",
+      "Sorting values"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is the output of reduce(lambda x,y: x+y, [1,2,3])?",
+    "options": [
+      "6",
+      "[6]",
+      "(1,2,3)",
+      "Error"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which function is used to find maximum value using lambda?",
+    "options": [
+      "map",
+      "filter",
+      "reduce",
+      "sorted"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which of the following can lambda functions have?",
+    "options": [
+      "Multiple expressions",
+      "Default arguments",
+      "Statements",
+      "Loops"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function processes elements selectively?",
+    "options": [
+      "map",
+      "filter",
+      "reduce",
+      "lambda"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which is a valid use case of map()?",
+    "options": [
+      "Removing odd numbers",
+      "Finding sum of list",
+      "Squaring each element",
+      "Finding maximum value"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which is a valid use case of filter()?",
+    "options": [
+      "Doubling numbers",
+      "Selecting even numbers",
+      "Summing numbers",
+      "Concatenating strings"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which is a valid use case of reduce()?",
+    "options": [
+      "Selecting elements",
+      "Transforming elements",
+      "Aggregating elements",
+      "Sorting elements"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which function returns True or False for each element?",
+    "options": [
+      "map",
+      "filter",
+      "reduce",
+      "lambda used in filter"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Which of the following is NOT a functional programming tool?",
+    "options": [
+      "lambda",
+      "map",
+      "filter",
+      "class"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What happens if filter condition never returns True?",
+    "options": [
+      "Error",
+      "Returns None",
+      "Returns empty collection",
+      "Returns original collection"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which function works with cumulative logic?",
+    "options": [
+      "map",
+      "filter",
+      "reduce",
+      "lambda"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which order is commonly used in functional programming?",
+    "options": [
+      "Map → Filter → Reduce",
+      "Filter → Map → Reduce",
+      "Reduce → Map → Filter",
+      "Lambda → Reduce → Map"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is returned by list(map(lambda x: x*2, [1,2,3]))?",
+    "options": [
+      "[2, 4, 6]",
+      "[1, 2, 3]",
+      "(2, 4, 6)",
+      "Map object"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which function requires a function and an iterable?",
+    "options": [
+      "lambda",
+      "map",
+      "filter",
+      "All of the above"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Can lambda functions be reused?",
+    "options": [
+      "No",
+      "Yes, by assigning to variable",
+      "Only once",
+      "Only inside map"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function is best for checking conditions?",
+    "options": [
+      "map",
+      "filter",
+      "reduce",
+      "lambda alone"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function always processes every element?",
+    "options": [
+      "filter",
+      "map",
+      "reduce",
+      "lambda"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function may skip elements?",
+    "options": [
+      "map",
+      "filter",
+      "reduce",
+      "lambda"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which functional tool is imported explicitly?",
+    "options": [
+      "map",
+      "filter",
+      "reduce",
+      "lambda"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is the output of filter(lambda x: x>5, [3,6,9])?",
+    "options": [
+      "[3, 6, 9]",
+      "[6, 9]",
+      "[True, True]",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the output of reduce(lambda x,y: x*y, [2,3,4])?",
+    "options": [
+      "9",
+      "24",
+      "14",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function is best for chaining operations?",
+    "options": [
+      "map and filter",
+      "reduce only",
+      "lambda only",
+      "print"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which functional concept improves code readability for small logic?",
+    "options": [
+      "class",
+      "lambda",
+      "loop",
+      "exception"
+    ],
+    "correct": 1
+  }
+]

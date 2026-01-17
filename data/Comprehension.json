@@ -1,0 +1,502 @@
+[
+  {
+    "question": "What is the definition of comprehension in Python?",
+    "options": [
+      "A method to compress data",
+      "Creating a new collection using fewer lines of code",
+      "A type of error handling",
+      "A debugging technique"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "On which type of collections can comprehensions be applied?",
+    "options": [
+      "Only immutable collections",
+      "Only mutable collections",
+      "Both mutable and immutable collections",
+      "Only tuples"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What will be the output of: [i for i in range(1, 6)]?",
+    "options": [
+      "[0, 1, 2, 3, 4, 5]",
+      "[1, 2, 3, 4, 5]",
+      "[1, 2, 3, 4, 5, 6]",
+      "[0, 1, 2, 3, 4]"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the syntax for basic list comprehension with filtering?",
+    "options": [
+      "[val for var in collection]",
+      "[val for var in collection if condition]",
+      "[val if condition for var in collection]",
+      "[for var in collection if condition val]"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What will [i**2 for i in range(1, 6) if i % 2 == 0] produce?",
+    "options": [
+      "[1, 4, 9, 16, 25]",
+      "[4, 16]",
+      "[2, 4]",
+      "[1, 9, 25]"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In the expression [i**2 if i % 2 == 0 else i**3 for i in range(1, 4)], what will be the output?",
+    "options": [
+      "[1, 4, 9]",
+      "[1, 4, 27]",
+      "[2, 4, 6]",
+      "[1, 2, 3]"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Where is the 'if-else' placed in a list comprehension when used as a conditional expression?",
+    "options": [
+      "After the for loop",
+      "Before the for loop",
+      "At the end of the expression",
+      "Inside the collection"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Where is the 'if' placed in a list comprehension when used for filtering?",
+    "options": [
+      "Before the for loop",
+      "After the for loop",
+      "Inside the brackets at the start",
+      "Before the collection"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does [(i, j) for i in 'AB' for j in range(1, 3)] produce?",
+    "options": [
+      "[('A', 1), ('B', 1), ('A', 2), ('B', 2)]",
+      "[('A', 1), ('A', 2), ('B', 1), ('B', 2)]",
+      "[('A', 'B'), (1, 2)]",
+      "[(1, 2), ('A', 'B')]"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What type of product is created with nested loops in comprehension?",
+    "options": [
+      "Sum product",
+      "Cartesian product",
+      "Matrix product",
+      "Cross product"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How do you check if a string is a palindrome in a list comprehension?",
+    "options": [
+      "i == i.reverse()",
+      "i == i[::-1]",
+      "i.reverse() == i",
+      "i == reversed(i)"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the main advantage of set comprehension over list comprehension?",
+    "options": [
+      "Faster execution",
+      "Automatically removes duplicates",
+      "Uses less memory",
+      "Supports more operations"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What symbol is used to create a set comprehension?",
+    "options": [
+      "Square brackets []",
+      "Curly braces {}",
+      "Parentheses ()",
+      "Angle brackets <>"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What will {i for i in [1, 2, 2, 3, 3, 3]} produce?",
+    "options": [
+      "[1, 2, 2, 3, 3, 3]",
+      "{1, 2, 3}",
+      "[1, 2, 3]",
+      "{1, 2, 2, 3, 3, 3}"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In set comprehension, what does {i.upper() if i[0].isupper() else i[::-1] for i in ['Hey', 'hi']} return?",
+    "options": [
+      "{'HEY', 'HI'}",
+      "{'HEY', 'ih'}",
+      "{'hey', 'ih'}",
+      "['HEY', 'ih']"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the syntax for basic dictionary comprehension?",
+    "options": [
+      "[k: v for var in collection]",
+      "{k: v for var in collection}",
+      "(k: v for var in collection)",
+      "<k: v for var in collection>"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What will {i: i**2 for i in range(1, 4)} produce?",
+    "options": [
+      "[1, 4, 9]",
+      "{1: 1, 2: 4, 3: 9}",
+      "{'1': 1, '2': 4, '3': 9}",
+      "{1, 4, 9}"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In dictionary comprehension, what does the colon (:) separate?",
+    "options": [
+      "Two values",
+      "Key and value",
+      "Two keys",
+      "Condition and result"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What function is commonly used with dictionary comprehension to combine two lists?",
+    "options": [
+      "map()",
+      "zip()",
+      "combine()",
+      "merge()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What will {i: j for i, j in zip([1, 2], [3, 4])} produce?",
+    "options": [
+      "{1: 3, 2: 4}",
+      "{3: 1, 4: 2}",
+      "[1, 2, 3, 4]",
+      "{(1, 3), (2, 4)}"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does the zip() function return?",
+    "options": [
+      "A list",
+      "A tuple",
+      "A zip object",
+      "A dictionary"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What happens when zip() is used with iterables of unequal length?",
+    "options": [
+      "Raises an error",
+      "Pads shorter iterables with None",
+      "Stops when shortest iterable is exhausted",
+      "Repeats shorter iterable elements"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What will list(zip([1, 2, 3], ['a', 'b'])) produce?",
+    "options": [
+      "[(1, 'a'), (2, 'b'), (3, None)]",
+      "[(1, 'a'), (2, 'b'), (3,)]",
+      "[(1, 'a'), (2, 'b')]",
+      "Error"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "How do you convert a zip object to a list?",
+    "options": [
+      "zip.to_list()",
+      "list(zip_object)",
+      "zip_object.list()",
+      "convert(zip_object)"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What will be the result of [i for i in range(1, 11) if i % 3 == 0]?",
+    "options": [
+      "[3, 6, 9]",
+      "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+      "[0, 3, 6, 9]",
+      "[3, 6, 9, 12]"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "In the expression [i**2 for i in range(1, 21) if i % 3 == 0], how many elements will be in the result?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "20"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does [i if len(i) % 2 == 0 else i[0] + i[-1] for i in ['hi', 'abc', 'test']] produce?",
+    "options": [
+      "['hi', 'abc', 'test']",
+      "['hi', 'ac', 'test']",
+      "['h', 'a', 't']",
+      "['hi', 'a', 'test']"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How do you extract only strings from a list using list comprehension?",
+    "options": [
+      "[i for i in list if i == str]",
+      "[i for i in list if type(i) == str]",
+      "[i for i in list if isinstance(str)]",
+      "[i for i in list if str(i)]"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What will {i: len(i) for i in ['hi', 'hello', 'bye']} produce?",
+    "options": [
+      "{'hi': 2, 'hello': 5, 'bye': 3}",
+      "[2, 5, 3]",
+      "{2, 5, 3}",
+      "{'hi', 'hello', 'bye'}"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "In dictionary comprehension, can you use conditional expressions for values?",
+    "options": [
+      "No, only for keys",
+      "Yes, using if-else before for loop",
+      "No, conditions are not allowed",
+      "Yes, but only with zip()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What will [(i, j**2) for i in 'ab' for j in [1, 2]] produce?",
+    "options": [
+      "[('a', 1), ('a', 4), ('b', 1), ('b', 4)]",
+      "[('a', 1), ('b', 1), ('a', 4), ('b', 4)]",
+      "[('a', 'b'), (1, 4)]",
+      "[(1, 4), ('a', 'b')]"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Can you use multiple conditions in a list comprehension?",
+    "options": [
+      "No, only one condition is allowed",
+      "Yes, using 'and' or 'or' operators",
+      "Yes, but only with nested loops",
+      "No, you must use if-else"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the purpose of {i: i**2 if i % 2 == 0 else i**3 for i in range(1, 6)}?",
+    "options": [
+      "Square all numbers",
+      "Cube all numbers",
+      "Square even numbers, cube odd numbers",
+      "Square odd numbers, cube even numbers"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What will {i: len(i) for i in ['hi', 'hello', 'test'] if len(i) % 2 == 1} produce?",
+    "options": [
+      "{'hi': 2, 'hello': 5, 'test': 4}",
+      "{'hello': 5}",
+      "{'hi': 2}",
+      "{5}"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In set comprehension, what happens to duplicate values?",
+    "options": [
+      "They are kept",
+      "An error is raised",
+      "They are automatically removed",
+      "Only the first occurrence is kept"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What will {math.sqrt(i) for i in [1, 4, 4, 9]} produce (assuming math is imported)?",
+    "options": [
+      "{1.0, 2.0, 2.0, 3.0}",
+      "{1.0, 2.0, 3.0}",
+      "[1.0, 2.0, 2.0, 3.0]",
+      "{1, 2, 3}"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How many iterations occur in [(i, j) for i in range(2) for j in range(3)]?",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "6"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What does {i: i[::-1] for i in ['abc', 'def']} produce?",
+    "options": [
+      "{'abc': 'cba', 'def': 'fed'}",
+      "['cba', 'fed']",
+      "{'cba', 'fed'}",
+      "{('abc', 'cba'), ('def', 'fed')}"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Can you nest comprehensions within comprehensions?",
+    "options": [
+      "No, it's not allowed",
+      "Yes, but only for lists",
+      "Yes, for any type of comprehension",
+      "Only in dictionary comprehensions"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What will [i for i in 'hello' if i in 'aeiou'] produce?",
+    "options": [
+      "['h', 'l', 'l']",
+      "['e', 'o']",
+      "['hello']",
+      "['h', 'e', 'l', 'l', 'o']"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In zip([1, 2, 3], ['a', 'b', 'c'], [10, 20, 30]), what will be the first tuple?",
+    "options": [
+      "(1, 'a')",
+      "(1, 'a', 10)",
+      "([1, 2, 3], ['a', 'b', 'c'])",
+      "(1, 2, 3, 'a', 'b', 'c')"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the main difference between list and set comprehension syntax?",
+    "options": [
+      "Different keywords",
+      "Square brackets vs curly braces",
+      "Different loop syntax",
+      "Different condition placement"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What will {i: len(i) if i == i[::-1] else i[::-1] for i in ['mom', 'dad', 'hello']} produce?",
+    "options": [
+      "{'mom': 3, 'dad': 3, 'hello': 5}",
+      "{'mom': 3, 'dad': 3, 'hello': 'olleh'}",
+      "{'mom': 'mom', 'dad': 'dad', 'hello': 'olleh'}",
+      "{'mom': True, 'dad': True, 'hello': False}"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can comprehensions be used to create tuples?",
+    "options": [
+      "Yes, using parentheses",
+      "No, parentheses create generators",
+      "Yes, using tuple() function",
+      "Both B and C are correct"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What will be the type of (i for i in range(5))?",
+    "options": [
+      "tuple",
+      "list",
+      "generator",
+      "set"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "In the expression [i**2 if i > 5 else i for i in range(1, 11)], how is the condition evaluated?",
+    "options": [
+      "Filter elements greater than 5",
+      "Square if greater than 5, else keep original",
+      "Square all elements",
+      "Keep only elements greater than 5"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What will {(i, j) for i in [1, 2] for j in [1, 2]} produce?",
+    "options": [
+      "{(1, 1), (1, 2), (2, 1), (2, 2)}",
+      "[(1, 1), (1, 2), (2, 1), (2, 2)]",
+      "{(1, 2), (2, 1)}",
+      "{1, 2}"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "How do you create an empty dictionary using comprehension?",
+    "options": [
+      "{i: i for i in []}",
+      "{ }",
+      "dict()",
+      "Both A and C are correct"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What will list(zip('abc')) produce?",
+    "options": [
+      "['a', 'b', 'c']",
+      "[('a',), ('b',), ('c',)]",
+      "('a', 'b', 'c')",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which comprehension type uses key-value pairs?",
+    "options": [
+      "List comprehension",
+      "Set comprehension",
+      "Dictionary comprehension",
+      "Tuple comprehension"
+    ],
+    "correct": 2
+  }
+]

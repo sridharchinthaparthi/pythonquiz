@@ -1,0 +1,1422 @@
+[
+  {
+    "question": "What is an exception in Python?",
+    "options": [
+      "A syntax error in code",
+      "An unexpected event that occurs during program execution",
+      "A warning message",
+      "A comment in code"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is exception handling?",
+    "options": [
+      "Preventing syntax errors",
+      "The process of catching and managing exceptions to prevent program crashes",
+      "Debugging code",
+      "Writing error-free code"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Are syntax errors considered exceptions?",
+    "options": [
+      "Yes, they are exceptions",
+      "No, syntax errors prevent program from running at all",
+      "Sometimes",
+      "Only in Python 3"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which block contains code that might raise an exception?",
+    "options": [
+      "except",
+      "try",
+      "finally",
+      "else"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which block handles the exception when it occurs?",
+    "options": [
+      "try",
+      "except",
+      "finally",
+      "else"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "When does the else block execute in exception handling?",
+    "options": [
+      "Always",
+      "When an exception occurs",
+      "Only when NO exception occurs in try block",
+      "Never"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "When does the finally block execute?",
+    "options": [
+      "Only when exception occurs",
+      "Only when no exception occurs",
+      "ALWAYS runs (success or failure)",
+      "Only when specified"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What type of exception handling uses specific exception names like ValueError?",
+    "options": [
+      "Generic exception handling",
+      "Specific exception handling",
+      "Bare exception handling",
+      "Default exception handling"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the syntax for generic exception handling?",
+    "options": [
+      "except:",
+      "except Exception as e:",
+      "except ValueError:",
+      "except all:"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is bare exception handling?",
+    "options": [
+      "except Exception:",
+      "except ValueError:",
+      "except:",
+      "except Error:"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which exception is raised when dividing by zero?",
+    "options": [
+      "ValueError",
+      "ZeroDivisionError",
+      "ArithmeticError",
+      "DivisionError"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which exception is raised when converting invalid data like int('abc')?",
+    "options": [
+      "TypeError",
+      "ValueError",
+      "ConversionError",
+      "InputError"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which exception is raised when using wrong data types like 'hello' + 5?",
+    "options": [
+      "ValueError",
+      "TypeError",
+      "SyntaxError",
+      "DataError"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which exception is raised when accessing invalid list index like [1,2,3][5]?",
+    "options": [
+      "ValueError",
+      "KeyError",
+      "IndexError",
+      "RangeError"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which exception is raised when accessing invalid dictionary key?",
+    "options": [
+      "IndexError",
+      "KeyError",
+      "ValueError",
+      "AttributeError"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which exception is raised when a file doesn't exist?",
+    "options": [
+      "IOError",
+      "FileError",
+      "FileNotFoundError",
+      "PathError"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which exception is raised when a module cannot be imported?",
+    "options": [
+      "ModuleError",
+      "ImportError",
+      "LoadError",
+      "PackageError"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'except Exception as e:' do?",
+    "options": [
+      "Creates a new exception",
+      "Catches exception and stores it in variable e",
+      "Deletes the exception",
+      "Ignores the exception"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you have multiple except blocks for different exceptions?",
+    "options": [
+      "No, only one except allowed",
+      "Yes, multiple except blocks are allowed",
+      "Only two except blocks allowed",
+      "Depends on Python version"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the advantage of specific exception handling over generic?",
+    "options": [
+      "Faster execution",
+      "Precise error handling with user-friendly messages",
+      "Less code",
+      "No advantage"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Does generic exception handling (except Exception) catch KeyboardInterrupt?",
+    "options": [
+      "Yes",
+      "No, it does NOT catch KeyboardInterrupt",
+      "Sometimes",
+      "Only in Python 3"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Does bare exception handling (except:) catch KeyboardInterrupt?",
+    "options": [
+      "No",
+      "Yes, it catches everything including KeyboardInterrupt",
+      "Sometimes",
+      "Never"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which exception handling approach is NOT recommended for most cases?",
+    "options": [
+      "Specific exception handling",
+      "Generic exception handling",
+      "Bare exception handling",
+      "All are recommended"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "In exception hierarchy, which should come first - specific or general exceptions?",
+    "options": [
+      "General exceptions first",
+      "Most specific exceptions first",
+      "Order doesn't matter",
+      "Generic exceptions first"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is a module in Python?",
+    "options": [
+      "A folder containing files",
+      "A single Python file (.py) containing Python code",
+      "A database",
+      "A function"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is a package in Python?",
+    "options": [
+      "A single Python file",
+      "A folder/directory containing multiple Python modules",
+      "A function",
+      "A class"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What file must be present in a folder to make it a package?",
+    "options": [
+      "main.py",
+      "__init__.py",
+      "package.py",
+      "setup.py"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can __init__.py be empty?",
+    "options": [
+      "No, it must contain code",
+      "Yes, it can be empty",
+      "Only in Python 2",
+      "Only in Python 3"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How do you import a module from the same directory?",
+    "options": [
+      "from . import module",
+      "import module",
+      "include module",
+      "use module"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How do you import a module from a package?",
+    "options": [
+      "import module",
+      "from package_name import module_name",
+      "include package.module",
+      "use package.module"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How do you import a specific function from a module?",
+    "options": [
+      "import function from module",
+      "from module import function",
+      "get function from module",
+      "use module.function"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How do you import a module with an alias?",
+    "options": [
+      "import module alias name",
+      "import module as alias",
+      "from module use alias",
+      "module = alias"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'from module import *' do?",
+    "options": [
+      "Imports the module",
+      "Imports all functions/variables from the module",
+      "Deletes the module",
+      "Creates a module"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Is 'from module import *' recommended?",
+    "options": [
+      "Yes, always use it",
+      "No, it's not recommended as it can cause naming conflicts",
+      "Only for small modules",
+      "Only for built-in modules"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the purpose of organizing code into packages and modules?",
+    "options": [
+      "To make code slower",
+      "Code organization, reusability, and namespace management",
+      "To increase file size",
+      "No specific purpose"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is SQLite?",
+    "options": [
+      "A heavy database server",
+      "A lightweight, file-based database",
+      "A programming language",
+      "A web framework"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which module is used for SQLite database operations in Python?",
+    "options": [
+      "sql",
+      "sqlite3",
+      "database",
+      "db"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function establishes a connection to a database?",
+    "options": [
+      "open()",
+      "connect()",
+      "create()",
+      "establish()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function creates a cursor object to execute SQL commands?",
+    "options": [
+      "create_cursor()",
+      "cursor()",
+      "pointer()",
+      "execute()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function executes SQL queries?",
+    "options": [
+      "run()",
+      "execute()",
+      "query()",
+      "sql()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function saves changes to the database permanently?",
+    "options": [
+      "save()",
+      "commit()",
+      "write()",
+      "update()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function closes the database connection?",
+    "options": [
+      "end()",
+      "close()",
+      "finish()",
+      "terminate()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the first step in database operations?",
+    "options": [
+      "Create cursor",
+      "Connect to database",
+      "Execute query",
+      "Commit changes"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the last step in database operations?",
+    "options": [
+      "Execute query",
+      "Commit changes",
+      "Close connection",
+      "Create cursor"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What SQL command is used to create a table?",
+    "options": [
+      "MAKE TABLE",
+      "CREATE TABLE",
+      "NEW TABLE",
+      "BUILD TABLE"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What SQL command is used to insert data into a table?",
+    "options": [
+      "ADD INTO",
+      "INSERT INTO",
+      "PUT INTO",
+      "WRITE INTO"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What SQL command is used to retrieve data from a table?",
+    "options": [
+      "GET",
+      "SELECT",
+      "RETRIEVE",
+      "FETCH"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What SQL command is used to update existing data?",
+    "options": [
+      "MODIFY",
+      "UPDATE",
+      "CHANGE",
+      "ALTER"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What SQL command is used to delete data?",
+    "options": [
+      "REMOVE",
+      "DELETE",
+      "DROP",
+      "ERASE"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does PRIMARY KEY constraint do?",
+    "options": [
+      "Allows duplicate values",
+      "Uniquely identifies each record in a table",
+      "Allows null values",
+      "Nothing special"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does NOT NULL constraint do?",
+    "options": [
+      "Allows null values",
+      "Ensures column cannot have null values",
+      "Allows duplicate values",
+      "Nothing special"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does fetchall() do?",
+    "options": [
+      "Fetches one record",
+      "Fetches all records as a list of tuples",
+      "Fetches column names",
+      "Deletes all records"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does fetchone() do?",
+    "options": [
+      "Fetches all records",
+      "Fetches a single record",
+      "Fetches column names",
+      "Deletes one record"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does executemany() do?",
+    "options": [
+      "Executes one query",
+      "Executes a query multiple times with different parameters",
+      "Deletes multiple records",
+      "Creates multiple tables"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is SQL injection?",
+    "options": [
+      "A database feature",
+      "A security vulnerability where malicious SQL code is inserted",
+      "A query optimization technique",
+      "A database backup method"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How do you prevent SQL injection?",
+    "options": [
+      "Use string concatenation",
+      "Use parameterized queries with placeholders (?)",
+      "Use bare SQL strings",
+      "Disable security"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the purpose of the finally block?",
+    "options": [
+      "Handle exceptions",
+      "Cleanup code that always executes",
+      "Prevent exceptions",
+      "Log errors"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you have a try block without an except block?",
+    "options": [
+      "Yes, if there's a finally block",
+      "No, except is mandatory",
+      "Yes, always",
+      "Only in Python 2"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Can you have multiple try-except blocks in a single function?",
+    "options": [
+      "No, only one allowed",
+      "Yes, multiple try-except blocks are allowed",
+      "Only two allowed",
+      "Only in Python 3"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What happens if you don't commit() changes in a database?",
+    "options": [
+      "Changes are saved automatically",
+      "Changes are not permanently saved to the database",
+      "Database crashes",
+      "Nothing happens"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the purpose of 'IF NOT EXISTS' in CREATE TABLE?",
+    "options": [
+      "Deletes existing table",
+      "Creates table only if it doesn't already exist (prevents error)",
+      "Updates existing table",
+      "No specific purpose"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'INTEGER PRIMARY KEY AUTOINCREMENT' do?",
+    "options": [
+      "Requires manual ID input",
+      "Automatically generates unique incrementing IDs",
+      "Allows duplicate IDs",
+      "Nothing special"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is CRUD in database operations?",
+    "options": [
+      "A database type",
+      "Create, Read, Update, Delete operations",
+      "A SQL command",
+      "A Python module"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What SQL clause is used to filter results?",
+    "options": [
+      "FILTER",
+      "WHERE",
+      "IF",
+      "HAVING"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What SQL clause is used to sort results?",
+    "options": [
+      "SORT BY",
+      "ORDER BY",
+      "ARRANGE BY",
+      "GROUP BY"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does SELECT * mean in SQL?",
+    "options": [
+      "Select nothing",
+      "Select all columns",
+      "Select all rows",
+      "Delete all data"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does COUNT(*) do in SQL?",
+    "options": [
+      "Counts columns",
+      "Counts number of rows",
+      "Counts databases",
+      "Nothing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does AVG() do in SQL?",
+    "options": [
+      "Counts values",
+      "Calculates average of values",
+      "Finds maximum value",
+      "Sums values"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does MAX() do in SQL?",
+    "options": [
+      "Finds minimum value",
+      "Finds maximum value",
+      "Calculates average",
+      "Counts values"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does MIN() do in SQL?",
+    "options": [
+      "Finds maximum value",
+      "Finds minimum value",
+      "Calculates average",
+      "Counts values"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does SUM() do in SQL?",
+    "options": [
+      "Counts values",
+      "Calculates sum of values",
+      "Finds average",
+      "Finds maximum"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does LIKE operator do in SQL?",
+    "options": [
+      "Exact matching",
+      "Pattern matching in strings",
+      "Numeric comparison",
+      "Boolean comparison"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does % symbol mean in LIKE pattern?",
+    "options": [
+      "Single character",
+      "Zero or more characters",
+      "Percentage",
+      "Division"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does _ symbol mean in LIKE pattern?",
+    "options": [
+      "Any characters",
+      "Exactly one character",
+      "Space",
+      "Nothing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does BETWEEN operator do?",
+    "options": [
+      "Divides values",
+      "Selects values within a range (inclusive)",
+      "Compares strings",
+      "Nothing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does IN operator do?",
+    "options": [
+      "Inserts data",
+      "Checks if value exists in a list",
+      "Imports data",
+      "Nothing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the benefit of using modules?",
+    "options": [
+      "Slower execution",
+      "Code reusability and organization",
+      "Larger file sizes",
+      "No benefit"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What naming convention is recommended for packages?",
+    "options": [
+      "CamelCase",
+      "lowercase_with_underscores",
+      "UPPERCASE",
+      "mixedCase"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What naming convention is recommended for modules?",
+    "options": [
+      "CamelCase",
+      "lowercase_with_underscores",
+      "UPPERCASE",
+      "mixedCase"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can a package contain sub-packages?",
+    "options": [
+      "No",
+      "Yes, packages can contain sub-packages",
+      "Only one level deep",
+      "Only in Python 3"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does if __name__ == '__main__': do?",
+    "options": [
+      "Always executes",
+      "Executes only when file is run directly (not imported)",
+      "Never executes",
+      "Creates a main function"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the purpose of docstrings in modules?",
+    "options": [
+      "Execute code",
+      "Document functions and modules",
+      "Handle errors",
+      "Nothing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'pass' do in an except block?",
+    "options": [
+      "Handles the exception properly",
+      "Silently ignores the exception (not recommended)",
+      "Raises the exception",
+      "Logs the exception"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is rollback() used for in databases?",
+    "options": [
+      "Save changes",
+      "Undo changes made in current transaction",
+      "Delete database",
+      "Create backup"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you use 'with' statement with database connections?",
+    "options": [
+      "No",
+      "Yes, it automatically handles connection closing",
+      "Only for files",
+      "Only in Python 3"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'INSERT OR REPLACE' do?",
+    "options": [
+      "Only inserts",
+      "Inserts new record or replaces if exists",
+      "Only replaces",
+      "Deletes record"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'INSERT OR IGNORE' do?",
+    "options": [
+      "Raises error on duplicate",
+      "Inserts or ignores if duplicate exists",
+      "Always inserts",
+      "Deletes duplicates"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does lastrowid return?",
+    "options": [
+      "Total rows",
+      "ID of last inserted row",
+      "First row ID",
+      "Random ID"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does rowcount return?",
+    "options": [
+      "Total rows in table",
+      "Number of rows affected by last operation",
+      "Column count",
+      "Database count"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the default transaction mode in SQLite?",
+    "options": [
+      "Manual commit",
+      "Auto-commit",
+      "No transactions",
+      "Delayed commit"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does DESC do in ORDER BY?",
+    "options": [
+      "Ascending order",
+      "Descending order",
+      "Describes table",
+      "Deletes records"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does ASC do in ORDER BY?",
+    "options": [
+      "Descending order",
+      "Ascending order (default)",
+      "Random order",
+      "Nothing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does LIMIT do in SQL?",
+    "options": [
+      "Deletes rows",
+      "Restricts number of rows returned",
+      "Limits columns",
+      "Nothing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does DISTINCT do in SELECT?",
+    "options": [
+      "Selects all rows",
+      "Returns only unique/distinct values",
+      "Deletes duplicates",
+      "Nothing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the purpose of GROUP BY?",
+    "options": [
+      "Sort data",
+      "Group rows with same values together",
+      "Filter data",
+      "Delete data"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What exception should you catch for database errors?",
+    "options": [
+      "Exception",
+      "sqlite3.Error",
+      "DatabaseError",
+      "SQLError"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "When creating a package, what should be inside __init__.py?",
+    "options": [
+      "Must contain all module code",
+      "Can be empty or contain initialization code",
+      "Must import all modules",
+      "Must contain main function"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the advantage of using context managers (with statement)?",
+    "options": [
+      "Faster execution",
+      "Automatic resource management and cleanup",
+      "Less code",
+      "Better performance"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you have an else block without an except block?",
+    "options": [
+      "Yes",
+      "No, else requires at least one except block",
+      "Only with finally",
+      "Only in Python 3"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the purpose of parameterized queries using '?'?",
+    "options": [
+      "Faster execution",
+      "Prevent SQL injection attacks",
+      "Better formatting",
+      "Nothing special"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'DROP TABLE' do?",
+    "options": [
+      "Empties table",
+      "Deletes entire table structure and data",
+      "Updates table",
+      "Creates table"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'DELETE FROM table_name' (without WHERE) do?",
+    "options": [
+      "Deletes one record",
+      "Deletes all records but keeps table structure",
+      "Drops table",
+      "Nothing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the difference between DELETE and DROP?",
+    "options": [
+      "No difference",
+      "DELETE removes rows, DROP removes entire table",
+      "DROP removes rows, DELETE removes table",
+      "Both remove rows"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does ALTER TABLE do?",
+    "options": [
+      "Creates table",
+      "Modifies table structure (add/drop columns)",
+      "Deletes table",
+      "Queries table"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you use multiple databases in one Python program?",
+    "options": [
+      "No, only one database",
+      "Yes, by creating multiple connections",
+      "Only two databases",
+      "Only in Python 3"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What file extension does SQLite database use?",
+    "options": [
+      ".sql",
+      ".db or .sqlite",
+      ".database",
+      ".data"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Is SQLite a client-server database?",
+    "options": [
+      "Yes",
+      "No, it's a file-based embedded database",
+      "Sometimes",
+      "Only in production"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'PRAGMA table_info(table_name)' do?",
+    "options": [
+      "Deletes table",
+      "Shows table structure/schema",
+      "Creates table",
+      "Updates table"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is a cursor in database context?",
+    "options": [
+      "A database file",
+      "A pointer/object to execute queries and fetch results",
+      "A table",
+      "A connection"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you have nested try-except blocks?",
+    "options": [
+      "No",
+      "Yes, try-except blocks can be nested",
+      "Only two levels",
+      "Only in Python 3"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the purpose of error handling in database operations?",
+    "options": [
+      "Make code longer",
+      "Gracefully handle database errors and prevent crashes",
+      "Slow down execution",
+      "No specific purpose"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'CREATE TABLE IF NOT EXISTS' prevent?",
+    "options": [
+      "Data loss",
+      "Error when table already exists",
+      "Duplicate data",
+      "Nothing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you execute multiple SQL statements in one execute() call?",
+    "options": [
+      "Yes, always",
+      "No, use executescript() for multiple statements",
+      "Only SELECT statements",
+      "Only INSERT statements"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does executescript() do?",
+    "options": [
+      "Executes single query",
+      "Executes multiple SQL statements separated by semicolons",
+      "Creates scripts",
+      "Deletes scripts"
+    ],
+    "correct": 1
+  },
+  {
+"question": "What is the purpose of import statement?",
+"options": [
+"Export data",
+"Bring functionality from other modules into current module",
+"Delete modules",
+"Create modules"
+],
+"correct": 1
+},
+{
+"question": "Can you import modules from parent directories?",
+"options": [
+"No, never",
+"Yes, using sys.path or relative imports",
+"Only in Python 2",
+"Only in Python 3"
+],
+"correct": 1
+},
+{
+"question": "What does sys.path contain?",
+"options": [
+"File paths",
+"List of directories Python searches for modules",
+"System information",
+"Nothing"
+],
+"correct": 1
+},
+{
+"question": "What is the purpose of all in a module?",
+"options": [
+"Import all modules",
+"Define what gets exported when using 'from module import *'",
+"Delete all variables",
+"Nothing"
+],
+"correct": 1
+},
+{
+"question": "Can exception handling affect program performance?",
+"options": [
+"No impact",
+"Yes, but minimal if exceptions don't occur frequently",
+"Major impact always",
+"Only in Python 2"
+],
+"correct": 1
+},
+{
+"question": "Should you use exceptions for normal program flow?",
+"options": [
+"Yes, always",
+"No, exceptions should be for exceptional cases only",
+"Sometimes",
+"Only for databases"
+],
+"correct": 1
+},
+{
+"question": "What does raise keyword do?",
+"options": [
+"Catches exception",
+"Raises/throws an exception",
+"Deletes exception",
+"Ignores exception"
+],
+"correct": 1
+},
+{
+"question": "Can you create custom exceptions in Python?",
+"options": [
+"No",
+"Yes, by creating classes that inherit from Exception",
+"Only built-in exceptions allowed",
+"Only in Python 3"
+],
+"correct": 1
+},
+{
+"question": "What is the base class for all exceptions?",
+"options": [
+"Error",
+"BaseException",
+"Exception",
+"ErrorBase"
+],
+"correct": 1
+},
+{
+"question": "What is the difference between Exception and BaseException?",
+"options": [
+"No difference",
+"BaseException includes system-exiting exceptions, Exception is for regular exceptions",
+"Exception is newer",
+"BaseException is deprecated"
+],
+"correct": 1
+},
+{
+"question": "What does 'raise' without arguments do inside an except block?",
+"options": [
+"Creates new exception",
+"Re-raises the caught exception",
+"Ignores exception",
+"Nothing"
+],
+"correct": 1
+},
+{
+"question": "Can you have multiple databases open simultaneously?",
+"options": [
+"No",
+"Yes, by creating separate connections",
+"Only two",
+"Never recommended"
+],
+"correct": 1
+},
+{
+"question": "What is the purpose of BEGIN TRANSACTION in SQLite?",
+"options": [
+"End transaction",
+"Explicitly start a transaction",
+"Delete transaction",
+"Nothing"
+],
+"correct": 1
+},
+{
+"question": "What happens if you don't close a database connection?",
+"options": [
+"Nothing",
+"Resource leak and potential data corruption",
+"Database deletes",
+"Always auto-closes"
+],
+"correct": 1
+},
+{
+"question": "Can you use SQLite in production applications?",
+"options": [
+"No, only for testing",
+"Yes, suitable for small to medium applications",
+"Never",
+"Only for web apps"
+],
+"correct": 1
+},
+{
+"question": "What is the maximum database size in SQLite?",
+"options": [
+"1 MB",
+"About 281 terabytes (theoretical)",
+"10 GB",
+"No limit"
+],
+"correct": 1
+},
+{
+"question": "Is SQLite suitable for high-concurrency applications?",
+"options": [
+"Yes, perfect for high concurrency",
+"Limited - not ideal for high write concurrency",
+"Never use for any concurrency",
+"Only for read operations"
+],
+"correct": 1
+},
+{
+"question": "What does TEXT data type store in SQLite?",
+"options": [
+"Numbers",
+"String/text data",
+"Binary data",
+"Dates"
+],
+"correct": 1
+},
+{
+"question": "What does INTEGER data type store in SQLite?",
+"options": [
+"Text",
+"Whole numbers",
+"Decimals",
+"Binary"
+],
+"correct": 1
+},
+{
+"question": "What does REAL data type store in SQLite?",
+"options": [
+"Text",
+"Floating-point numbers",
+"Integers",
+"Binary"
+],
+"correct": 1
+},
+{
+"question": "What does BLOB data type store in SQLite?",
+"options": [
+"Text",
+"Binary Large Objects (binary data)",
+"Numbers",
+"Strings"
+],
+"correct": 1
+},
+{
+"question": "Can SQLite store NULL values?",
+"options": [
+"No",
+"Yes, unless NOT NULL constraint is specified",
+"Only in TEXT columns",
+"Only in INTEGER columns"
+],
+"correct": 1
+},
+{
+"question": "What is the purpose of using classes for database management?",
+"options": [
+"No benefit",
+"Better organization, reusability, and encapsulation",
+"Slower execution",
+"More complex code"
+],
+"correct": 1
+},
+{
+"question": "What is the recommended way to handle database connections in functions?",
+"options": [
+"Global connection",
+"Create and close connection within function or use context manager",
+"Never close connections",
+"Use multiple connections"
+],
+"correct": 1
+},
+{
+"question": "Can you query data without committing?",
+"options": [
+"No, must commit first",
+"Yes, SELECT queries don't need commit",
+"Only for small queries",
+"Only with special permission"
+],
+"correct": 1
+},
+{
+"question": "When is commit() necessary?",
+"options": [
+"For all operations",
+"For INSERT, UPDATE, DELETE operations",
+"Only for SELECT",
+"Never necessary"
+],
+"correct": 1
+},
+{
+"question": "What is a transaction in database context?",
+"options": [
+"A single query",
+"A logical unit of work containing one or more operations",
+"A table",
+"A connection"
+],
+"correct": 1
+},
+{
+"question": "What are ACID properties in databases?",
+"options": [
+"Database commands",
+"Atomicity, Consistency, Isolation, Durability",
+"Table properties",
+"Connection properties"
+],
+"correct": 1
+}
+]

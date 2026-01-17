@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What is a decorator in Python?",
+    "options": [
+      "A function that modifies another function's core logic",
+      "A function that adds functionalities to an existing function without modifying its core logic",
+      "A class that decorates objects",
+      "A built-in Python module"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which symbol is used to apply a decorator to a function?",
+    "options": [
+      "#",
+      "$",
+      "@",
+      "&"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which of the following is a built-in decorator in Python?",
+    "options": [
+      "@function",
+      "@property",
+      "@decorator",
+      "@method"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does the @staticmethod decorator indicate?",
+    "options": [
+      "Method that requires instance reference",
+      "Method that requires class reference only",
+      "Method that doesn't need class or instance reference",
+      "Method that is abstract"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "In a decorator function, what is the purpose of the inner function?",
+    "options": [
+      "To replace the original function",
+      "To wrap the original function with additional functionality",
+      "To delete the original function",
+      "To create a copy of the function"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What parameters should the inner function in a decorator typically accept?",
+    "options": [
+      "No parameters",
+      "Only positional arguments",
+      "*args and **kwargs",
+      "Only keyword arguments"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What keyword is used to create generators in Python?",
+    "options": [
+      "return",
+      "yield",
+      "generate",
+      "create"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the main advantage of generators over lists?",
+    "options": [
+      "Faster execution",
+      "Memory efficiency",
+      "Easier syntax",
+      "Better readability"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What happens when yield is encountered in a generator function?",
+    "options": [
+      "The function terminates completely",
+      "The function pauses execution and stores the value",
+      "The function restarts from the beginning",
+      "An error is raised"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How many times can you iterate over a generator?",
+    "options": [
+      "Unlimited times",
+      "Twice",
+      "Once, then it's exhausted",
+      "Depends on the size"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is the difference between yield and return?",
+    "options": [
+      "No difference",
+      "yield terminates the function, return doesn't",
+      "yield pauses execution and maintains state, return terminates the function",
+      "return is faster than yield"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does lazy evaluation in generators mean?",
+    "options": [
+      "Slow execution",
+      "Values are produced only when needed",
+      "Values are cached",
+      "Delayed error handling"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is an iterator in Python?",
+    "options": [
+      "A function that creates loops",
+      "A process of traversing through each value in a collection",
+      "A type of data structure",
+      "A built-in module"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function is used to create an iterator object from a collection?",
+    "options": [
+      "iterator()",
+      "iter()",
+      "next()",
+      "create_iter()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function is used to get the next value from an iterator?",
+    "options": [
+      "get()",
+      "next()",
+      "advance()",
+      "move()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What exception is raised when an iterator has no more items?",
+    "options": [
+      "EndOfIterator",
+      "NoMoreItems",
+      "StopIteration",
+      "IteratorError"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which is an example of a built-in iterator?",
+    "options": [
+      "while loop",
+      "for loop",
+      "if statement",
+      "function call"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does the @classmethod decorator indicate?",
+    "options": [
+      "Method belongs to an instance",
+      "Method belongs to the class, not instance",
+      "Method is static",
+      "Method is abstract"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In the decorator pattern, what does the outer function return?",
+    "options": [
+      "The result of the original function",
+      "The inner function",
+      "A string",
+      "Nothing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What will happen if you call next() on an exhausted generator?",
+    "options": [
+      "Returns None",
+      "Restarts the generator",
+      "Raises StopIteration exception",
+      "Returns the last value"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "How do you convert a generator to a list?",
+    "options": [
+      "generator.to_list()",
+      "list(generator)",
+      "convert(generator)",
+      "generator.list()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the output of: def gen(): yield 1; yield 2 followed by print(list(gen()))?",
+    "options": [
+      "[1]",
+      "[2]",
+      "[1, 2]",
+      "Error"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which decorator is used for abstract methods in abstract classes?",
+    "options": [
+      "@abstract",
+      "@abstractmethod",
+      "@virtual",
+      "@interface"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can a generator function have multiple yield statements?",
+    "options": [
+      "No, only one yield is allowed",
+      "Yes, multiple yields are allowed",
+      "Only two yields are allowed",
+      "Depends on Python version"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the primary use case for generators?",
+    "options": [
+      "Small datasets",
+      "Large datasets or infinite sequences",
+      "String manipulation",
+      "Error handling"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In a decorator, why do we use *args and **kwargs in the inner function?",
+    "options": [
+      "To make the code look complex",
+      "To handle any number of positional and keyword arguments",
+      "It's mandatory syntax",
+      "To improve performance"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What will abs() do in a decorator that returns abs(c)?",
+    "options": [
+      "Return absolute path",
+      "Return absolute value (positive number)",
+      "Return abstract class",
+      "Raise an error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can generators represent infinite sequences?",
+    "options": [
+      "No, they have fixed size",
+      "Yes, they can represent infinite data streams",
+      "Only up to 1000 elements",
+      "Only for numeric data"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the advantage of using decorators over modifying the original function?",
+    "options": [
+      "Faster execution",
+      "Code reusability and separation of concerns",
+      "Less memory usage",
+      "Better error handling"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "If you have: i = iter([1, 2, 3]) and call next(i) three times, what happens on the fourth call?",
+    "options": [
+      "Returns 1 again",
+      "Returns None",
+      "Raises StopIteration exception",
+      "Returns an empty list"
+    ],
+    "correct": 2
+  }
+]

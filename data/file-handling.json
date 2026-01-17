@@ -1,0 +1,982 @@
+[
+  {
+    "question": "What is file handling in Python?",
+    "options": [
+      "Creating new files only",
+      "The phenomenon of writing data into a file and reading data from the file",
+      "Deleting files from system",
+      "Organizing files in folders"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What are the three main types of file handling operations?",
+    "options": [
+      "Create, Update, Delete",
+      "Read, Write, Append",
+      "Open, Close, Save",
+      "Input, Output, Process"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which mode is used to read a file in text format?",
+    "options": [
+      "w",
+      "a",
+      "r",
+      "x"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which mode is used to write to a file in text format?",
+    "options": [
+      "r",
+      "w",
+      "a",
+      "x"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which mode is used to append data to a file in text format?",
+    "options": [
+      "r",
+      "w",
+      "a",
+      "x"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does the 'r+' mode allow?",
+    "options": [
+      "Read only",
+      "Write only",
+      "Read and write",
+      "Append only"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What happens when you open a file in 'w' mode if the file already exists?",
+    "options": [
+      "Appends to the existing content",
+      "Raises an error",
+      "Overwrites the existing content",
+      "Creates a new file with different name"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What happens when you open a file in 'a' mode if the file doesn't exist?",
+    "options": [
+      "Raises an error",
+      "Does nothing",
+      "Creates a new file",
+      "Opens in read mode"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which mode is used to read a file in binary format?",
+    "options": [
+      "r",
+      "rb",
+      "w",
+      "wb"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which mode is used to write to a file in binary format?",
+    "options": [
+      "w",
+      "wb",
+      "a",
+      "ab"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the recommended way to open files in Python?",
+    "options": [
+      "Using open() and close() manually",
+      "Using with statement (context manager)",
+      "Using try-except block",
+      "Using while loop"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Why is the 'with' statement recommended for file handling?",
+    "options": [
+      "It's faster",
+      "It automatically closes the file",
+      "It uses less memory",
+      "It prevents errors"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which method writes a single string to a file?",
+    "options": [
+      "write()",
+      "writelines()",
+      "writerow()",
+      "save()"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which method writes a list of strings to a file?",
+    "options": [
+      "write()",
+      "writelines()",
+      "writerows()",
+      "writelist()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which method reads the entire file content as one string?",
+    "options": [
+      "readline()",
+      "readlines()",
+      "read()",
+      "readall()"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which method reads a single line from a file?",
+    "options": [
+      "read()",
+      "readline()",
+      "readlines()",
+      "readone()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which method reads all lines from a file and returns them as a list?",
+    "options": [
+      "read()",
+      "readline()",
+      "readlines()",
+      "readall()"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does the seek() method do?",
+    "options": [
+      "Searches for a string in file",
+      "Moves file pointer to a given byte position",
+      "Finds the file size",
+      "Closes the file"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does seek(0) do?",
+    "options": [
+      "Closes the file",
+      "Moves cursor to the end",
+      "Moves cursor to the start",
+      "Deletes the file"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is the default mode if no mode is specified in open()?",
+    "options": [
+      "w (write)",
+      "a (append)",
+      "r (read)",
+      "x (exclusive)"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Why is close() important when not using 'with' statement?",
+    "options": [
+      "To save memory",
+      "To free system resources and ensure data is saved",
+      "To prevent errors",
+      "It's not important"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does CSV stand for?",
+    "options": [
+      "Computer System Values",
+      "Comma Separated Values",
+      "Common Standard Version",
+      "Central Storage Variables"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which module is used for CSV file operations in Python?",
+    "options": [
+      "csvfile",
+      "csv",
+      "file",
+      "csvhandler"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which method is used to write a single row to a CSV file?",
+    "options": [
+      "write()",
+      "writeline()",
+      "writerow()",
+      "writefile()"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which method is used to write multiple rows to a CSV file?",
+    "options": [
+      "writelines()",
+      "writerows()",
+      "writemultiple()",
+      "writeall()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function creates a CSV writer object?",
+    "options": [
+      "csv.write()",
+      "csv.writer()",
+      "csv.create_writer()",
+      "csv.new_writer()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function creates a CSV reader object?",
+    "options": [
+      "csv.read()",
+      "csv.reader()",
+      "csv.create_reader()",
+      "csv.new_reader()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is parsing in the context of file handling?",
+    "options": [
+      "Reading files faster",
+      "The process of providing security to data while sending from source to destination",
+      "Deleting unnecessary data",
+      "Compressing files"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which are the two main parsing techniques mentioned?",
+    "options": [
+      "XML and HTML",
+      "JSON and Pickle",
+      "CSV and TXT",
+      "Binary and Text"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which module is used for JSON parsing?",
+    "options": [
+      "jsonparser",
+      "json",
+      "parsing",
+      "jsonfile"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which JSON method converts a Python object to a JSON string?",
+    "options": [
+      "json.convert()",
+      "json.dumps()",
+      "json.stringify()",
+      "json.encode()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which JSON method converts a JSON string to a Python object?",
+    "options": [
+      "json.parse()",
+      "json.loads()",
+      "json.decode()",
+      "json.convert()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which module is used for Pickle parsing?",
+    "options": [
+      "pickleparser",
+      "pickle",
+      "binary",
+      "picklefile"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which Pickle method converts a Python object to binary?",
+    "options": [
+      "pickle.convert()",
+      "pickle.dumps()",
+      "pickle.binary()",
+      "pickle.encode()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which Pickle method converts binary data back to a Python object?",
+    "options": [
+      "pickle.convert()",
+      "pickle.loads()",
+      "pickle.decode()",
+      "pickle.restore()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What type of data does JSON produce?",
+    "options": [
+      "Binary",
+      "Text-based",
+      "Encrypted",
+      "Compressed"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What type of data does Pickle produce?",
+    "options": [
+      "Text-based",
+      "Binary",
+      "JSON",
+      "CSV"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which parsing technique is cross-platform and human-readable?",
+    "options": [
+      "Pickle",
+      "JSON",
+      "Binary",
+      "CSV"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which parsing technique is Python-specific?",
+    "options": [
+      "JSON",
+      "Pickle",
+      "CSV",
+      "XML"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which file mode must be used when writing Pickle data?",
+    "options": [
+      "w",
+      "wb",
+      "a",
+      "r"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which file mode must be used when reading Pickle data?",
+    "options": [
+      "r",
+      "rb",
+      "w",
+      "a"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'w+' mode allow?",
+    "options": [
+      "Write only",
+      "Write and read",
+      "Read only",
+      "Append only"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'a+' mode allow?",
+    "options": [
+      "Append only",
+      "Append and read",
+      "Write only",
+      "Read only"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In 'a+' mode, where can you write data?",
+    "options": [
+      "Anywhere in the file",
+      "Only at the beginning",
+      "Only at the end",
+      "Cannot write in this mode"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "In 'a+' mode, where can you read data from?",
+    "options": [
+      "Only from the end",
+      "Only from the beginning",
+      "Anywhere in the file",
+      "Cannot read in this mode"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What happens to existing content when you open a file in write mode?",
+    "options": [
+      "Content is preserved",
+      "Content is appended",
+      "Content is overwritten/cleared",
+      "An error is raised"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What happens to existing content when you open a file in append mode?",
+    "options": [
+      "Content is overwritten",
+      "Content is preserved",
+      "Content is deleted",
+      "An error is raised"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Where does writing start in write mode?",
+    "options": [
+      "At the end of file",
+      "At the beginning of file",
+      "In the middle",
+      "Random position"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Where does writing start in append mode?",
+    "options": [
+      "At the beginning of file",
+      "In the middle",
+      "At the end of file",
+      "Random position"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which statement about file modes is correct?",
+    "options": [
+      "Both 'w' and 'a' preserve existing content",
+      "'w' overwrites, 'a' preserves existing content",
+      "'a' overwrites, 'w' preserves existing content",
+      "Both 'w' and 'a' overwrite existing content"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does the eval() function do when used with CSV data?",
+    "options": [
+      "Evaluates and converts string to appropriate data type",
+      "Deletes the data",
+      "Encrypts the data",
+      "Compresses the data"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "In CSV operations, what does reader return?",
+    "options": [
+      "A string",
+      "An iterator of rows",
+      "A dictionary",
+      "A tuple"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How do you convert a CSV reader to a list?",
+    "options": [
+      "reader.to_list()",
+      "list(reader)",
+      "reader.list()",
+      "convert(reader)"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the purpose of filtering [i for i in reader if i != []]?",
+    "options": [
+      "To remove duplicate rows",
+      "To remove empty rows",
+      "To sort rows",
+      "To count rows"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In the code: with open('file.txt', 'w') as f:, what does 'f' represent?",
+    "options": [
+      "File name",
+      "File object",
+      "File mode",
+      "File path"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you read from a file opened in 'w' mode?",
+    "options": [
+      "Yes",
+      "No",
+      "Only after writing",
+      "Only before writing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you write to a file opened in 'r' mode?",
+    "options": [
+      "Yes",
+      "No",
+      "Only after reading",
+      "Only before reading"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does json.dump() do (note: not dumps())?",
+    "options": [
+      "Converts Python object to JSON string",
+      "Writes JSON directly to a file",
+      "Reads JSON from file",
+      "Deletes JSON file"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does json.load() do (note: not loads())?",
+    "options": [
+      "Converts JSON string to Python object",
+      "Reads JSON directly from a file",
+      "Writes JSON to file",
+      "Creates JSON file"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the difference between json.dumps() and json.dump()?",
+    "options": [
+      "No difference",
+      "dumps() returns string, dump() writes to file",
+      "dump() returns string, dumps() writes to file",
+      "Both write to file"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the difference between json.loads() and json.load()?",
+    "options": [
+      "No difference",
+      "loads() parses string, load() reads from file",
+      "load() parses string, loads() reads from file",
+      "Both read from file"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which mode would you use to add new data without losing existing data?",
+    "options": [
+      "w",
+      "r",
+      "a",
+      "x"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which mode would you use to completely replace file contents?",
+    "options": [
+      "a",
+      "w",
+      "r",
+      "x"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What must exist before opening a file in 'r' mode?",
+    "options": [
+      "Nothing",
+      "The file must already exist",
+      "The directory must exist",
+      "Write permission"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What happens if you try to open a non-existent file in 'r' mode?",
+    "options": [
+      "Creates the file",
+      "Returns None",
+      "Raises FileNotFoundError",
+      "Opens an empty file"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "In the path r'C:\\Users\\file.txt', what does the 'r' before the string indicate?",
+    "options": [
+      "Read mode",
+      "Raw string (treats backslashes literally)",
+      "Relative path",
+      "Root directory"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does content.split() do when reading a text file?",
+    "options": [
+      "Splits file into lines",
+      "Splits content into words (by whitespace)",
+      "Splits into characters",
+      "Splits into sentences"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How would you count the number of words in a text file?",
+    "options": [
+      "len(file.read())",
+      "len(file.read().split())",
+      "file.count_words()",
+      "file.word_count()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does words.count(word) return?",
+    "options": [
+      "Position of the word",
+      "Length of the word",
+      "Frequency/occurrence of the word in the list",
+      "Index of the word"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "In CSV, how is each field in a row separated?",
+    "options": [
+      "By spaces",
+      "By commas",
+      "By semicolons",
+      "By tabs"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "When filtering CSV data, what does i[0] typically represent?",
+    "options": [
+      "File name",
+      "First field/column of the row",
+      "Row number",
+      "File path"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "When filtering CSV data, what does i[1] typically represent?",
+    "options": [
+      "First field",
+      "Second field/column of the row",
+      "Last field",
+      "Row count"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "To check if a name starts with a vowel in CSV, which expression is correct?",
+    "options": [
+      "i[0] in 'aeiou'",
+      "i[0][0] in 'aeiou'",
+      "i in 'aeiou'",
+      "i[0].startswith('aeiou')"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the purpose of import csv?",
+    "options": [
+      "To create CSV files",
+      "To import the CSV module for CSV operations",
+      "To read all CSV files",
+      "To convert files to CSV"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the purpose of import json?",
+    "options": [
+      "To create JSON files",
+      "To import the JSON module for JSON operations",
+      "To read all JSON files",
+      "To convert files to JSON"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the purpose of import pickle?",
+    "options": [
+      "To create pickle files",
+      "To import the Pickle module for serialization operations",
+      "To read all pickle files",
+      "To compress files"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which is more efficient for complex Python objects?",
+    "options": [
+      "JSON",
+      "Pickle",
+      "CSV",
+      "Text files"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which format is better for sharing data between different programming languages?",
+    "options": [
+      "Pickle",
+      "JSON",
+      "Binary",
+      "Python-specific formats"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What happens when you use writelines() with strings that don't have newline characters?",
+    "options": [
+      "Error is raised",
+      "Strings are written on same line concatenated",
+      "Automatic newlines are added",
+      "Nothing is written"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "To write each string on a new line with writelines(), what should you include?",
+    "options": [
+      "\\t",
+      "\\n",
+      "\\r",
+      "\\s"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does \\n represent in file operations?",
+    "options": [
+      "New file",
+      "Newline character",
+      "Null character",
+      "Number"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In append mode, if you don't include \\n at the start, what happens?",
+    "options": [
+      "Error occurs",
+      "New content continues on same line as last line",
+      "Automatic newline is added",
+      "Nothing is written"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the advantage of using context manager (with statement)?",
+    "options": [
+      "Faster execution",
+      "Automatic resource management and file closing",
+      "Better error messages",
+      "Smaller file size"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you open multiple files in a single with statement?",
+    "options": [
+      "No, only one file allowed",
+      "Yes, using comma separation",
+      "Yes, but only for reading",
+      "Yes, but only for writing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is serialization in the context of Pickle?",
+    "options": [
+      "Reading files sequentially",
+      "Converting Python objects to byte stream",
+      "Sorting data",
+      "Creating serial numbers"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is deserialization in the context of Pickle?",
+    "options": [
+      "Deleting data",
+      "Converting byte stream back to Python objects",
+      "Organizing data",
+      "Compressing data"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which method would you use to check if a file is closed?",
+    "options": [
+      "file.is_closed()",
+      "file.closed",
+      "file.check_closed()",
+      "file.status()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What type does file.closed return?",
+    "options": [
+      "String",
+      "Boolean",
+      "Integer",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "After using 'with' statement, what is the value of file.closed?",
+    "options": [
+      "False",
+      "True",
+      "None",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the main advantage of 'rb+' mode over 'rb' mode?",
+    "options": [
+      "Faster reading",
+      "Can both read and write",
+      "Smaller file size",
+      "Better security"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the main advantage of 'wb+' mode over 'wb' mode?",
+    "options": [
+      "Faster writing",
+      "Can both write and read",
+      "Smaller file size",
+      "Better compression"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In file operations, what does the '+' in modes like 'r+', 'w+', 'a+' indicate?",
+    "options": [
+      "Append mode",
+      "Both read and write capability",
+      "Create new file",
+      "Binary mode"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which parsing technique would you use to save a Python dictionary to a file and read it back later in the same Python program?",
+    "options": [
+      "JSON only",
+      "Either JSON or Pickle",
+      "CSV only",
+      "Text file only"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which parsing technique would you use if you need to share data with a JavaScript application?",
+    "options": [
+      "Pickle",
+      "JSON",
+      "Binary",
+      "Python-specific format"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the file extension typically used for JSON files?",
+    "options": [
+      ".txt",
+      ".json",
+      ".js",
+      ".data"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the file extension typically used for Pickle files?",
+    "options": [
+      ".txt",
+      ".pkl or .pickle",
+      ".bin",
+      ".data"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you edit a Pickle file directly in a text editor?",
+    "options": [
+      "Yes, it's text-based",
+      "No, it's binary format",
+      "Yes, but not recommended",
+      "Only with special editors"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you edit a JSON file directly in a text editor?",
+    "options": [
+      "No, it's binary",
+      "Yes, it's human-readable text",
+      "Only with special tools",
+      "Never"
+    ],
+    "correct": 1
+  }
+]
