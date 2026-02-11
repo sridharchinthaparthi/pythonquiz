@@ -1,0 +1,1722 @@
+[
+  {
+    "question": "What type of programming language is Python?",
+    "options": [
+      "Low-level language",
+      "Mid-level language",
+      "High-level language",
+      "Machine language"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Python is a ________ typed language.",
+    "options": [
+      "Statically",
+      "Dynamically",
+      "Weakly",
+      "Strongly"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following is NOT a feature of Python?",
+    "options": [
+      "Easy to learn",
+      "Platform independent",
+      "Compiled language",
+      "Open source"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which architecture does Python follow?",
+    "options": [
+      "WORA",
+      "WORE",
+      "WOMA",
+      "WOME"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which function is used to check the datatype of a variable?",
+    "options": [
+      "id()",
+      "type()",
+      "bool()",
+      "len()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function returns the memory address of a variable?",
+    "options": [
+      "type()",
+      "id()",
+      "bool()",
+      "address()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does bool() function return for default values?",
+    "options": [
+      "True",
+      "False",
+      "0",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following is a valid identifier?",
+    "options": [
+      "2var",
+      "var_2",
+      "var-2",
+      "for"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can an identifier start with a number?",
+    "options": [
+      "Yes",
+      "No",
+      "Only in Python 3",
+      "Only special numbers"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which special character is allowed in identifiers?",
+    "options": [
+      "@",
+      "#",
+      "_",
+      "$"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is the internal value of True in Python?",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the internal value of False in Python?",
+    "options": [
+      "1",
+      "0",
+      "-1",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the default value of string datatype?",
+    "options": [
+      "None",
+      "''",
+      "' '",
+      "0"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following is used to create multi-line strings?",
+    "options": [
+      "Single quotes",
+      "Double quotes",
+      "Triple quotes",
+      "Backticks"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Are strings mutable in Python?",
+    "options": [
+      "Yes",
+      "No",
+      "Only in Python 2",
+      "Depends on the string"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Are lists mutable in Python?",
+    "options": [
+      "Yes",
+      "No",
+      "Only nested lists",
+      "Depends on elements"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Are tuples mutable in Python?",
+    "options": [
+      "Yes",
+      "No",
+      "Only with single element",
+      "Depends on elements"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Do sets allow duplicate values?",
+    "options": [
+      "Yes",
+      "No",
+      "Only strings",
+      "Only numbers"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can sets be indexed?",
+    "options": [
+      "Yes",
+      "No",
+      "Only positive indexing",
+      "Only negative indexing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In a dictionary, keys must be:",
+    "options": [
+      "Mutable",
+      "Immutable",
+      "Numeric",
+      "Strings only"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can dictionary keys be duplicated?",
+    "options": [
+      "Yes, all duplicates are kept",
+      "No, latest value overwrites",
+      "Only for string keys",
+      "Only for numeric keys"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In Python, positive indexing starts from:",
+    "options": [
+      "1",
+      "0",
+      "-1",
+      "2"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In Python, negative indexing starts from:",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "-2"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is slicing in Python?",
+    "options": [
+      "Deleting elements",
+      "Adding elements",
+      "Extracting part of collection",
+      "Sorting elements"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "In slicing [SI:EI:UP], what does EI represent?",
+    "options": [
+      "Ending Index (included)",
+      "Ending Index (excluded)",
+      "Extra Index",
+      "Error Index"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does [::-1] do to a string?",
+    "options": [
+      "Makes it uppercase",
+      "Reverses it",
+      "Duplicates it",
+      "Deletes it"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does [::2] extract from a collection?",
+    "options": [
+      "All elements",
+      "Even index positions",
+      "Odd index positions",
+      "Every third element"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is type casting?",
+    "options": [
+      "Deleting variables",
+      "Converting datatypes",
+      "Creating variables",
+      "Copying variables"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What happens when float is converted to int?",
+    "options": [
+      "Rounds up",
+      "Decimal part removed",
+      "Error occurs",
+      "Rounds to nearest"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does bool([]) return?",
+    "options": [
+      "True",
+      "False",
+      "Error",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does bool([1,2,3]) return?",
+    "options": [
+      "True",
+      "False",
+      "Error",
+      "None"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does bool(0) return?",
+    "options": [
+      "True",
+      "False",
+      "0",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does bool(1) return?",
+    "options": [
+      "True",
+      "False",
+      "1",
+      "Error"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does 5 / 2 return?",
+    "options": [
+      "2",
+      "2.5",
+      "3",
+      "2.0"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 5 // 2 return?",
+    "options": [
+      "2.5",
+      "2",
+      "3",
+      "2.0"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 5 % 2 return?",
+    "options": [
+      "2",
+      "1",
+      "0",
+      "2.5"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 2 ** 3 return?",
+    "options": [
+      "6",
+      "8",
+      "9",
+      "5"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What do relational operators return?",
+    "options": [
+      "Numbers",
+      "Strings",
+      "Boolean values",
+      "Lists"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does '10' == 10 return?",
+    "options": [
+      "True",
+      "False",
+      "Error",
+      "10"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function returns the ASCII value of a character?",
+    "options": [
+      "chr()",
+      "ord()",
+      "ascii()",
+      "value()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function returns the character for an ASCII value?",
+    "options": [
+      "ord()",
+      "chr()",
+      "char()",
+      "ascii()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can complex numbers be compared using > operator?",
+    "options": [
+      "Yes",
+      "No",
+      "Only real parts",
+      "Only imaginary parts"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 10 and 20 return?",
+    "options": [
+      "10",
+      "20",
+      "True",
+      "False"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 10 or 20 return?",
+    "options": [
+      "20",
+      "10",
+      "True",
+      "False"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does not True return?",
+    "options": [
+      "True",
+      "False",
+      "Error",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 3 in [1,2,3] return?",
+    "options": [
+      "False",
+      "True",
+      "3",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does the 'is' operator check?",
+    "options": [
+      "Value equality",
+      "Memory location",
+      "Data type",
+      "Length"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "If a=10 and b=a, what does a is b return?",
+    "options": [
+      "False",
+      "True",
+      "Error",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In while loop, what happens if condition is always True?",
+    "options": [
+      "Loop runs once",
+      "Infinite loop",
+      "Error",
+      "Loop doesn't run"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does continue statement do?",
+    "options": [
+      "Exits loop",
+      "Skips current iteration",
+      "Restarts loop",
+      "Does nothing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does break statement do?",
+    "options": [
+      "Skips iteration",
+      "Exits loop completely",
+      "Does nothing",
+      "Restarts loop"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does pass statement do?",
+    "options": [
+      "Exits loop",
+      "Skips iteration",
+      "Nothing",
+      "Breaks loop"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does range(5) generate?",
+    "options": [
+      "1,2,3,4,5",
+      "0,1,2,3,4",
+      "1,2,3,4",
+      "0,1,2,3,4,5"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does range(1, 10, 2) generate?",
+    "options": [
+      "1,3,5,7,9",
+      "2,4,6,8,10",
+      "1,2,3,4,5",
+      "1,3,5,7"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What keyword is used to define a function in Python?",
+    "options": [
+      "function",
+      "def",
+      "func",
+      "define"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Where are global variables declared?",
+    "options": [
+      "Inside functions",
+      "Outside all functions",
+      "In the main() function",
+      "Anywhere"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What happens to local variables after function execution?",
+    "options": [
+      "They become global",
+      "They are destroyed",
+      "They remain in memory",
+      "They are converted to None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What keyword allows you to modify a global variable inside a function?",
+    "options": [
+      "global",
+      "nonlocal",
+      "extern",
+      "public"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does *args pack values into?",
+    "options": [
+      "A list",
+      "A tuple",
+      "A dictionary",
+      "A set"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does **kwargs pack values into?",
+    "options": [
+      "A list",
+      "A tuple",
+      "A dictionary",
+      "A set"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is recursion?",
+    "options": [
+      "A loop",
+      "A function calling itself",
+      "A function calling another function",
+      "Multiple functions"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the base case in recursion?",
+    "options": [
+      "The first function call",
+      "The termination condition",
+      "The recursive call",
+      "The return statement"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What happens without a base case in recursion?",
+    "options": [
+      "The function runs once",
+      "Syntax error",
+      "Infinite recursion",
+      "Nothing happens"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which method adds an element to the end of a list?",
+    "options": [
+      "add()",
+      "insert()",
+      "append()",
+      "extend()"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does list.pop() return?",
+    "options": [
+      "The first element",
+      "The last element",
+      "Nothing",
+      "The entire list"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does remove() method do in lists?",
+    "options": [
+      "Removes last element",
+      "Removes first occurrence of value",
+      "Removes all occurrences",
+      "Removes by index"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does [30, 10, 20].sort() return?",
+    "options": [
+      "[10, 20, 30]",
+      "[30, 20, 10]",
+      "None",
+      "[30, 10, 20]"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is the difference between append() and extend()?",
+    "options": [
+      "No difference",
+      "append() adds single element, extend() adds multiple",
+      "extend() adds single element, append() adds multiple",
+      "append() is faster"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How do you create a tuple with a single element?",
+    "options": [
+      "(10)",
+      "[10]",
+      "(10,)",
+      "{10}"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "How many methods do tuples have?",
+    "options": [
+      "0",
+      "2",
+      "5",
+      "10"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can a tuple be modified if it contains a list?",
+    "options": [
+      "No, tuples are immutable",
+      "Yes, the list inside can be modified",
+      "Only in Python 3",
+      "Only if tuple has one element"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the difference between set.remove() and set.discard()?",
+    "options": [
+      "No difference",
+      "remove() raises error if element not found, discard() doesn't",
+      "discard() raises error if element not found, remove() doesn't",
+      "remove() is faster"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can a set contain a list as an element?",
+    "options": [
+      "Yes",
+      "No",
+      "Only empty lists",
+      "Only with one element"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does set.pop() remove?",
+    "options": [
+      "Last element",
+      "First element when displayed",
+      "Random element",
+      "Largest element"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which method returns all keys from a dictionary?",
+    "options": [
+      "getkeys()",
+      "keys()",
+      "allkeys()",
+      "keylist()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which method returns all values from a dictionary?",
+    "options": [
+      "getvalues()",
+      "values()",
+      "allvalues()",
+      "valuelist()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does the items() method return?",
+    "options": [
+      "Only keys",
+      "Only values",
+      "Key-value pairs",
+      "Dictionary length"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Can lists be used as dictionary keys?",
+    "options": [
+      "Yes",
+      "No, keys must be immutable",
+      "Only empty lists",
+      "Only in Python 3"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the difference between index() and find() for strings?",
+    "options": [
+      "No difference",
+      "index() raises error if not found, find() returns -1",
+      "find() raises error if not found, index() returns -1",
+      "index() is faster"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does '  Python  '.strip() return?",
+    "options": [
+      "'  Python  '",
+      "'Python  '",
+      "'  Python'",
+      "'Python'"
+    ],
+    "correct": 3
+  },
+  {
+    "question": "What does ' '.join(['a', 'b', 'c']) return?",
+    "options": [
+      "'abc'",
+      "'a b c'",
+      "'a-b-c'",
+      "['a', 'b', 'c']"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'Python'.split() return?",
+    "options": [
+      "['P', 'y', 't', 'h', 'o', 'n']",
+      "['Python']",
+      "Error",
+      "'Python'"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is general copy also known as?",
+    "options": [
+      "Deep copy",
+      "Shallow copy",
+      "Reference copy",
+      "Value copy"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "In general copy, both variables point to:",
+    "options": [
+      "Different memory",
+      "Same memory",
+      "New memory",
+      "No memory"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How is shallow copy performed?",
+    "options": [
+      "b = a",
+      "b = a.copy()",
+      "b = copy.deepcopy(a)",
+      "b = copy(a)"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the limitation of shallow copy?",
+    "options": [
+      "Doesn't work on lists",
+      "Nested objects still share reference",
+      "Creates too many copies",
+      "Takes too much memory"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How is deep copy performed?",
+    "options": [
+      "b = a",
+      "b = a.copy()",
+      "import copy; b = copy.deepcopy(a)",
+      "b = deepcopy(a)"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Deep copy creates:",
+    "options": [
+      "Reference only",
+      "Shallow copy only",
+      "Completely independent copy",
+      "Partial copy"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which copy is safest for nested structures?",
+    "options": [
+      "General copy",
+      "Shallow copy",
+      "Deep copy",
+      "All are same"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does [:] do to a list?",
+    "options": [
+      "Deletes list",
+      "Creates shallow copy",
+      "Reverses list",
+      "Sorts list"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is a module in Python?",
+    "options": [
+      "A folder containing files",
+      "A single Python file (.py) containing Python code",
+      "A database",
+      "A function"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is a package in Python?",
+    "options": [
+      "A single Python file",
+      "A folder/directory containing multiple Python modules",
+      "A function",
+      "A class"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What file must be present in a folder to make it a package?",
+    "options": [
+      "main.py",
+      "__init__.py",
+      "package.py",
+      "setup.py"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How do you import a module with an alias?",
+    "options": [
+      "import module alias name",
+      "import module as alias",
+      "from module use alias",
+      "module = alias"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Is 'from module import *' recommended?",
+    "options": [
+      "Yes, always use it",
+      "No, it's not recommended as it can cause naming conflicts",
+      "Only for small modules",
+      "Only for built-in modules"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does if __name__ == '__main__': do?",
+    "options": [
+      "Always executes",
+      "Executes only when file is run directly (not imported)",
+      "Never executes",
+      "Creates a main function"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What are states in Object-Oriented Programming?",
+    "options": [
+      "Methods in a class",
+      "Properties or functionalities stored inside a class",
+      "Objects created from a class",
+      "Functions outside a class"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is a Generic State?",
+    "options": [
+      "Properties unique to each object",
+      "Properties common for all objects of a class",
+      "Methods in a class",
+      "Variables outside a class"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the __init__ method used for?",
+    "options": [
+      "To delete objects",
+      "To initialize object attributes",
+      "To print output",
+      "To create classes"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Is the self parameter mandatory in __init__?",
+    "options": [
+      "No",
+      "Yes",
+      "Only for class methods",
+      "Only for static methods"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "When is __init__ called?",
+    "options": [
+      "Manually by the programmer",
+      "Automatically when an object is created",
+      "When the program ends",
+      "Never called automatically"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does self represent in a method?",
+    "options": [
+      "The class name",
+      "The current instance of the object",
+      "The parent class",
+      "A static variable"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is another name for Object Method?",
+    "options": [
+      "Static method",
+      "Class method",
+      "Instance method",
+      "Abstract method"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is the first parameter of an instance method?",
+    "options": [
+      "cls",
+      "self",
+      "this",
+      "object"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What decorator is used for class methods?",
+    "options": [
+      "@staticmethod",
+      "@classmethod",
+      "@property",
+      "@abstractmethod"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the first parameter of a class method?",
+    "options": [
+      "self",
+      "cls",
+      "class",
+      "this"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does cls represent in a class method?",
+    "options": [
+      "The object instance",
+      "The class itself",
+      "The parent class",
+      "A variable"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is inheritance?",
+    "options": [
+      "Creating new objects",
+      "Deriving properties from one class to another",
+      "Deleting classes",
+      "Hiding data"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the class from which we inherit properties called?",
+    "options": [
+      "Child class",
+      "Derived class",
+      "Parent class",
+      "Sub class"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "How many types of inheritance are there?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is Multiple Inheritance?",
+    "options": [
+      "One parent to one child",
+      "Multiple parents to a single child",
+      "One parent to multiple children",
+      "Chain of inheritance"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is Hybrid Inheritance?",
+    "options": [
+      "Only single inheritance",
+      "Combination of more than one type of inheritance",
+      "Only multiple inheritance",
+      "No inheritance"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is super() used for?",
+    "options": [
+      "To delete parent class",
+      "To call parent class methods/constructor",
+      "To create new objects",
+      "To hide data"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "In multiple inheritance, if both parents have same method, which is called?",
+    "options": [
+      "Both are called",
+      "The first parent in the list (MRO - Method Resolution Order)",
+      "The last parent",
+      "Error occurs"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does MRO stand for?",
+    "options": [
+      "Method Return Order",
+      "Method Resolution Order",
+      "Multiple Return Object",
+      "Method Reference Order"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is polymorphism?",
+    "options": [
+      "Hiding data",
+      "Making an operator/method perform multiple functionalities",
+      "Creating objects",
+      "Deleting classes"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Does Python support method overloading directly?",
+    "options": [
+      "Yes, fully supported",
+      "No, last method definition is used",
+      "Only for static methods",
+      "Only for class methods"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is monkey patching?",
+    "options": [
+      "Deleting methods",
+      "Storing method addresses in variables to preserve multiple definitions",
+      "Creating objects",
+      "Hiding data"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is operator overloading?",
+    "options": [
+      "Deleting operators",
+      "Making operators perform different functionalities using magic methods",
+      "Creating new operators",
+      "Hiding operators"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What magic method is used to overload the + operator?",
+    "options": [
+      "__plus__()",
+      "__add__()",
+      "__sum__()",
+      "__addition__()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is encapsulation?",
+    "options": [
+      "Creating objects",
+      "Providing security to data by restricting access",
+      "Deleting data",
+      "Sharing data"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the syntax for private members?",
+    "options": [
+      "_variable",
+      "__variable",
+      "variable",
+      "private_variable"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can private members be accessed directly outside the class?",
+    "options": [
+      "Yes, freely",
+      "No, cannot be accessed directly",
+      "Only in child classes",
+      "Only through class methods"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is name mangling in Python?",
+    "options": [
+      "Deleting names",
+      "Python changes private names to _ClassName__membername",
+      "Creating new names",
+      "Hiding names"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What are getter methods used for?",
+    "options": [
+      "To set values",
+      "To retrieve/access private variables",
+      "To delete variables",
+      "To hide variables"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What are setter methods used for?",
+    "options": [
+      "To retrieve values",
+      "To delete values",
+      "To modify/set private variables",
+      "To hide values"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What decorator is used to create a getter using property?",
+    "options": [
+      "@getter",
+      "@property",
+      "@get",
+      "@access"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is abstraction?",
+    "options": [
+      "Showing all implementation details",
+      "Hiding implementation details while providing functionality",
+      "Creating objects",
+      "Deleting classes"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is an abstract method?",
+    "options": [
+      "A method with implementation",
+      "A method with declaration but no implementation",
+      "A static method",
+      "A class method"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What module is used to create abstract classes in Python?",
+    "options": [
+      "abstract",
+      "abc",
+      "abstraction",
+      "base"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you create an object of an abstract class?",
+    "options": [
+      "Yes, always",
+      "No, cannot instantiate abstract class",
+      "Only if it has concrete methods",
+      "Only if it has __init__"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the main purpose of a lambda function in Python?",
+    "options": [
+      "To create large programs",
+      "To define anonymous functions",
+      "To replace classes",
+      "To handle exceptions"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How many expressions can a lambda function contain?",
+    "options": [
+      "Only one",
+      "Two",
+      "Multiple",
+      "Unlimited"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which function applies an operation to every element in an iterable?",
+    "options": [
+      "filter",
+      "reduce",
+      "map",
+      "apply"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which function removes unwanted elements from a collection?",
+    "options": [
+      "map",
+      "filter",
+      "reduce",
+      "lambda"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which module contains the reduce() function?",
+    "options": [
+      "math",
+      "itertools",
+      "functools",
+      "operator"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does reduce() return?",
+    "options": [
+      "A list",
+      "A tuple",
+      "A single value",
+      "A dictionary"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is the definition of comprehension in Python?",
+    "options": [
+      "A method to compress data",
+      "Creating a new collection using fewer lines of code",
+      "A type of error handling",
+      "A debugging technique"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What will be the output of: [i for i in range(1, 6)]?",
+    "options": [
+      "[0, 1, 2, 3, 4, 5]",
+      "[1, 2, 3, 4, 5]",
+      "[1, 2, 3, 4, 5, 6]",
+      "[0, 1, 2, 3, 4]"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the main advantage of set comprehension over list comprehension?",
+    "options": [
+      "Faster execution",
+      "Automatically removes duplicates",
+      "Uses less memory",
+      "Supports more operations"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What function is commonly used with dictionary comprehension to combine two lists?",
+    "options": [
+      "map()",
+      "zip()",
+      "combine()",
+      "merge()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does the zip() function return?",
+    "options": [
+      "A list",
+      "A tuple",
+      "A zip object",
+      "A dictionary"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is a decorator in Python?",
+    "options": [
+      "A function that modifies another function's core logic",
+      "A function that adds functionalities to an existing function without modifying its core logic",
+      "A class that decorates objects",
+      "A built-in Python module"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which symbol is used to apply a decorator to a function?",
+    "options": [
+      "#",
+      "$",
+      "@",
+      "&"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What keyword is used to create generators in Python?",
+    "options": [
+      "return",
+      "yield",
+      "generate",
+      "create"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the main advantage of generators over lists?",
+    "options": [
+      "Faster execution",
+      "Memory efficiency",
+      "Easier syntax",
+      "Better readability"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How many times can you iterate over a generator?",
+    "options": [
+      "Unlimited times",
+      "Twice",
+      "Once, then it's exhausted",
+      "Depends on the size"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is an iterator in Python?",
+    "options": [
+      "A function that creates loops",
+      "A process of traversing through each value in a collection",
+      "A type of data structure",
+      "A built-in module"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function is used to create an iterator object from a collection?",
+    "options": [
+      "iterator()",
+      "iter()",
+      "next()",
+      "create_iter()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What exception is raised when an iterator has no more items?",
+    "options": [
+      "EndOfIterator",
+      "NoMoreItems",
+      "StopIteration",
+      "IteratorError"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is an exception in Python?",
+    "options": [
+      "A syntax error in code",
+      "An unexpected event that occurs during program execution",
+      "A warning message",
+      "A comment in code"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Are syntax errors considered exceptions?",
+    "options": [
+      "Yes, they are exceptions",
+      "No, syntax errors prevent program from running at all",
+      "Sometimes",
+      "Only in Python 3"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which block contains code that might raise an exception?",
+    "options": [
+      "except",
+      "try",
+      "finally",
+      "else"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "When does the else block execute in exception handling?",
+    "options": [
+      "Always",
+      "When an exception occurs",
+      "Only when NO exception occurs in try block",
+      "Never"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "When does the finally block execute?",
+    "options": [
+      "Only when exception occurs",
+      "Only when no exception occurs",
+      "ALWAYS runs (success or failure)",
+      "Only when specified"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which exception is raised when dividing by zero?",
+    "options": [
+      "ValueError",
+      "ZeroDivisionError",
+      "ArithmeticError",
+      "DivisionError"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which exception is raised when converting invalid data like int('abc')?",
+    "options": [
+      "TypeError",
+      "ValueError",
+      "ConversionError",
+      "InputError"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which exception is raised when accessing invalid list index like [1,2,3][5]?",
+    "options": [
+      "ValueError",
+      "KeyError",
+      "IndexError",
+      "RangeError"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which exception is raised when accessing invalid dictionary key?",
+    "options": [
+      "IndexError",
+      "KeyError",
+      "ValueError",
+      "AttributeError"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Does bare exception handling (except:) catch KeyboardInterrupt?",
+    "options": [
+      "No",
+      "Yes, it catches everything including KeyboardInterrupt",
+      "Sometimes",
+      "Never"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is SQLite?",
+    "options": [
+      "A heavy database server",
+      "A lightweight, file-based database",
+      "A programming language",
+      "A web framework"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function establishes a connection to a database?",
+    "options": [
+      "open()",
+      "connect()",
+      "create()",
+      "establish()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function executes SQL queries?",
+    "options": [
+      "run()",
+      "execute()",
+      "query()",
+      "sql()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function saves changes to database permanently?",
+    "options": [
+      "save()",
+      "commit()",
+      "write()",
+      "update()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does PRIMARY KEY constraint do?",
+    "options": [
+      "Allows duplicate values",
+      "Uniquely identifies each record in a table",
+      "Allows null values",
+      "Nothing special"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does NOT NULL constraint do?",
+    "options": [
+      "Allows null values",
+      "Ensures column cannot have null values",
+      "Allows duplicate values",
+      "Nothing special"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does fetchall() do?",
+    "options": [
+      "Fetches one record",
+      "Fetches all records as a list of tuples",
+      "Fetches column names",
+      "Deletes all records"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is SQL injection?",
+    "options": [
+      "A database feature",
+      "A security vulnerability where malicious SQL code is inserted",
+      "A query optimization technique",
+      "A database backup method"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "How do you prevent SQL injection?",
+    "options": [
+      "Use string concatenation",
+      "Use parameterized queries with placeholders (?)",
+      "Use bare SQL strings",
+      "Disable security"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is CRUD in database operations?",
+    "options": [
+      "A database type",
+      "Create, Read, Update, Delete operations",
+      "A SQL command",
+      "A Python module"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does SELECT * mean in SQL?",
+    "options": [
+      "Select nothing",
+      "Select all columns",
+      "Select all rows",
+      "Delete all data"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does LIKE operator do in SQL?",
+    "options": [
+      "Exact matching",
+      "Pattern matching in strings",
+      "Numeric comparison",
+      "Boolean comparison"
+    ],
+    "correct": 1
+  }
+]
