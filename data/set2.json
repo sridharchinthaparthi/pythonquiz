@@ -1,0 +1,962 @@
+[
+  {
+    "question": "What is the file extension for Python files?",
+    "options": [
+      ".python",
+      ".py",
+      ".pt",
+      ".pyt"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which keyword is used to define a class in Python?",
+    "options": [
+      "def",
+      "class",
+      "object",
+      "struct"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the output of print(type([]))?",
+    "options": [
+      "<class 'tuple'>",
+      "<class 'list'>",
+      "<class 'dict'>",
+      "<class 'set'>"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which of the following is a mutable data type?",
+    "options": [
+      "String",
+      "Tuple",
+      "Dictionary",
+      "Integer"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does len() function return?",
+    "options": [
+      "Memory size",
+      "Number of elements",
+      "Data type",
+      "Memory address"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which operator is used for string concatenation?",
+    "options": [
+      "&",
+      "+",
+      "*",
+      "."
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the output of 'Python' * 2?",
+    "options": [
+      "Error",
+      "PythonPython",
+      "Python2",
+      "2Python"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which method converts a string to uppercase?",
+    "options": [
+      "toUpper()",
+      "upper()",
+      "uppercase()",
+      "UPPER()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does the lower() method do?",
+    "options": [
+      "Converts to lowercase",
+      "Converts to uppercase",
+      "Removes spaces",
+      "Reverses string"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the default separator in print() function?",
+    "options": [
+      "Comma",
+      "Space",
+      "Newline",
+      "Tab"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function reads input from user?",
+    "options": [
+      "read()",
+      "input()",
+      "get()",
+      "scan()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does input() function return?",
+    "options": [
+      "Integer",
+      "String",
+      "Float",
+      "Boolean"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the output of bool('')?",
+    "options": [
+      "True",
+      "False",
+      "Error",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the output of bool('False')?",
+    "options": [
+      "False",
+      "True",
+      "Error",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which collection is ordered and unchangeable?",
+    "options": [
+      "List",
+      "Set",
+      "Tuple",
+      "Dictionary"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which collection does not allow duplicate values?",
+    "options": [
+      "List",
+      "Tuple",
+      "Set",
+      "Dictionary values"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is the output of 10 == '10'?",
+    "options": [
+      "True",
+      "False",
+      "Error",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does the == operator check?",
+    "options": [
+      "Memory location",
+      "Value equality",
+      "Data type",
+      "Object identity"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the output of 5 != 5?",
+    "options": [
+      "True",
+      "False",
+      "Error",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does the += operator do?",
+    "options": [
+      "Subtracts and assigns",
+      "Adds and assigns",
+      "Multiplies and assigns",
+      "Divides and assigns"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the output of x = 5; x += 3; print(x)?",
+    "options": [
+      "5",
+      "3",
+      "8",
+      "15"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What does the -= operator do?",
+    "options": [
+      "Adds and assigns",
+      "Subtracts and assigns",
+      "Multiplies and assigns",
+      "Divides and assigns"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the output of 10 > 5 and 5 > 2?",
+    "options": [
+      "False",
+      "True",
+      "Error",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the output of 10 > 5 or 5 < 2?",
+    "options": [
+      "False",
+      "True",
+      "Error",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does the 'and' operator return if first value is 0?",
+    "options": [
+      "Second value",
+      "0",
+      "True",
+      "False"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does the 'or' operator return if first value is non-zero?",
+    "options": [
+      "Second value",
+      "First value",
+      "True",
+      "False"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the output of not False?",
+    "options": [
+      "False",
+      "True",
+      "Error",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does 'not in' operator check?",
+    "options": [
+      "Element presence",
+      "Element absence",
+      "Element value",
+      "Element type"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the output of 3 not in [1,2,3]?",
+    "options": [
+      "True",
+      "False",
+      "Error",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which statement is used for decision making?",
+    "options": [
+      "for",
+      "while",
+      "if",
+      "def"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is the purpose of elif?",
+    "options": [
+      "To end if block",
+      "To provide alternative condition",
+      "To loop",
+      "To define function"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you have multiple elif statements?",
+    "options": [
+      "No, only one",
+      "Yes, multiple allowed",
+      "Only two",
+      "Not allowed"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the purpose of else block?",
+    "options": [
+      "To provide default action",
+      "To check condition",
+      "To loop",
+      "To break"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which loop is entry-controlled?",
+    "options": [
+      "do-while",
+      "while",
+      "until",
+      "repeat"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which loop is best for iterating over a sequence?",
+    "options": [
+      "while",
+      "for",
+      "do-while",
+      "until"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does range(2, 10) generate?",
+    "options": [
+      "2,3,4,5,6,7,8,9,10",
+      "2,3,4,5,6,7,8,9",
+      "3,4,5,6,7,8,9,10",
+      "2,3,4,5,6,7,8"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the default step value in range()?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "-1"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can range() generate decreasing sequences?",
+    "options": [
+      "No",
+      "Yes, with negative step",
+      "Only in Python 2",
+      "Never"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does else block do with loops?",
+    "options": [
+      "Executes when loop breaks",
+      "Executes when loop completes normally without break",
+      "Always executes",
+      "Never executes"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Does else execute if loop is broken?",
+    "options": [
+      "Yes",
+      "No",
+      "Sometimes",
+      "Always"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is a nested loop?",
+    "options": [
+      "Loop inside another loop",
+      "Two loops side by side",
+      "Loop with break",
+      "Loop with continue"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does enumerate() function do?",
+    "options": [
+      "Counts elements",
+      "Returns index and value pairs",
+      "Sorts elements",
+      "Reverses elements"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the default start index in enumerate()?",
+    "options": [
+      "1",
+      "0",
+      "-1",
+      "2"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What keyword is used to return a value from function?",
+    "options": [
+      "return",
+      "give",
+      "send",
+      "output"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Can a function return multiple values?",
+    "options": [
+      "No",
+      "Yes, as tuple",
+      "Only two values",
+      "Never"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What happens if function has no return statement?",
+    "options": [
+      "Error",
+      "Returns None",
+      "Returns 0",
+      "Returns empty string"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What are default arguments in function?",
+    "options": [
+      "Arguments with no value",
+      "Arguments with predefined values",
+      "First arguments",
+      "Last arguments"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Where should default arguments be placed?",
+    "options": [
+      "At the beginning",
+      "At the end",
+      "Anywhere",
+      "In the middle"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What are keyword arguments?",
+    "options": [
+      "Arguments passed by position",
+      "Arguments passed by name",
+      "Default arguments",
+      "Variable arguments"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you change order of keyword arguments?",
+    "options": [
+      "No",
+      "Yes",
+      "Only sometimes",
+      "Never allowed"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does list.insert(index, value) do?",
+    "options": [
+      "Adds at end",
+      "Adds at specific index",
+      "Removes element",
+      "Sorts list"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does list.clear() do?",
+    "options": [
+      "Removes last element",
+      "Removes all elements",
+      "Sorts list",
+      "Reverses list"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does list.reverse() do?",
+    "options": [
+      "Sorts in descending order",
+      "Reverses the order of elements",
+      "Removes duplicates",
+      "Clears list"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does list.count(value) return?",
+    "options": [
+      "Total elements",
+      "Number of occurrences of value",
+      "Index of value",
+      "Length of list"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does list.index(value) return?",
+    "options": [
+      "Value at index",
+      "First index of value",
+      "Last index of value",
+      "All indices of value"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What happens if value not found in list.index()?",
+    "options": [
+      "Returns -1",
+      "Raises ValueError",
+      "Returns None",
+      "Returns 0"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the difference between remove() and pop()?",
+    "options": [
+      "No difference",
+      "remove() takes value, pop() takes index",
+      "remove() takes index, pop() takes value",
+      "Both take value"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Does pop() return the removed element?",
+    "options": [
+      "No",
+      "Yes",
+      "Sometimes",
+      "Never"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does sorted() function return?",
+    "options": [
+      "None",
+      "New sorted list",
+      "Same list sorted",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Does sorted() modify the original list?",
+    "options": [
+      "Yes",
+      "No",
+      "Sometimes",
+      "Always"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does list.sort() return?",
+    "options": [
+      "Sorted list",
+      "None",
+      "Original list",
+      "New list"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is list comprehension syntax?",
+    "options": [
+      "[expression loop]",
+      "[expression for item in iterable]",
+      "{expression for item}",
+      "(expression for item)"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can you add conditions in list comprehension?",
+    "options": [
+      "No",
+      "Yes, using if",
+      "Only in Python 3",
+      "Never"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does tuple.count(value) do?",
+    "options": [
+      "Returns total elements",
+      "Returns occurrences of value",
+      "Returns index",
+      "Returns length"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does tuple.index(value) do?",
+    "options": [
+      "Returns value",
+      "Returns first index of value",
+      "Returns all indices",
+      "Returns last index"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can tuples contain mutable objects?",
+    "options": [
+      "No",
+      "Yes, like lists",
+      "Only strings",
+      "Never"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is tuple packing?",
+    "options": [
+      "Creating tuple",
+      "Assigning multiple values to tuple",
+      "Deleting tuple",
+      "Sorting tuple"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is tuple unpacking?",
+    "options": [
+      "Creating tuple",
+      "Assigning tuple values to variables",
+      "Deleting tuple",
+      "Sorting tuple"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does set.add() do?",
+    "options": [
+      "Adds multiple elements",
+      "Adds single element",
+      "Removes element",
+      "Clears set"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does set.update() do?",
+    "options": [
+      "Adds single element",
+      "Adds multiple elements",
+      "Removes elements",
+      "Clears set"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does set.clear() do?",
+    "options": [
+      "Removes one element",
+      "Removes all elements",
+      "Adds elements",
+      "Sorts set"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does set.union() return?",
+    "options": [
+      "Common elements",
+      "All unique elements from both sets",
+      "Elements in first set only",
+      "Elements in second set only"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does set.intersection() return?",
+    "options": [
+      "All elements",
+      "Common elements from both sets",
+      "Unique elements",
+      "Empty set"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does set.difference() return?",
+    "options": [
+      "Common elements",
+      "Elements in first set but not in second",
+      "All elements",
+      "Empty set"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does dict.get(key) do if key not found?",
+    "options": [
+      "Raises error",
+      "Returns None",
+      "Returns empty string",
+      "Returns 0"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does dict.get(key, default) return if key not found?",
+    "options": [
+      "None",
+      "Default value",
+      "Error",
+      "Empty string"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does dict.pop(key) do?",
+    "options": [
+      "Returns value",
+      "Removes and returns value",
+      "Removes key only",
+      "Does nothing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does dict.update() do?",
+    "options": [
+      "Removes items",
+      "Adds/updates key-value pairs",
+      "Clears dictionary",
+      "Sorts dictionary"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does dict.setdefault(key, default) do?",
+    "options": [
+      "Removes key",
+      "Returns value if exists, sets and returns default if not",
+      "Always sets default",
+      "Clears dictionary"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does string.replace(old, new) do?",
+    "options": [
+      "Replaces first occurrence",
+      "Replaces all occurrences",
+      "Removes old",
+      "Adds new"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does string.startswith(prefix) return?",
+    "options": [
+      "String",
+      "Boolean",
+      "Integer",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does string.endswith(suffix) return?",
+    "options": [
+      "String",
+      "Boolean",
+      "Integer",
+      "None"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does string.isdigit() check?",
+    "options": [
+      "If string contains letters",
+      "If string contains only digits",
+      "If string is empty",
+      "If string is uppercase"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does string.isalpha() check?",
+    "options": [
+      "If string contains digits",
+      "If string contains only alphabets",
+      "If string is numeric",
+      "If string is empty"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does string.isalnum() check?",
+    "options": [
+      "Only digits",
+      "Only alphabets and digits",
+      "Only alphabets",
+      "Only special characters"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does string.islower() check?",
+    "options": [
+      "If first letter is lowercase",
+      "If all letters are lowercase",
+      "If string is empty",
+      "If string has spaces"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does string.isupper() check?",
+    "options": [
+      "If first letter is uppercase",
+      "If all letters are uppercase",
+      "If string is empty",
+      "If string has digits"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does string.capitalize() do?",
+    "options": [
+      "Makes all uppercase",
+      "Makes first character uppercase, rest lowercase",
+      "Makes all lowercase",
+      "Reverses case"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does string.title() do?",
+    "options": [
+      "Makes all uppercase",
+      "Makes first character of each word uppercase",
+      "Makes all lowercase",
+      "Does nothing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does string.swapcase() do?",
+    "options": [
+      "Makes all uppercase",
+      "Swaps uppercase to lowercase and vice versa",
+      "Makes all lowercase",
+      "Does nothing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does string.center(width) do?",
+    "options": [
+      "Removes spaces",
+      "Centers string with padding",
+      "Aligns left",
+      "Aligns right"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does string.zfill(width) do?",
+    "options": [
+      "Removes zeros",
+      "Pads string with zeros on left",
+      "Pads with spaces",
+      "Does nothing"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What module must be imported to use copy.deepcopy()?",
+    "options": [
+      "sys",
+      "copy",
+      "os",
+      "deepcopy"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the purpose of __init__.py file?",
+    "options": [
+      "To delete package",
+      "To mark directory as Python package",
+      "To run tests",
+      "To create modules"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Can __init__.py be empty?",
+    "options": [
+      "No, must have code",
+      "Yes, can be empty",
+      "Only in Python 2",
+      "Never allowed"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What is the purpose of __str__ method?",
+    "options": [
+      "To delete object",
+      "To provide string representation for print()",
+      "To create object",
+      "To hide data"
+    ],
+    "correct": 1
+  }
+]
