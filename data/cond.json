@@ -1,0 +1,974 @@
+[
+  {
+    "question": "What is the output?",
+    "code": "x = 5\ny = 2\nprint(x / y)",
+    "options": ["2", "2.5", "2.0", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "x = 5\ny = 2\nprint(x // y)",
+    "options": ["2.5", "2", "3", "2.0"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "x = 10\ny = 3\nprint(x % y)",
+    "options": ["3", "1", "0", "3.33"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "x = 2\ny = 3\nprint(x ** y)",
+    "options": ["6", "8", "9", "5"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "a = 10\nb = 20\nprint(a and b)",
+    "options": ["10", "20", "True", "False"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "a = 0\nb = 20\nprint(a or b)",
+    "options": ["0", "20", "True", "False"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "print(bool([]))",
+    "options": ["True", "False", "None", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "print(bool([1, 2, 3]))",
+    "options": ["False", "True", "None", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "x = 5\nif x > 3:\n    print('Yes')\nelse:\n    print('No')",
+    "options": ["Yes", "No", "Error", "None"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "x = 5\nprint('Even' if x % 2 == 0 else 'Odd')",
+    "options": ["Even", "Odd", "Error", "None"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "s = 'Python'\nprint(s[0])",
+    "options": ["P", "y", "Error", "Python"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "s = 'Python'\nprint(s[-1])",
+    "options": ["P", "n", "Error", "o"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "s = 'Python'\nprint(s[1:4])",
+    "options": ["Pyt", "yth", "ytho", "tho"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "s = 'Python'\nprint(s[::-1])",
+    "options": ["Python", "nohtyP", "Pytho", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "s = 'Python'\nprint(s[::2])",
+    "options": ["Pto", "Ptn", "yhn", "Pyhn"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "s = 'hello'\nprint(s.upper())",
+    "options": ["hello", "HELLO", "Hello", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "s = '  Python  '\nprint(s.strip())",
+    "options": ["  Python  ", "Python", " Python ", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "s = 'hello world'\nprint(s.split())",
+    "options": ["['hello', 'world']", "['h', 'e', 'l', 'l', 'o']", "'hello world'", "Error"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "s = 'Python'\nprint(s.replace('P', 'J'))",
+    "options": ["Python", "Jython", "Jytjon", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "print('hello' + 'world')",
+    "options": ["hello world", "helloworld", "Error", "hello+world"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "lst = [1, 2, 3]\nlst.append(4)\nprint(lst)",
+    "options": ["[1, 2, 3]", "[1, 2, 3, 4]", "Error", "[4, 1, 2, 3]"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "lst = [1, 2, 3]\nlst.insert(1, 10)\nprint(lst)",
+    "options": ["[1, 10, 2, 3]", "[10, 1, 2, 3]", "[1, 2, 10, 3]", "Error"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "lst = [1, 2, 3, 4]\nprint(lst.pop())",
+    "options": ["1", "4", "3", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "lst = [1, 2, 3, 2]\nprint(lst.count(2))",
+    "options": ["1", "2", "3", "4"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "lst = [1, 2, 3]\nlst.extend([4, 5])\nprint(lst)",
+    "options": ["[1, 2, 3, [4, 5]]", "[1, 2, 3, 4, 5]", "Error", "[4, 5, 1, 2, 3]"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "lst = [3, 1, 2]\nlst.sort()\nprint(lst)",
+    "options": ["[3, 1, 2]", "[1, 2, 3]", "[2, 1, 3]", "None"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "lst = [1, 2, 3]\nlst.reverse()\nprint(lst)",
+    "options": ["[1, 2, 3]", "[3, 2, 1]", "[2, 1, 3]", "None"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "lst = [1, 2, 3, 2]\nprint(lst.index(2))",
+    "options": ["0", "1", "2", "3"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "lst = [1, 2, 3]\nprint(len(lst))",
+    "options": ["2", "3", "4", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "lst = [x**2 for x in range(3)]\nprint(lst)",
+    "options": ["[0, 1, 4]", "[1, 4, 9]", "[0, 1, 2]", "Error"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "tup = (1, 2, 3)\nprint(tup[1])",
+    "options": ["1", "2", "3", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "tup = (1, 2, 3, 2)\nprint(tup.count(2))",
+    "options": ["1", "2", "3", "0"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "tup = (1, 2, 3)\nprint(tup.index(3))",
+    "options": ["0", "1", "2", "3"],
+    "correct": 2
+  },
+  {
+    "question": "What is the output?",
+    "code": "tup = (10,)\nprint(type(tup))",
+    "options": ["<class 'int'>", "<class 'tuple'>", "<class 'list'>", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "a, b, c = (1, 2, 3)\nprint(b)",
+    "options": ["1", "2", "3", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "tup1 = (1, 2)\ntup2 = (3, 4)\nprint(tup1 + tup2)",
+    "options": ["(1, 2, 3, 4)", "(4, 6)", "Error", "[(1, 2), (3, 4)]"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "tup = (1, 2, 3)\nprint(tup * 2)",
+    "options": ["(2, 4, 6)", "(1, 2, 3, 1, 2, 3)", "(1, 2, 3)", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "tup = (1, 2, [3, 4])\ntup[2].append(5)\nprint(tup)",
+    "options": ["(1, 2, [3, 4])", "(1, 2, [3, 4, 5])", "Error", "(1, 2, 5)"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "tup = (1, 2, 3)\nprint(max(tup))",
+    "options": ["1", "2", "3", "Error"],
+    "correct": 2
+  },
+  {
+    "question": "What is the output?",
+    "code": "tup = (3, 1, 2)\nprint(sorted(tup))",
+    "options": ["(1, 2, 3)", "[1, 2, 3]", "(3, 1, 2)", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "s = {1, 2, 3}\ns.add(4)\nprint(s)",
+    "options": ["{1, 2, 3}", "{1, 2, 3, 4}", "Error", "[1, 2, 3, 4]"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "s = {1, 2, 3}\ns.remove(2)\nprint(s)",
+    "options": ["{1, 2, 3}", "{1, 3}", "{2, 3}", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "s = {1, 2, 3}\ns.discard(5)\nprint(s)",
+    "options": ["{1, 2, 3}", "Error", "{1, 2, 3, 5}", "{}"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "s1 = {1, 2, 3}\ns2 = {3, 4, 5}\nprint(s1.union(s2))",
+    "options": ["{1, 2, 3, 4, 5}", "{3}", "{1, 2}", "Error"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "s1 = {1, 2, 3}\ns2 = {3, 4, 5}\nprint(s1.intersection(s2))",
+    "options": ["{1, 2, 3, 4, 5}", "{3}", "{1, 2}", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "s1 = {1, 2, 3}\ns2 = {3, 4, 5}\nprint(s1.difference(s2))",
+    "options": ["{1, 2}", "{3}", "{4, 5}", "Error"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "s = {1, 2, 2, 3}\nprint(len(s))",
+    "options": ["2", "3", "4", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "s = {x**2 for x in range(3)}\nprint(s)",
+    "options": ["{0, 1, 4}", "[0, 1, 4]", "{0, 1, 2}", "Error"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "s = {1, 2, 3}\ns.clear()\nprint(s)",
+    "options": ["{1, 2, 3}", "{}", "None", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "print(3 in {1, 2, 3})",
+    "options": ["False", "True", "3", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "d = {'a': 1, 'b': 2}\nprint(d['a'])",
+    "options": ["a", "1", "2", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "d = {'a': 1, 'b': 2}\nprint(d.get('c', 0))",
+    "options": ["None", "0", "Error", "'c'"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "d = {'a': 1, 'b': 2}\nd['c'] = 3\nprint(d)",
+    "options": ["{'a': 1, 'b': 2}", "{'a': 1, 'b': 2, 'c': 3}", "Error", "{'c': 3}"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "d = {'a': 1, 'b': 2}\nprint(d.keys())",
+    "options": ["['a', 'b']", "dict_keys(['a', 'b'])", "[1, 2]", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "d = {'a': 1, 'b': 2}\nprint(d.values())",
+    "options": ["['a', 'b']", "[1, 2]", "dict_values([1, 2])", "Error"],
+    "correct": 2
+  },
+  {
+    "question": "What is the output?",
+    "code": "d = {'a': 1, 'b': 2}\nprint(list(d.items()))",
+    "options": ["[('a', 1), ('b', 2)]", "['a', 'b']", "[1, 2]", "Error"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "d = {'a': 1, 'b': 2}\nprint(d.pop('a'))",
+    "options": ["{'b': 2}", "1", "Error", "None"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "d = {'a': 1}\nd.update({'b': 2})\nprint(d)",
+    "options": ["{'a': 1}", "{'b': 2}", "{'a': 1, 'b': 2}", "Error"],
+    "correct": 2
+  },
+  {
+    "question": "What is the output?",
+    "code": "d = {'a': 1, 'a': 2}\nprint(d)",
+    "options": ["{'a': 1}", "{'a': 2}", "Error", "{'a': 1, 'a': 2}"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "d = {x: x**2 for x in range(3)}\nprint(d)",
+    "options": ["{0: 0, 1: 1, 2: 4}", "[0, 1, 4]", "Error", "{0: 0, 1: 1, 2: 2}"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "for i in range(3):\n    print(i, end=' ')",
+    "options": ["0 1 2 ", "1 2 3 ", "0 1 2 3", "Error"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "for i in range(1, 5, 2):\n    print(i, end=' ')",
+    "options": ["1 2 3 4 ", "1 3 ", "1 3 5 ", "2 4 "],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "i = 0\nwhile i < 3:\n    print(i, end=' ')\n    i += 1",
+    "options": ["0 1 2 ", "1 2 3 ", "0 1 2 3 ", "Infinite loop"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "for i in range(5):\n    if i == 3:\n        break\n    print(i, end=' ')",
+    "options": ["0 1 2 ", "0 1 2 3 ", "0 1 2 3 4 ", "Error"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "for i in range(5):\n    if i == 3:\n        continue\n    print(i, end=' ')",
+    "options": ["0 1 2 ", "0 1 2 4 ", "0 1 2 3 4 ", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "for i in range(3):\n    pass\nprint('Done')",
+    "options": ["Error", "Done", "0 1 2 Done", "Nothing"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "for i in range(3):\n    print(i)\nelse:\n    print('Finished')",
+    "options": ["0 1 2", "0 1 2 Finished", "Finished", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "lst = [1, 2, 3]\nfor i, val in enumerate(lst):\n    print(f'{i}:{val}', end=' ')",
+    "options": ["0:1 1:2 2:3 ", "1:1 2:2 3:3 ", "Error", "1 2 3 "],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "for i in range(2):\n    for j in range(2):\n        print(f'{i}{j}', end=' ')",
+    "options": ["00 01 10 11 ", "00 11 ", "01 10 ", "Error"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "a = [1, 2]\nb = ['x', 'y']\nfor x, y in zip(a, b):\n    print(f'{x}{y}', end=' ')",
+    "options": ["1x 2y ", "1 2 x y ", "xy ", "Error"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "def func():\n    return 5\nprint(func())",
+    "options": ["func", "5", "None", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "def func(a, b):\n    return a + b\nprint(func(2, 3))",
+    "options": ["23", "5", "Error", "None"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "def func(a=5):\n    return a * 2\nprint(func())",
+    "options": ["5", "10", "Error", "None"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "def func(*args):\n    return sum(args)\nprint(func(1, 2, 3))",
+    "options": ["123", "6", "Error", "(1, 2, 3)"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "def func(**kwargs):\n    return kwargs['a']\nprint(func(a=10, b=20))",
+    "options": ["{'a': 10, 'b': 20}", "10", "20", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "def func():\n    x = 10\n    return x\nprint(func())",
+    "options": ["None", "10", "Error", "x"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "x = 5\ndef func():\n    global x\n    x = 10\nfunc()\nprint(x)",
+    "options": ["5", "10", "Error", "None"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "def factorial(n):\n    if n == 1:\n        return 1\n    return n * factorial(n-1)\nprint(factorial(3))",
+    "options": ["3", "6", "9", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "lambda_func = lambda x: x * 2\nprint(lambda_func(5))",
+    "options": ["5", "10", "Error", "lambda"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "nums = [1, 2, 3]\nresult = list(map(lambda x: x**2, nums))\nprint(result)",
+    "options": ["[1, 2, 3]", "[1, 4, 9]", "Error", "[2, 4, 6]"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "nums = [1, 2, 3, 4]\nresult = list(filter(lambda x: x % 2 == 0, nums))\nprint(result)",
+    "options": ["[1, 3]", "[2, 4]", "[1, 2, 3, 4]", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "from functools import reduce\nnums = [1, 2, 3, 4]\nresult = reduce(lambda x, y: x + y, nums)\nprint(result)",
+    "options": ["4", "10", "24", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "result = [x for x in range(5) if x % 2 == 0]\nprint(result)",
+    "options": ["[0, 2, 4]", "[1, 3]", "[0, 1, 2, 3, 4]", "Error"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "result = {x: x**2 for x in range(3)}\nprint(result)",
+    "options": ["{0: 0, 1: 1, 2: 4}", "[0, 1, 4]", "Error", "{0, 1, 4}"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "def outer():\n    x = 10\n    def inner():\n        return x\n    return inner()\nprint(outer())",
+    "options": ["None", "10", "Error", "inner"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "class A:\n    def __init__(self):\n        self.x = 5\na = A()\nprint(a.x)",
+    "options": ["None", "5", "Error", "A"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "class A:\n    x = 10\nprint(A.x)",
+    "options": ["None", "10", "Error", "A"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "class A:\n    def __init__(self, val):\n        self.val = val\na = A(20)\nprint(a.val)",
+    "options": ["None", "20", "Error", "val"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "class A:\n    @classmethod\n    def func(cls):\n        return 'Class Method'\nprint(A.func())",
+    "options": ["None", "Class Method", "Error", "func"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "class A:\n    @staticmethod\n    def func():\n        return 'Static'\nprint(A.func())",
+    "options": ["None", "Static", "Error", "func"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "class A:\n    def __init__(self):\n        self.__x = 5\na = A()\nprint(a._A__x)",
+    "options": ["Error", "5", "None", "__x"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "class A:\n    pass\nclass B(A):\n    pass\nb = B()\nprint(isinstance(b, A))",
+    "options": ["False", "True", "Error", "None"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "class A:\n    def show(self):\n        return 'A'\nclass B(A):\n    def show(self):\n        return 'B'\nb = B()\nprint(b.show())",
+    "options": ["A", "B", "Error", "None"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "class A:\n    def __add__(self, other):\n        return 100\na = A()\nb = A()\nprint(a + b)",
+    "options": ["Error", "100", "None", "A"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "def gen():\n    yield 1\n    yield 2\ng = gen()\nprint(next(g))",
+    "options": ["2", "1", "Error", "None"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "try:\n    x = 10 / 0\nexcept ZeroDivisionError:\n    print('Error')",
+    "options": ["10", "Error", "None", "ZeroDivisionError"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "try:\n    x = int('abc')\nexcept ValueError:\n    print('Invalid')",
+    "options": ["abc", "Invalid", "Error", "None"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "try:\n    x = 10\nexcept:\n    print('Error')\nelse:\n    print('Success')",
+    "options": ["Error", "Success", "10", "None"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "try:\n    x = 10\nfinally:\n    print('Always')",
+    "options": ["10", "Always", "Error", "None"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "a = [1, 2, 3]\nb = a\nb.append(4)\nprint(a)",
+    "options": ["[1, 2, 3]", "[1, 2, 3, 4]", "Error", "[4]"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "a = [1, 2, 3]\nb = a.copy()\nb.append(4)\nprint(a)",
+    "options": ["[1, 2, 3, 4]", "[1, 2, 3]", "Error", "[4]"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "import copy\na = [[1, 2], [3, 4]]\nb = copy.deepcopy(a)\nb[0][0] = 99\nprint(a[0][0])",
+    "options": ["99", "1", "Error", "None"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "for i in range(3):\n    for j in range(i):\n        print('*', end='')\n    print()",
+    "options": ["*\n**\n***", "\n*\n**", "***\n**\n*", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "for i in range(1, 4):\n    for j in range(1, i+1):\n        print(j, end='')\n    print()",
+    "options": ["1\n12\n123", "123\n123\n123", "1\n2\n3", "Error"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "n = 3\nfor i in range(n, 0, -1):\n    print('*' * i)",
+    "options": ["*\n**\n***", "***\n**\n*", "*", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "for i in range(3):\n    for j in range(3):\n        if i == j:\n            print('1', end='')\n        else:\n            print('0', end='')\n    print()",
+    "options": ["100\n010\n001", "111\n111\n111", "000\n000\n000", "Error"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "lst = [[1, 2], [3, 4], [5, 6]]\nfor i, j in lst:\n    print(i + j, end=' ')",
+    "options": ["1 2 3 4 5 6 ", "3 7 11 ", "6 15 ", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "matrix = [[1, 2, 3], [4, 5, 6]]\nfor row in matrix:\n    for val in row:\n        if val % 2 == 0:\n            print(val, end=' ')",
+    "options": ["1 3 5 ", "2 4 6 ", "1 2 3 4 5 6 ", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "for i in range(1, 4):\n    print(' ' * (3-i) + '*' * (2*i-1))",
+    "options": ["  *\n ***\n*****", "*\n**\n***", "Error", "  *\n **\n***"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "count = 0\nfor i in range(3):\n    for j in range(3):\n        count += 1\nprint(count)",
+    "options": ["3", "6", "9", "Error"],
+    "correct": 2
+  },
+  {
+    "question": "What is the output?",
+    "code": "for i in range(2, 5):\n    for j in range(1, i):\n        print(f'{i}*{j}={i*j}', end=' ')\n    print()",
+    "options": ["2*1=2 \n3*1=3 3*2=6 \n4*1=4 4*2=8 4*3=12 ", "2*2=4", "Error", "2*1=2 3*1=3"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "for i in range(3):\n    for j in range(3-i):\n        print(j, end='')\n    print()",
+    "options": ["012\n01\n0", "012\n012\n012", "0\n01\n012", "Error"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "x = 0\nfor i in range(5):\n    if i == 2:\n        continue\n    x += i\nprint(x)",
+    "options": ["10", "8", "7", "5"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "x = 0\nfor i in range(1, 6):\n    if i == 3:\n        break\n    x += i\nprint(x)",
+    "options": ["15", "3", "6", "10"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "for i in range(3):\n    if i == 1:\n        pass\n    else:\n        print(i, end=' ')",
+    "options": ["0 1 2 ", "0 2 ", "1 ", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "i = 0\nwhile i < 5:\n    if i == 3:\n        i += 1\n        continue\n    print(i, end=' ')\n    i += 1",
+    "options": ["0 1 2 3 4 ", "0 1 2 4 ", "0 1 2 ", "Infinite loop"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "i = 1\nwhile i <= 3:\n    j = 1\n    while j <= i:\n        print(j, end='')\n        j += 1\n    print()\n    i += 1",
+    "options": ["1\n12\n123", "123\n123\n123", "111\n222\n333", "Error"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "lst = [1, 2, 3, 4, 5]\nfor i in range(len(lst)):\n    if lst[i] % 2 != 0:\n        lst[i] *= 2\nprint(lst)",
+    "options": ["[1, 2, 3, 4, 5]", "[2, 2, 6, 4, 10]", "[2, 4, 6, 8, 10]", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "lst = [1, 2, 3, 4, 5]\nresult = []\nfor i in lst:\n    if i > 2:\n        result.append(i**2)\nprint(result)",
+    "options": ["[1, 4, 9, 16, 25]", "[9, 16, 25]", "[3, 4, 5]", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "s = 0\nfor i in range(1, 5):\n    s += i\nelse:\n    s += 10\nprint(s)",
+    "options": ["10", "20", "15", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "s = 0\nfor i in range(1, 5):\n    if i == 3:\n        break\n    s += i\nelse:\n    s += 10\nprint(s)",
+    "options": ["13", "3", "10", "20"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "result = []\nfor i in range(3):\n    result.append([i] * 3)\nprint(result)",
+    "options": ["[[0, 0, 0], [1, 1, 1], [2, 2, 2]]", "[0, 1, 2]", "[[0], [1], [2]]", "Error"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "def fib(n):\n    if n <= 1:\n        return n\n    return fib(n-1) + fib(n-2)\nprint(fib(5))",
+    "options": ["3", "5", "8", "13"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "def func(n):\n    if n == 0:\n        return 0\n    return n + func(n-1)\nprint(func(4))",
+    "options": ["4", "10", "0", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "def func(n):\n    if n == 1:\n        return 1\n    return n * func(n-1)\nprint(func(5))",
+    "options": ["5", "15", "120", "Error"],
+    "correct": 2
+  },
+  {
+    "question": "What is the output?",
+    "code": "def power(base, exp):\n    if exp == 0:\n        return 1\n    return base * power(base, exp-1)\nprint(power(2, 3))",
+    "options": ["6", "8", "9", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "def count_down(n):\n    if n <= 0:\n        return\n    print(n, end=' ')\n    count_down(n-1)\ncount_down(3)",
+    "options": ["3 2 1 ", "1 2 3 ", "3 ", "Error"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "def func(s):\n    if len(s) == 0:\n        return s\n    return func(s[1:]) + s[0]\nprint(func('abc'))",
+    "options": ["abc", "cba", "bca", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "def gcd(a, b):\n    if b == 0:\n        return a\n    return gcd(b, a % b)\nprint(gcd(48, 18))",
+    "options": ["6", "12", "18", "48"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "def sum_digits(n):\n    if n == 0:\n        return 0\n    return n % 10 + sum_digits(n // 10)\nprint(sum_digits(123))",
+    "options": ["123", "6", "3", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "lst = [1, 2, 3]\nlst2 = lst\nlst2[0] = 99\nprint(lst[0])",
+    "options": ["1", "99", "Error", "None"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "a = [1, [2, 3]]\nb = a[:]\nb[1][0] = 99\nprint(a[1][0])",
+    "options": ["2", "99", "Error", "None"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "import copy\na = [1, [2, 3]]\nb = copy.deepcopy(a)\nb[1][0] = 99\nprint(a[1][0])",
+    "options": ["99", "2", "Error", "None"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "x = [1, 2, 3]\ny = x\nx = x + [4]\nprint(y)",
+    "options": ["[1, 2, 3]", "[1, 2, 3, 4]", "Error", "None"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "x = [1, 2, 3]\ny = x\nx += [4]\nprint(y)",
+    "options": ["[1, 2, 3]", "[1, 2, 3, 4]", "Error", "None"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "def modify(lst):\n    lst.append(4)\n    return lst\nx = [1, 2, 3]\ny = modify(x)\nprint(x == y)",
+    "options": ["False", "True", "Error", "None"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "result = [x**2 for x in range(5) if x % 2 == 0]\nprint(result)",
+    "options": ["[0, 1, 4, 9, 16]", "[0, 4, 16]", "[1, 9]", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "matrix = [[1, 2], [3, 4]]\nresult = [val for row in matrix for val in row]\nprint(result)",
+    "options": ["[[1, 2], [3, 4]]", "[1, 2, 3, 4]", "[2, 4]", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "result = [[i*j for j in range(1, 4)] for i in range(1, 3)]\nprint(result)",
+    "options": ["[[1, 2, 3], [2, 4, 6]]", "[[1, 2], [3, 4]]", "[1, 2, 3, 2, 4, 6]", "Error"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "result = {x: x**2 for x in range(5) if x % 2 != 0}\nprint(result)",
+    "options": ["{0: 0, 2: 4, 4: 16}", "{1: 1, 3: 9}", "{1: 1, 2: 4, 3: 9}", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "nums = [1, 2, 3, 4, 5]\nresult = [x if x % 2 == 0 else x*2 for x in nums]\nprint(result)",
+    "options": ["[2, 2, 6, 4, 10]", "[1, 2, 3, 4, 5]", "[2, 4, 6, 8, 10]", "Error"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "words = ['hi', 'hello', 'hey']\nresult = {w: len(w) for w in words}\nprint(result)",
+    "options": ["{'hi': 2, 'hello': 5, 'hey': 3}", "[2, 5, 3]", "{'hi', 'hello', 'hey'}", "Error"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "def decorator(func):\n    def wrapper():\n        print('Before')\n        func()\n        print('After')\n    return wrapper\n\n@decorator\ndef greet():\n    print('Hello')\ngreet()",
+    "options": ["Hello", "Before\nHello\nAfter", "Before After", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "def outer(x):\n    def inner(y):\n        return x + y\n    return inner\nfunc = outer(10)\nprint(func(5))",
+    "options": ["10", "5", "15", "Error"],
+    "correct": 2
+  },
+  {
+    "question": "What is the output?",
+    "code": "def gen():\n    yield 1\n    yield 2\n    yield 3\ng = gen()\nprint(next(g) + next(g))",
+    "options": ["1", "2", "3", "6"],
+    "correct": 2
+  },
+  {
+    "question": "What is the output?",
+    "code": "def gen():\n    for i in range(3):\n        yield i**2\nprint(list(gen()))",
+    "options": ["[0, 1, 4]", "[1, 4, 9]", "[0, 1, 2]", "Error"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "gen = (x**2 for x in range(4))\nprint(sum(gen))",
+    "options": ["6", "10", "14", "Error"],
+    "correct": 2
+  },
+  {
+    "question": "What is the output?",
+    "code": "class Counter:\n    count = 0\n    def __init__(self):\n        Counter.count += 1\na = Counter()\nb = Counter()\nprint(Counter.count)",
+    "options": ["0", "1", "2", "Error"],
+    "correct": 2
+  },
+  {
+    "question": "What is the output?",
+    "code": "class A:\n    def __init__(self):\n        self.x = []\n    def add(self, val):\n        self.x.append(val)\na = A()\nb = A()\na.add(1)\nprint(len(b.x))",
+    "options": ["0", "1", "2", "Error"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "class A:\n    x = []\n    def add(self, val):\n        self.x.append(val)\na = A()\nb = A()\na.add(1)\nprint(len(b.x))",
+    "options": ["0", "1", "2", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "class A:\n    def __init__(self, x):\n        self.x = x\n    def __add__(self, other):\n        return self.x + other.x\na = A(5)\nb = A(10)\nprint(a + b)",
+    "options": ["5", "10", "15", "Error"],
+    "correct": 2
+  },
+  {
+    "question": "What is the output?",
+    "code": "class A:\n    def __init__(self, val):\n        self.val = val\n    def __str__(self):\n        return f'Value: {self.val}'\na = A(100)\nprint(a)",
+    "options": ["100", "Value: 100", "A", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "class Parent:\n    def show(self):\n        print('Parent')\nclass Child(Parent):\n    def show(self):\n        super().show()\n        print('Child')\nc = Child()\nc.show()",
+    "options": ["Parent", "Child", "Parent\nChild", "Error"],
+    "correct": 2
+  },
+  {
+    "question": "What is the output?",
+    "code": "try:\n    lst = [1, 2, 3]\n    print(lst[5])\nexcept IndexError:\n    print('Index Error')\nexcept Exception:\n    print('Other Error')",
+    "options": ["5", "Index Error", "Other Error", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "try:\n    x = 10 / 2\nexcept:\n    print('Error')\nelse:\n    print('Success')\nfinally:\n    print('Done')",
+    "options": ["Error\nDone", "Success\nDone", "Done", "Success"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "try:\n    raise ValueError('Custom')\nexcept ValueError as e:\n    print(e)",
+    "options": ["ValueError", "Custom", "Error", "None"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "x = [1, 2, 3]\ny = x[::]\ny.append(4)\nprint(len(x))",
+    "options": ["3", "4", "Error", "None"],
+    "correct": 0
+  },
+  {
+    "question": "What is the output?",
+    "code": "def func(a, b=[]):\n    b.append(a)\n    return b\nprint(func(1))\nprint(func(2))",
+    "options": ["[1]\n[2]", "[1]\n[1, 2]", "[1, 2]\n[1, 2]", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "a = [1, 2, 3]\nb = a\na = a + [4, 5]\nprint(a is b)",
+    "options": ["True", "False", "Error", "None"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "lst = [1, 2, 3, 4, 5]\nfor i in range(len(lst)):\n    lst.pop()\nprint(lst)",
+    "options": ["[]", "[1, 2]", "[1]", "Error"],
+    "correct": 1
+  },
+  {
+    "question": "What is the output?",
+    "code": "x = 10\ndef func():\n    x = 20\n    def inner():\n        nonlocal x\n        x = 30\n    inner()\n    print(x)\nfunc()",
+    "options": ["10", "20", "30", "Error"],
+    "correct": 2
+  },
+  {
+    "question": "What is the output?",
+    "code": "nums = [1, 2, 3, 4, 5]\nresult = list(map(lambda x: x**2, filter(lambda x: x % 2 == 0, nums)))\nprint(result)",
+    "options": ["[1, 9, 25]", "[4, 16]", "[2, 4]", "Error"],
+    "correct": 1
+  }
+]
