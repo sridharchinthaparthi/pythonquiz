@@ -1,0 +1,907 @@
+[
+  {
+    "question": "What does np.array() do in NumPy?",
+    "options": [
+      "Deletes an array",
+      "Creates a NumPy array from list or tuple",
+      "Sorts an array",
+      "Generates random numbers"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What does arr.shape return?",
+    "options": [
+      "Total elements",
+      "Data type",
+      "Dimensions of array",
+      "Sum of elements"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which attribute returns total number of elements?",
+    "options": [
+      "arr.size",
+      "arr.shape",
+      "arr.ndim",
+      "arr.dtype"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "arr.ndim represents?",
+    "options": [
+      "Number of elements",
+      "Number of dimensions",
+      "Number of rows",
+      "Number of columns"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Which function creates evenly spaced values?",
+    "options": [
+      "np.zeros()",
+      "np.arange()",
+      "np.full()",
+      "np.identity()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.linspace() is used to?",
+    "options": [
+      "Generate random numbers",
+      "Create evenly spaced values between two points",
+      "Sort array",
+      "Delete elements"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.zeros((2,3)) creates?",
+    "options": [
+      "2x3 matrix of zeros",
+      "3x2 matrix of zeros",
+      "1D array",
+      "Random values"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "np.ones(4) creates?",
+    "options": [
+      "Array of four zeros",
+      "Array of four ones",
+      "2D matrix",
+      "Identity matrix"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.empty() creates?",
+    "options": [
+      "Array with zeros",
+      "Array with ones",
+      "Uninitialized array",
+      "Sorted array"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "np.identity(3) creates?",
+    "options": [
+      "3x3 zero matrix",
+      "3x3 matrix of ones",
+      "3x3 identity matrix",
+      "Random matrix"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "np.full((2,2),5) creates?",
+    "options": [
+      "Matrix filled with 5",
+      "Matrix filled with 2",
+      "Matrix filled with 0",
+      "Identity matrix"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "arr.reshape(2,3) does?",
+    "options": [
+      "Deletes elements",
+      "Changes shape without changing data",
+      "Sorts array",
+      "Adds elements"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Difference between flatten() and ravel()?",
+    "options": [
+      "Both same",
+      "flatten returns copy, ravel returns view when possible",
+      "ravel deletes data",
+      "flatten sorts array"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "arr.astype(int) does?",
+    "options": [
+      "Deletes array",
+      "Changes shape",
+      "Converts datatype",
+      "Flattens array"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "np.concatenate() is used to?",
+    "options": [
+      "Split array",
+      "Join arrays",
+      "Sort arrays",
+      "Randomize arrays"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.repeat(arr,3) will?",
+    "options": [
+      "Delete elements",
+      "Repeat elements",
+      "Sort elements",
+      "Transpose array"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "arr.T returns?",
+    "options": [
+      "Sorted array",
+      "Transposed array",
+      "Flattened array",
+      "Deleted array"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.flip(arr) does?",
+    "options": [
+      "Sort ascending",
+      "Reverse order",
+      "Delete element",
+      "Multiply elements"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.delete(arr,2) does?",
+    "options": [
+      "Deletes element at index 2",
+      "Deletes all elements",
+      "Sort array",
+      "Copy array"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "np.vstack() is used to?",
+    "options": [
+      "Stack arrays vertically",
+      "Stack arrays horizontally",
+      "Delete arrays",
+      "Randomize arrays"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "np.hstack() is used to?",
+    "options": [
+      "Stack arrays row-wise",
+      "Stack arrays column-wise",
+      "Delete array",
+      "Reshape array"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.hsplit(arr,3) does?",
+    "options": [
+      "Splits array vertically",
+      "Splits array horizontally",
+      "Joins arrays",
+      "Deletes elements"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.unique(arr) returns?",
+    "options": [
+      "Duplicate values",
+      "Sorted unique elements",
+      "Random elements",
+      "Sorted array with duplicates"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.copy(arr) creates?",
+    "options": [
+      "Shallow copy",
+      "Deep copy",
+      "View",
+      "Reference only"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "arr.view() creates?",
+    "options": [
+      "Deep copy",
+      "New independent array",
+      "Shallow copy (view)",
+      "Sorted array"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "np.random.randint(0,10,5) generates?",
+    "options": [
+      "5 floats",
+      "5 integers between 0-9",
+      "10 integers",
+      "Random matrix"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.random.rand(3) generates?",
+    "options": [
+      "Random integers",
+      "Random floats between 0 and 1",
+      "Normal distribution values",
+      "Sorted values"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.random.randn() generates values from?",
+    "options": [
+      "Uniform distribution",
+      "Standard normal distribution",
+      "Poisson distribution",
+      "Exponential distribution"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.all(arr) returns True when?",
+    "options": [
+      "Any element is True",
+      "All elements are True",
+      "Array empty",
+      "Array sorted"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.any(arr) returns True when?",
+    "options": [
+      "All elements True",
+      "Any element True",
+      "Array empty",
+      "All False"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.where(condition, x, y) does?",
+    "options": [
+      "Deletes values",
+      "Sorts values",
+      "Selects values based on condition",
+      "Repeats values"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "np.sort(arr) returns?",
+    "options": [
+      "Sorted copy",
+      "Original array changed",
+      "Indices",
+      "Boolean mask"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "np.argsort(arr) returns?",
+    "options": [
+      "Sorted array",
+      "Indices that sort array",
+      "Maximum value",
+      "Minimum value"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Array indexing in NumPy starts from?",
+    "options": [
+      "1",
+      "-1",
+      "0",
+      "Depends on array"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "arr[1:4] represents?",
+    "options": [
+      "Index 1 to 4 inclusive",
+      "Index 1 to 3",
+      "Only index 4",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Boolean indexing is used to?",
+    "options": [
+      "Select elements using condition",
+      "Delete array",
+      "Reshape array",
+      "Sort array"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "arr + 10 performs?",
+    "options": [
+      "Matrix addition",
+      "Scalar addition",
+      "Dot product",
+      "Sorting"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Element-wise multiplication between arrays is done by?",
+    "options": [
+      "np.dot()",
+      "arr1 * arr2",
+      "np.sum()",
+      "np.prod()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.max(arr) returns?",
+    "options": [
+      "Minimum value",
+      "Index of max",
+      "Maximum value",
+      "Sorted array"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "np.argmax(arr) returns?",
+    "options": [
+      "Maximum value",
+      "Index of maximum value",
+      "Minimum value",
+      "Sorted index"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.min(arr) returns?",
+    "options": [
+      "Minimum value",
+      "Index of minimum",
+      "Maximum value",
+      "Sorted array"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "np.argmin(arr) returns?",
+    "options": [
+      "Minimum value",
+      "Index of minimum value",
+      "Maximum value",
+      "Sorted array"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.sum(arr) returns?",
+    "options": [
+      "Sum of elements",
+      "Product",
+      "Mean",
+      "Median"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "np.prod(arr) returns?",
+    "options": [
+      "Sum",
+      "Product",
+      "Variance",
+      "Mean"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.mean(arr) returns?",
+    "options": [
+      "Median",
+      "Average",
+      "Mode",
+      "Variance"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.median(arr) returns?",
+    "options": [
+      "Middle value",
+      "Mean",
+      "Mode",
+      "Sum"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "np.round(arr,2) does?",
+    "options": [
+      "Rounds to 2 decimals",
+      "Deletes decimals",
+      "Multiplies by 2",
+      "Sorts array"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "np.floor(arr) returns?",
+    "options": [
+      "Ceiling value",
+      "Largest integer less than or equal",
+      "Round value",
+      "Absolute value"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.std(arr) calculates?",
+    "options": [
+      "Variance",
+      "Standard deviation",
+      "Mean",
+      "Median"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.var(arr) calculates?",
+    "options": [
+      "Variance",
+      "Standard deviation",
+      "Mean",
+      "Sum"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "np.sqrt(arr) returns?",
+    "options": [
+      "Square of elements",
+      "Square root of elements",
+      "Absolute value",
+      "Log value"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.sin(arr) expects values in?",
+    "options": [
+      "Degrees",
+      "Radians",
+      "Percent",
+      "Integers only"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.cos(arr) computes?",
+    "options": [
+      "Cosine values",
+      "Cosecant values",
+      "Square values",
+      "Log values"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "np.tan(arr) computes?",
+    "options": [
+      "Tangent values",
+      "Triangle area",
+      "Transpose",
+      "Total sum"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "np.dot(arr1, arr2) performs?",
+    "options": [
+      "Element-wise multiplication",
+      "Dot product",
+      "Division",
+      "Sorting"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Axis parameter is used to?",
+    "options": [
+      "Delete rows",
+      "Specify dimension for operation",
+      "Sort array",
+      "Create array"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.max(arr, axis=0) works along?",
+    "options": [
+      "Columns",
+      "Rows",
+      "Entire array",
+      "Diagonal"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "np.sum(arr, axis=1) works along?",
+    "options": [
+      "Columns",
+      "Rows",
+      "Entire matrix only",
+      "Diagonal only"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Difference between copy() and view()?",
+    "options": [
+      "Both same",
+      "copy independent, view linked to original",
+      "view deep copy",
+      "copy shallow"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Before operations we should always check?",
+    "options": [
+      "Array color",
+      "Array shape",
+      "Array name",
+      "Array index"
+    ],
+    "correct": 1
+  },
+
+  {
+    "question": "Which function creates identity matrix with offset?",
+    "options": [
+      "np.identity()",
+      "np.eye()",
+      "np.zeros()",
+      "np.full()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.arange(5) produces?",
+    "options": [
+      "[1 2 3 4 5]",
+      "[0 1 2 3 4]",
+      "[0 2 4 6 8]",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.linspace(0,10,5) gives how many values?",
+    "options": [
+      "10",
+      "5",
+      "0",
+      "Depends on step"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "reshape() requires?",
+    "options": [
+      "Same total elements",
+      "Sorted array",
+      "Random values",
+      "Copy array"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "ravel() is generally?",
+    "options": [
+      "Slower than flatten",
+      "Faster when returning view",
+      "Deletes data",
+      "Changes shape permanently"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.repeat(arr,2) repeats?",
+    "options": [
+      "Whole array twice",
+      "Each element twice",
+      "Rows twice",
+      "Columns twice"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.flip(arr, axis=0) reverses?",
+    "options": [
+      "Columns",
+      "Rows",
+      "Entire array flat",
+      "Diagonal"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Boolean mask arr>3 returns?",
+    "options": [
+      "True/False array",
+      "Sorted values",
+      "Deleted array",
+      "Mean value"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "arr[arr>3] gives?",
+    "options": [
+      "All elements",
+      "Elements satisfying condition",
+      "Index values",
+      "Sorted array"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.where(arr>3) returns?",
+    "options": [
+      "Values only",
+      "Indices where condition true",
+      "Sorted values",
+      "Mean"
+    ],
+    "correct": 1
+  },
+
+  {
+    "question": "Element-wise subtraction is done by?",
+    "options": [
+      "np.dot()",
+      "arr1 - arr2",
+      "np.sum()",
+      "np.sort()"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.median([1,2,3,4]) equals?",
+    "options": [
+      "2",
+      "3",
+      "2.5",
+      "4"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Standard deviation measures?",
+    "options": [
+      "Central value",
+      "Spread of data",
+      "Minimum value",
+      "Maximum value"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Variance is?",
+    "options": [
+      "Square root of std",
+      "Square of std",
+      "Mean",
+      "Median"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.dot([1,2,3],[4,5,6]) equals?",
+    "options": [
+      "32",
+      "21",
+      "15",
+      "18"
+    ],
+    "correct": 0
+  },
+
+  {
+    "question": "np.sort modifies original array?",
+    "options": [
+      "Yes",
+      "No, returns sorted copy",
+      "Sometimes",
+      "Only for 2D"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "argsort is useful for?",
+    "options": [
+      "Getting sorted values",
+      "Getting sorted indices",
+      "Deleting elements",
+      "Reshaping array"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.random.rand(2,3) creates?",
+    "options": [
+      "2x3 random floats",
+      "3x2 integers",
+      "2 random values",
+      "Error"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "np.random.randn() mean is?",
+    "options": [
+      "1",
+      "0",
+      "Depends",
+      "10"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Index -1 represents?",
+    "options": [
+      "First element",
+      "Second element",
+      "Last element",
+      "Error"
+    ],
+    "correct": 2
+  },
+
+  {
+    "question": "arr[::2] means?",
+    "options": [
+      "Every second element",
+      "First two elements",
+      "Last two elements",
+      "Error"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "2D indexing arr[0,1] means?",
+    "options": [
+      "Row 0 column 1",
+      "Row 1 column 0",
+      "Column 0 row 1",
+      "Error"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "np.floor(2.9) gives?",
+    "options": [
+      "3",
+      "2",
+      "2.9",
+      "Error"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.round(2.567,2) gives?",
+    "options": [
+      "2.56",
+      "2.57",
+      "2.55",
+      "2.60"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "hsplit splits array?",
+    "options": [
+      "Vertically",
+      "Horizontally",
+      "Diagonally",
+      "Randomly"
+    ],
+    "correct": 1
+  },
+
+  {
+    "question": "vstack stacks arrays?",
+    "options": [
+      "Column-wise",
+      "Row-wise",
+      "Random",
+      "Deletes rows"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "hstack stacks arrays?",
+    "options": [
+      "Row-wise",
+      "Column-wise",
+      "Deletes columns",
+      "Sorts columns"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.unique([1,1,2,3]) returns?",
+    "options": [
+      "[1,1,2,3]",
+      "[1,2,3]",
+      "[2,3]",
+      "[1]"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "np.full((2,2),9) creates?",
+    "options": [
+      "2x2 matrix of 9",
+      "1D array",
+      "Zeros matrix",
+      "Identity matrix"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Which is best practice?",
+    "options": [
+      "Ignore shapes",
+      "Always check shapes before operations",
+      "Avoid axis parameter",
+      "Avoid indexing"
+    ],
+    "correct": 1
+  }
+]
